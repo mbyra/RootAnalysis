@@ -20,17 +20,24 @@
 
       void init(std::vector<std::string> const& iFileNames);
 
+      virtual EventProxyBase* clone() const;
+
       Wevent *wevent;
       std::vector<Wpair>  *wpair;
       std::vector<Wtau>  *wtau;
+      std::vector<Wtau>  *wtauGen;
       std::vector<Wmu>  *wmu;
       std::vector<Wjet>  *wjet;
+      std::vector<Wmet>  *wmet;
   
       ///Enable branches to be read
       void enableBranches();
 
       ///Disable selected branches 
       void disableBranches();
+
+      ///Reset the data members.
+      void clear();
       
    };
 #endif

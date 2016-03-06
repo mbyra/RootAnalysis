@@ -23,6 +23,10 @@
 #include "boost/property_tree/ini_parser.hpp"
 #include "boost/tokenizer.hpp"
 
+#include "TROOT.h"
+#include "TObject.h"
+
+
 int main(int argc, char ** argv) {
 
 	std::string cfgFileName = "cfg.ini";
@@ -43,12 +47,17 @@ int main(int argc, char ** argv) {
 	
 	typedef boost::tokenizer<boost::char_separator<char> > tokenizer;
 	std::string processName = pt.get<std::string>("TreeAnalyzer.processName","Test");
+
+	//Tell Root we want to be multi-threaded
+	ROOT::EnableThreadSafety();
+	//When threading, also have to keep ROOT from logging all TObjects into a list
+	TObject::SetObjectStat(false);
 	
 	//----------------------------------------------------------
 	 std::vector<Analyzer*> myAnalyzers;
 	 EventProxyHTT *myEvent = new EventProxyHTT();
 
-	 if(processName=="Weights" || processName=="PU") myAnalyzers.push_back(new HTTWeightsMaker("HTTWeightsMaker"));
+	 if(processName=="Weights" || processName=="PU" || processName=="asymmEta" ) myAnalyzers.push_back(new HTTWeightsMaker("HTTWeightsMaker"));
 	 else myAnalyzers.push_back(new HTTAnalyzer("HTTAnalyzer"));
 
 	 TreeAnalyzer *tree = new TreeAnalyzer("TreeAnalyzer",cfgFileName, myEvent);
