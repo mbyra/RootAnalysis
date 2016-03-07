@@ -1,5 +1,5 @@
-#ifndef RootAnalysis_HTTWEIGHTSMAKER_H
-#define RootAnalysis_HTTWEIGHTSMAKER_H
+#ifndef RootAnalysis_HTTWeightsMaker_H
+#define RootAnalysis_HTTWeightsMaker_H
 
 #include <string>
 #include <vector>
@@ -21,6 +21,7 @@ class HTTWeightHistograms;
 
 class TH1F;
 class TLorentzVector;
+
 
 class HTTWeightsMaker: public Analyzer{
 

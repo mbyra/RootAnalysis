@@ -38,10 +38,7 @@ Analyzer* HTTWeightsMaker::clone() const{
 void HTTWeightsMaker::initialize(TFileDirectory& aDir,
 			     pat::strbitset *aSelections){
 
-//  mySelections_ = aSelections;
-
-//  std::string filePath = "./asymm.root";//FIX ME
-//  asymmFile = new TFile(filePath.c_str());
+  mySelections_ = aSelections;
   
   myHistos_ = new HTTWeightHistograms(&aDir, selectionFlavours_);
 }
