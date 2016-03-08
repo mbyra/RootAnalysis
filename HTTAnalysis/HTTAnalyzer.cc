@@ -400,26 +400,6 @@ std::pair<bool, bool> HTTAnalyzer::checkTauDecayMode(const EventProxyHTT & myEve
 //////////////////////////////////////////////////////////////////////////////
 void HTTAnalyzer::addBranch(TTree *tree){
 
-  tree->Branch("muonPt",&muonPt);
-  
-}
-//////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////
-std::pair<bool, bool> HTTAnalyzer::checkTauDecayMode(const EventProxyHTT & myEventProxy){
-
-  bool goodGenDecayMode = false;
-  bool goodRecoDecayMode = false;
-  std::vector<std::string> decayNamesGen = getTauDecayName(myEventProxy.wevent->decModeMinus(), myEventProxy.wevent->decModePlus());
-  std::vector<std::string> decayNamesReco = getTauDecayName(aTau.decayMode(), tauDecayMuon);
-  for(auto it: decayNamesGen) if(it.find("Lepton1Prong0Pi0")!=std::string::npos) goodGenDecayMode = true;
-  for(auto it: decayNamesReco) if(it.find("Lepton1Prong0Pi0")!=std::string::npos) goodRecoDecayMode = true;
-
-  return std::pair<bool, bool>(goodGenDecayMode, goodRecoDecayMode);
-}
-//////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////
-void HTTAnalyzer::addBranch(TTree *tree){
-
   //tree->Branch("muonPt",&muonPt);
   
 }

@@ -36,14 +36,8 @@ class Wevent{
     //PV stored in miniAOD
     TVector3 thePV_;
 
-<<<<<<< HEAD
-    //PV selected with highest score with PF (miniAOD like)
-    //miniAOD uses PF particles instead of tracks
-    TVector3 pfPV_;
-=======
     //Reco PV closes to the Gen PV    
     TVector3 bestPV_;
->>>>>>> multithread3
 
     ///PV recontructed from PF candidates, refitted
     TVector3 refitPfPV_;
@@ -83,14 +77,8 @@ class Wevent{
     ///Set PV stored in miniAOD
     void thePV(const TVector3 & aPV) {thePV_ = aPV;}
 
-<<<<<<< HEAD
-    //Set PV selected with highest score with PF (miniAOD like)
-    //miniAOD uses PF particles instead of tracks
-    void pfPV(const TVector3 & aPV) {pfPV_ = aPV;}
-=======
     //Reco PV closest to the Gen PV
     void bestPV(const TVector3 & aPV) {bestPV_ = aPV;}
->>>>>>> multithread3
 
     //Set PV refitted using BS
     void refitPfPV(const TVector3 & aPV) {refitPfPV_ = aPV;}
@@ -127,14 +115,8 @@ class Wevent{
     ///Get PV stored in miniAOD
     const TVector3 & thePV() const {return thePV_;}
 
-<<<<<<< HEAD
-    //Get PV selected with highest score with PF (miniAOD like)
-    //miniAOD uses PF particles instead of tracks
-    const TVector3 & pfPV() const {return pfPV_;}
-=======
     //Get reco PV closest to the Gen PV    
     const TVector3 & bestPV() const {return bestPV_;}
->>>>>>> multithread3
 
     //Get PV refitted using BS
     const TVector3 & refitPfPV() const {return refitPfPV_;}
@@ -184,12 +166,11 @@ class Wtau{
     float mt_ = -999;
     float d0_ = -999;
     float dz_ = -999;
-<<<<<<< HEAD
-=======
+
     float idSF_ = 1.0;
     int   trackPattern_ = 0;
     float triggerSF_ = 1.0;
->>>>>>> multithread3
+
 
     ///Leading tau track four momemntum.
     TLorentzVector leadingTk_;
@@ -274,22 +255,6 @@ class Wtau{
     ///Get PCA vector calculated using refitted PV 
     const TVector3 & nPCARefitvx() {return nPCARefitvx_;};
 
-    ///Get leading charged track
-    const TLorentzVector & leadingTk() const {return leadingTk_;};
-
-    ///Get PCA vector calculated using PV stored in AOD
-    const TVector3 & nPCA() {return nPCA_;};
-
-    ///Get PCA vector calculated using PV selected using PF weights
-    ///relaculated from miniAOD
-    const TVector3 & nPCAAODvx() {return nPCAAODvx_;};
-
-    ///Get PCA vector calculated using generated PV 
-    const TVector3 & nPCAGenvx() {return nPCAGenvx_;};
-
-    ///Get PCA vector calculated using refitted PV 
-    const TVector3 & nPCARefitvx() {return nPCARefitvx_;};
-
 };
 typedef std::vector<Wtau> WtauCollection;
 
@@ -324,15 +289,6 @@ class Wmu{
     ///PCA vectors calculated using different PV estimates
     TVector3 nPCAAODvx_, nPCAGenvx_, nPCARefitvx_;
 
-    ///Secondary vertex position (from GEN)
-    TVector3 sv_;
-
-    ///PCA vector (vector from PV to PCA)
-    TVector3 nPCA_;
-
-    ///PCA vectors calculated using different PV estimates
-    TVector3 nPCAAODvx_, nPCAGenvx_, nPCARefitvx_;
-
   public:
     Wmu();
     ~Wmu();
@@ -354,12 +310,9 @@ class Wmu{
     void isTightnovtxMuon(float x){isTightnovtxMuon_ = x;}
     void iso(float x){iso_ = x;}
 
-<<<<<<< HEAD
-=======
     void idSF(float x){idSF_ = x;}
     void triggerSF(float x){triggerSF_ = x;}
 
->>>>>>> multithread3
     ///Set PCA vector calculated using PV stored in AOD
     void nPCA(const TVector3 & a3v) {nPCA_ = a3v;};
 
@@ -381,21 +334,17 @@ class Wmu{
     float mt()const{return mt_;}
     float d0()const{return d0_;}
     float dz()const{return dz_;}
-<<<<<<< HEAD
-=======
+
     int trackPattern()const {return trackPattern_;}
->>>>>>> multithread3
     float isLooseMuon()const{return isLooseMuon_;}
     float isTightMuon()const{return isTightMuon_;}
     float isHighPtMuon()const{return isHighPtMuon_;}
     float isMediumMuon()const{return isMediumMuon_;}
     float isTightnovtxMuon()const{return isTightnovtxMuon_;}
     float iso()const{return iso_;}
-<<<<<<< HEAD
-=======
+
     float idSF()const{return idSF_;}
     float triggerSF()const{return triggerSF_;}
->>>>>>> multithread3
 
     ///
     ///Get leading charged track
@@ -465,11 +414,6 @@ class Welectron{
     float mass()const{return mass_;}
     float charge()const{return charge_;}
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> multithread3
     ///Get PCA vector calculated using PV stored in AOD
     const TVector3 & nPCA() {return nPCA_;};
 
@@ -617,15 +561,5 @@ class Wjet{
 typedef std::vector<Wjet> WjetCollection;
 
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
->>>>>>> multithread3
 #endif
 
