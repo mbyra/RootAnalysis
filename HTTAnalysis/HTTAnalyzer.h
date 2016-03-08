@@ -90,8 +90,11 @@ class HTTAnalyzer: public Analyzer{
   ///which are constant up to + or - sign. We normalise those weights to +-1.
   float getGenWeight(const EventProxyHTT & myEventProxy);
 
-  //Return Asymmetry weight for W+Jet Background
-  float getAsymmWeight(const EventProxyHTT & myEventProxy);
+  //Return Asymmetry weight for W+Jet Background based on Assym(Eta)
+  float getAsymmEtaWeight(const EventProxyHTT & myEventProxy);
+
+  //Return Asymmetry weight for W+Jet Background based on Assym(mT)
+  float getAsymmMTWeight(const EventProxyHTT & myEventProxy);
 
   ///Fill histograms for all control plots.
   ///Histogram names will end with hNameSuffix
@@ -143,7 +146,7 @@ class HTTAnalyzer: public Analyzer{
   HTTHistograms *myHistos_;
 
   ///ROOT file with PU histogram
-  TFile *puDataFile_, *puMCFile_, *asymmEtaFile_;
+  TFile *puDataFile_, *puMCFile_, *asymmFile_;
 
   ///ROOT file containing current TTree
   TFile *ntupleFile_;

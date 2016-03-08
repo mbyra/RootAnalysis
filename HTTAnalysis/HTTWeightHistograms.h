@@ -22,7 +22,7 @@ class HTTWeightHistograms: public AnalysisHistograms {
 
   virtual ~HTTWeightHistograms();
 
-  TH1* finalizeHistograms(int nRuns, float weight=1.0);
+  void finalizeHistograms(int nRuns, float weight=1.0);
 
   virtual bool fill1DHistogram(const std::string &name, float val, float weight=1.0);
 
@@ -34,17 +34,11 @@ class HTTWeightHistograms: public AnalysisHistograms {
   ///on top of this normalisation.
   float getSampleNormalisation(std::string sampleName);
 
-  ///Estimate QCD background using the SS/OS method.
-  std::pair<TH1*,TH1*> getQCDbackground(std::string varName, std::string selName, std::string SubSelName);
-
   ///Calculate scaling factor for the WJets MC
   ///SCaling factor is estimated in high Mt region.
   ///Other backgrounds are subtracted, basing on MC
   ///QCD contribution is neglected.
   std::pair<float,float> getWNormalisation(std::string selName, std::string SubSelName);
-
-  ///Calculate QCD OS/SS ratiousing non isolated events.
-  std::pair<float,float> getQCDOStoSS(std::string selName, std::string SubSelName);
 
    private:
   
@@ -63,7 +57,7 @@ class HTTWeightHistograms: public AnalysisHistograms {
   //Asymmetrie
   double MakeDiff(TH1F *hTTbar, TH1F* hDYJets, TH1F* hSoup, TH1F* hWJets, TH1F* hQCD, TH1F *hTTbarS, TH1F* hDYJetsS, TH1F* hSoupS, TH1F* hWJetsS, TH1F* hQCDS, std::string varName, std::string selName, std::string SubSelName);
 
-  std::pair<TH1*,TH1*> PlotAsymm(std::string varName, std::string selName, std::string SubSelName);
+  std::pair<std::pair<TH1*,TH1*>,TH1*> PlotAsymm(std::string varName, std::string selName, std::string SubSelName);
 
   double * WJetEstimation(std::string varName, std::string selName, std::string SubSelName);
 

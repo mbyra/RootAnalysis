@@ -15,7 +15,7 @@ HTTAnalyzer::HTTAnalyzer(const std::string & aName):Analyzer(aName){
   puMCFile_ = new TFile(filePath.c_str());
 
   filePath = "AsymmWeights.root";
-  asymmEtaFile_ = new TFile(filePath.c_str());
+  asymmFile_ = new TFile(filePath.c_str());
 
   ntupleFile_ = 0;
   
@@ -151,16 +151,57 @@ float HTTAnalyzer::getGenWeight(const EventProxyHTT & myEventProxy){
 }
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
-float HTTAnalyzer::getAsymmWeight(const EventProxyHTT & myEventProxy){
+float HTTAnalyzer::getAsymmEtaWeight(const EventProxyHTT & myEventProxy){
 
   std::string sampleName = getSampleName(myEventProxy);
 
-  std::string hName = "EtaAsymmetry";
-  TH1F *hEtaAsymm = (TH1F*)asymmEtaFile_->Get(hName.c_str());
+  std::string hNameOS = "EtaAsymmetryOS";
+  std::string hNameSS = "EtaAsymmetrySS";
+  TH1F *hEtaAsymmOS = (TH1F*)asymmFile_->Get(hNameOS.c_str());
+  TH1F *hEtaAsymmSS = (TH1F*)asymmFile_->Get(hNameSS.c_str());
 
-  int iBin = hEtaAsymm->FindBin(aMuon.eta());
-  double weight = hEtaAsymm->GetBinContent(iBin);
-  weight = 1/weight;
+  int iBin;
+  float weight;
+
+  if(aPair.diq()==1){
+    iBin = hEtaAsymmSS->FindBin(aMuon.eta());
+    weight = hEtaAsymmSS->GetBinContent(iBin);
+    weight = 1/weight;
+  }
+
+  if(aPair.diq()==-1){
+    iBin = hEtaAsymmOS->FindBin(aMuon.eta());
+    weight = hEtaAsymmOS->GetBinContent(iBin);
+    weight = 1/weight;
+  }
+
+  return weight;
+}
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+float HTTAnalyzer::getAsymmMTWeight(const EventProxyHTT & myEventProxy){
+
+  std::string sampleName = getSampleName(myEventProxy);
+
+  std::string hNameOS = "MassTransAsymmetryOS";
+  std::string hNameSS = "MassTransAsymmetrySS";
+  TH1F *hMTAsymmOS = (TH1F*)asymmFile_->Get(hNameOS.c_str());
+  TH1F *hMTAsymmSS = (TH1F*)asymmFile_->Get(hNameSS.c_str());
+
+  int iBin;
+  float weight;
+
+  if(aPair.diq()==1){
+    iBin = hMTAsymmSS->FindBin(aMuon.mt());
+    weight = hMTAsymmSS->GetBinContent(iBin);
+    weight = 1/weight;
+  }
+
+  if(aPair.diq()==-1){
+    iBin = hMTAsymmOS->FindBin(aMuon.mt());
+    weight = hMTAsymmOS->GetBinContent(iBin);
+    weight = 1/weight;
+  }
 
   return weight;
 }
@@ -417,10 +458,15 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
   float genWeight = getGenWeight(myEventProxy);
   float eventWeight = puWeight*genWeight;
 
-// for asymmetry weight W+Jet
-  std::string hNameSuffixAsymm = sampleName + "Asymm";
-  float asymmWeight = getAsymmWeight(myEventProxy); // this weight is used only to fill some histograms
-  float eventWeightAsymm = puWeight*genWeight*asymmWeight;
+// for asymmetry weight W+Jet: ETA
+  std::string hNameSuffixAsymmEta = sampleName + "AsymmEta";
+  float asymmWeightEta = getAsymmEtaWeight(myEventProxy); // this weight is used only to fill some histograms
+  float eventWeightAsymmEta = puWeight*genWeight*asymmWeightEta;
+
+// for asymmetry weight W+Jet: MT
+  std::string hNameSuffixAsymmMT = sampleName + "AsymmMT";
+  float asymmWeightMT = getAsymmMTWeight(myEventProxy); // this weight is used only to fill some histograms
+  float eventWeightAsymmMT = puWeight*genWeight*asymmWeightMT;
 
   //Fill bookkeeping histogram. Bin 1 holds sum of weights.
   myHistos_->fill1DHistogram("h1DStats"+sampleName,0,eventWeight);
@@ -465,16 +511,23 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
   ///Fill variables stored in TTree
   muonPt = aMuon.pt();
 
-  std::string hNameSuffixAsymmP = hNameSuffixAsymm+"Plus";
-  std::string hNameSuffixAsymmN = hNameSuffixAsymm+"Minus";
+  std::string hNameSuffixAsymmEtaP = hNameSuffixAsymmEta+"Plus";
+  std::string hNameSuffixAsymmEtaN = hNameSuffixAsymmEta+"Minus";
+  std::string hNameSuffixAsymmMTP = hNameSuffixAsymmMT+"Plus";
+  std::string hNameSuffixAsymmMTN = hNameSuffixAsymmMT+"Minus";
 
 
   ///Histograms for the baseline selection  
   if(baselineSelection){
     fillControlHistos(eventWeight, hNameSuffix);
-    fillControlHistos(eventWeightAsymm, hNameSuffixAsymm);
-	if(aMuon.charge()==1) fillControlHistos(eventWeightAsymm, hNameSuffixAsymmP);
-	if(aMuon.charge()==-1) fillControlHistos(eventWeightAsymm, hNameSuffixAsymmN);
+    fillControlHistos(eventWeightAsymmEta, hNameSuffixAsymmEta);
+    fillControlHistos(eventWeightAsymmMT, hNameSuffixAsymmMT);
+	if(aMuon.charge()==1) {
+		fillControlHistos(eventWeightAsymmEta, hNameSuffixAsymmEtaP);
+		fillControlHistos(eventWeightAsymmMT, hNameSuffixAsymmMTP);}
+	if(aMuon.charge()==-1) {
+		fillControlHistos(eventWeightAsymmEta, hNameSuffixAsymmEtaN);
+		fillControlHistos(eventWeightAsymmMT, hNameSuffixAsymmMTN);}
     if(goodGenDecayMode){
       std::string hNameSuffixCP = hNameSuffix+"RefitPV";    
       fillDecayPlaneAngle(eventWeight, hNameSuffixCP);
@@ -490,19 +543,22 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
   ///Histograms for the QCD control region
   if(qcdSelectionSS){
     hNameSuffix = sampleName+"qcdselSS";
-    hNameSuffixAsymm = hNameSuffixAsymm + "qcdselSS";
+    hNameSuffixAsymmEta = hNameSuffixAsymmEta + "qcdselSS";
+    hNameSuffixAsymmMT = hNameSuffixAsymmMT + "qcdselSS";
     ///SS ans OS isolation histograms are filled only for mT<40 to remove possible contamnation
     //from TT in high mT region.
     if(aMuon.mt()<100) {
 	myHistos_->fill1DHistogram("h1DIso"+hNameSuffix,aMuon.iso(),eventWeight);
-	myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymm,aMuon.iso(),eventWeightAsymm);
+	myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmEta,aMuon.iso(),eventWeightAsymmEta);
+	myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmMT,aMuon.iso(),eventWeightAsymmMT);
 	}
     ///Fill SS histos in signal mu isolation region. Those histograms
     ///provide shapes for QCD estimate in signal region and in various control regions.
     ///If control region has OS we still use SS QCD estimate.
     if(aMuon.mt()<100 && aMuon.iso()<0.1) {
 	fillControlHistos(eventWeight, hNameSuffix);
-        fillControlHistos(eventWeightAsymm, hNameSuffixAsymm);
+        fillControlHistos(eventWeightAsymmEta, hNameSuffixAsymmEta);
+        fillControlHistos(eventWeightAsymmMT, hNameSuffixAsymmMT);
 	}
     if(aMuon.mt()>60){
       myHistos_->fill1DHistogram("h1DMassTrans"+hNameSuffix+"wselSS",aMuon.mt(),eventWeight);    
@@ -522,10 +578,12 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
   ///Using the same SS/OS scaling factor for now.    
   if(qcdSelectionOS){
     hNameSuffix = sampleName+"qcdselOS";
-    hNameSuffixAsymm = hNameSuffixAsymm +"qcdselOS";
+    hNameSuffixAsymmEta = hNameSuffixAsymmEta +"qcdselOS";
+    hNameSuffixAsymmMT = hNameSuffixAsymmMT +"qcdselOS";
     if(aMuon.mt()<100) {
 	myHistos_->fill1DHistogram("h1DIso"+hNameSuffix,aMuon.iso(),eventWeight);
-	myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymm,aMuon.iso(),eventWeightAsymm);
+	myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmEta,aMuon.iso(),eventWeightAsymmEta);
+	myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmMT,aMuon.iso(),eventWeightAsymmMT);
     }
   }
 

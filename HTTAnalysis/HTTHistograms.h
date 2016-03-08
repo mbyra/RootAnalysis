@@ -74,8 +74,8 @@ class HTTHistograms: public AnalysisHistograms {
   void plotSingleHistogram(std::string hName);
 
   // returns estimates W+Jet Background from the data
-  // selName: "", "All", "qcdsel" : use only "" now!!!
-  TH1* WJetAsymm(std::string varName, std::string selName);
+  // selName: "", "All", "qcdsel". SubSelName: "MT", "Eta" (dependence of asymmetry).
+  TH1* WJetAsymm(std::string varName, std::string selName, std::string subSelName);
 
 
 };

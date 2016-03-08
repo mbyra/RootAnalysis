@@ -46,15 +46,8 @@ void HTTWeightsMaker::initialize(TFileDirectory& aDir,
 //////////////////////////////////////////////////////////////////////////////
 void HTTWeightsMaker::finalize(){ 
 
-  hAsymm = (TH1F *) myHistos_->get1DHistogram("h1DEtaTemplate",true);
-  hAsymm -> SetName("EtaAsymmetry");
-  hAsymm -> Reset();
+  myHistos_->finalizeHistograms(0,1.0);
 
-  TH1F * h = (TH1F*) myHistos_->finalizeHistograms(0,1.0);
-
-  TFile f("AsymmWeights.root","recreate");
-  hAsymm -> Add(h,1);
-  hAsymm -> Write(); 
 }
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
@@ -311,7 +304,6 @@ bool HTTWeightsMaker::analyze(const EventProxyBase& iEvent){
 
   ///Histograms for the baseline selection  
   if(baselineSelection){
-    myHistos_->fill1DHistogram("h1DEtaAsymm",aMuon.eta(),eventWeight);
     fillControlHistos(eventWeight, hNameSuffix);
 	if(aMuon.charge()==1) fillControlHistos(eventWeight, hNameSuffixP);
 	if(aMuon.charge()==-1) fillControlHistos(eventWeight, hNameSuffixN);

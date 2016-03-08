@@ -279,23 +279,44 @@ void HTTWeightHistograms::defineHistograms(){
 }
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
-TH1* HTTWeightHistograms::finalizeHistograms(int nRuns, float weight){
+void HTTWeightHistograms::finalizeHistograms(int nRuns, float weight){
 
   AnalysisHistograms::finalizeHistograms();
 
 //  PlotAsymm("EtaMuon","","Plus"); 
 
+  TFile f("AsymmWeights.root","recreate");
+
   WJetEstimation("EtaMuon","","Plus");
 
-  std::pair<TH1*, TH1*> WEstimation = PlotAsymm("EtaMuon","","Plus");
-  TH1F * hAsymm = (TH1F*) WEstimation.second;
+  std::pair<std::pair<TH1*,TH1*>, TH1*> WEstimation = PlotAsymm("EtaMuon","","Plus");
+  TH1F * hAsymmEtaMC = (TH1F*) WEstimation.second;
+  hAsymmEtaMC -> SetName("EtaAsymmetryOS");
+  hAsymmEtaMC -> Write(); 
 
-  return hAsymm;
+  WEstimation = PlotAsymm("EtaMuon","qcdselSS","Plus");
+  TH1F * hAsymmEtaMCSS = (TH1F*) WEstimation.second;
+  hAsymmEtaMCSS -> SetName("EtaAsymmetrySS");
+  hAsymmEtaMCSS -> Write(); 
+
+  WEstimation = PlotAsymm("MassTrans","","Plus");
+  TH1F * hAsymmMassTransMC = (TH1F*) WEstimation.second;
+  hAsymmMassTransMC -> SetName("MassTransAsymmetryOS");
+  hAsymmMassTransMC -> Write(); 
+
+  WEstimation = PlotAsymm("MassTrans","qcdselSS","Plus");
+  TH1F * hAsymmMassTransMCSS = (TH1F*) WEstimation.second;
+  hAsymmMassTransMCSS -> SetName("MassTransAsymmetrySS");
+  hAsymmMassTransMCSS -> Write(); 
+
+  f.Close();
+
 }
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
 double HTTWeightHistograms::MakeDiff(TH1F *hTTbar, TH1F* hDYJets, TH1F* hSoup, TH1F* hWJets, TH1F* hQCD, TH1F *hTTbarS, TH1F* hDYJetsS, TH1F* hSoupS, TH1F* hWJetsS, TH1F* hQCDS, std::string varName, std::string selName, std::string SubSelName){
 
+ //note: I left QCD just in case. If we will find "a brand new" method for QCD it will be good to subtract it also from Delta in asymmetry.
   std::cout<<"--- Drawing THStack for variable: "<<varName
 	   <<" selection: "<<selName<<std::endl;
 
@@ -434,8 +455,6 @@ double HTTWeightHistograms::MakeDiff(TH1F *hTTbar, TH1F* hDYJets, TH1F* hSoup, T
   hTTbar2->Scale(scale);
 
  if((SubSelName=="Plus" || SubSelName=="Minus") && selName2=="All"){
-  std::cout<<"------------------------------------------"<<std::endl;
-  std::cout<<"--------dodalam TT-----------------"<<std::endl;
   TH1F *hTTbar12 = get1DHistogram((hName+"TTbar"+"qcdselSS"+"Plus").c_str());
   TH1F *hTTbar22 = get1DHistogram((hName+"TTbar"+"qcdselSS"+"Minus").c_str());
   hTTbar12->Scale(scale);
@@ -472,7 +491,7 @@ return 0;
 }
 /////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////
-std::pair<TH1*,TH1*>  HTTWeightHistograms::PlotAsymm(std::string varName, std::string selName, std::string SubSelName){
+std::pair<std::pair<TH1*,TH1*>,TH1*>  HTTWeightHistograms::PlotAsymm(std::string varName, std::string selName, std::string SubSelName){
 
   std::string hName = "h1D"+varName;
   TH1F *hTTbar = get1DHistogram((hName+"TTbar"+"Diff"+"Minus").c_str());
@@ -494,13 +513,11 @@ std::pair<TH1*,TH1*>  HTTWeightHistograms::PlotAsymm(std::string varName, std::s
   hWJets->Rebin(rebinFactor);
   hTTbar->Rebin(rebinFactor);
   hDYJets->Rebin(rebinFactor);
-  hQCD->Rebin(rebinFactor);
 
   hSoupS->Rebin(rebinFactor);
   hWJetsS->Rebin(rebinFactor);
   hTTbarS->Rebin(rebinFactor);
   hDYJetsS->Rebin(rebinFactor);
-  hQCDS->Rebin(rebinFactor);
 
   float lumi = getLumi();
 
@@ -511,11 +528,14 @@ std::pair<TH1*,TH1*>  HTTWeightHistograms::PlotAsymm(std::string varName, std::s
 
 //  TH1F* W  = (TH1F*)hSoup->Clone(("Asymm"+varName+selName).c_str);
 
-  TH1F *W = get1DHistogram("h1DEtaAsymm");
+  hName = hName + selName + "WEstimation";
+
+  TH1F *W = (TH1F*)hSoup->Clone(hName.c_str());
   W  -> Reset();
   W  -> Add(hSoup,1);
 
-  TH1F* WMC  = (TH1F*)hSoup->Clone("WMC");
+  std::string hNameMC = hName +"MC" ;
+  TH1F* WMC  = (TH1F*)hSoup->Clone(hNameMC.c_str());
   WMC  -> Reset();
   WMC  -> Add(hWJets,1);
 
@@ -545,7 +565,7 @@ std::pair<TH1*,TH1*>  HTTWeightHistograms::PlotAsymm(std::string varName, std::s
     hSoup->GetXaxis()->SetTitle("SVFit mass [GeV/c^{2}]");
     hSoup->SetTitle("asymmetry SVFit mass [GeV/c^{2}]");}
 
-  if(varName.find("Mt")!=std::string::npos){
+  if(varName.find("MassTrans")!=std::string::npos){
     hSoup->GetXaxis()->SetTitle("Mt [GeV/c^{2}]");
     hSoup->SetTitle("asymmetry Mt [GeV/c^{2}]");}
 
@@ -567,11 +587,14 @@ std::pair<TH1*,TH1*>  HTTWeightHistograms::PlotAsymm(std::string varName, std::s
 //  hWJets->SetMaximum(0.5);
   hWJets->Draw("same");
   
-  hName="Asymmetry"+varName+selName;
   c2->Print(TString::Format("fig_pngA/%s.png",hName.c_str()).Data());
 
 // return WJetBack estimations
-  return std::make_pair(W, hWJets);
+
+  std::pair <TH1*, TH1*> WEstimation;
+  WEstimation = make_pair(W,WMC);
+
+  return std::make_pair( WEstimation, hWJets);
 }
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
@@ -579,9 +602,11 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
 
   std::string hName = "h1D"+varName;
 
-  std::pair<TH1*, TH1*> WEstimation = PlotAsymm(varName,selName,"Plus");
+  std::pair<std::pair<TH1*,TH1*>, TH1*> Asymm = PlotAsymm(varName,selName,"Plus");
+  std::pair<TH1*, TH1*> WEstimation = Asymm.first;
+
   TH1F * hWJetsAsymm = (TH1F*) WEstimation.first;
-//  TH1F * hWJetsAsymmMC = (TH1F*) WEstimation.second;
+  TH1F * hWJetsAsymmMC = (TH1F*) WEstimation.second;
 
   std::string selName2="";
   if(selName=="All") {
@@ -590,7 +615,6 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
 	}
 
   TH1F *hWJets = get1DHistogram((hName+"WJets"+selName).c_str());
-//  TH1F *hWJets = get1DHistogram((hName+"WJets"+selName+SubSelName).c_str());
   TH1F *hWJets2 = get1DHistogram((hName+"WJets"+"qcdselSS").c_str());
 
   int rebinFactor = 2;  
@@ -608,8 +632,6 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
   hWJets->Scale(scale);
 
   if((SubSelName=="Plus" || SubSelName=="Minus") && selName2=="All"){
-  std::cout<<"------------------------------------------"<<std::endl;
-  std::cout<<"--------dodalam Wreferencje-----------------"<<std::endl;
     WselType = "wselSS";
     dataToMCScale = getWNormalisation(WselType,"");
     float scale = weight*lumi*dataToMCScale.first;
@@ -659,286 +681,30 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
   hName="WJetBack"+varName+selName+selName2;
   c2->Print(TString::Format("fig_pngA/%s.png",hName.c_str()).Data());
 
-//  TCanvas *c1 = getDefaultCanvas();
-//  c1->SetName("c1");
-//  c1->SetTitle("WJets Background estimation");
-//  hWJetsAsymmMC -> SetStats(kFALSE);
+  TCanvas *c1 = getDefaultCanvas();
+  c1->SetName("c1");
+  c1->SetTitle("WJets Background estimation");
+  hWJetsAsymmMC -> SetStats(kFALSE);
 
-//  hWJetsAsymmMC -> Draw("hist");
-//  hWJetsAsymmMC->SetMinimum(-2000);
-//  hWJetsAsymmMC->SetMaximum(8000);
-//  hWJets -> SetLineColor(1);
-//  hWJets->SetLineWidth(1.2);
-//  hWJets->Draw("same");
+  hWJetsAsymmMC -> Draw("hist");
+  hWJetsAsymmMC->SetMinimum(-2000);
+  hWJetsAsymmMC->SetMaximum(8000);
+  hWJets -> SetLineColor(1);
+  hWJets->SetLineWidth(1.2);
+  hWJets->Draw("same");
 
-//  leg->Clear();
-//  leg->SetTextSize(0.03);
-//  leg->AddEntry(hWJets,"Old","l");
-//  leg->AddEntry(hWJetsAsymmMC,"Data Asymm","l");
+  leg->Clear();
+  leg->SetTextSize(0.03);
+  leg->AddEntry(hWJets,"Old","l");
+  leg->AddEntry(hWJetsAsymmMC,"Data Asymm","l");
 //  leg->AddEntry((TObject*)0, Form("#int WAsymm = %.3f ",inthWJetsAsymm), "");
 //  leg->AddEntry((TObject*)0, Form("#int WOld = %.3f ",inthWJets), "");
-//  leg->Draw();
+  leg->Draw();
   
-//  hName="WJetBackMC"+varName+selName+selName2;
-//  c1->Print(TString::Format("fig_pngA/%s.png",hName.c_str()).Data());
+  hName="WJetBackMC"+varName+selName+selName2;
+  c1->Print(TString::Format("fig_pngA/%s.png",hName.c_str()).Data());
 
 return 0;
-}
-/////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////
-std::pair<float,float> HTTWeightHistograms::getQCDOStoSS(std::string selName, std::string SubSelName){
-
-  std::cout<<"Calling method: "<<__func__<<std::endl;
-  if(selName.find("SS")!=std::string::npos) return  std::make_pair(1.0,0.0);
-
-  std::string hName = "h1DIso";
-
-  // SS selection
-  TH1F *hWJetsSS = get1D_WJet_Histogram((hName+"WJets"+"qcdselSS"+SubSelName).c_str());
-  TH1F *hDYJetsLowMSS = get1DHistogram((hName+"DYJetsLowM"+"qcdselSS"+SubSelName).c_str());
-  TH1F *hDYJetsSS = get1D_DY_Histogram((hName+"DYJets"+"qcdselSS"+SubSelName).c_str()); 
-  TH1F *hTTSS = get1DHistogram((hName+"TTbar"+"qcdselSS"+SubSelName).c_str());
-  TH1F *hSoupSS = get1DHistogram((hName+"Data"+"qcdselSS"+SubSelName).c_str());
-  TH1F *hSoupSSb = get1DHistogram((hName+"Data"+"qcdselSS"+SubSelName).c_str());
-
-  // OS selection
-  TH1F *hWJetsOS = get1D_WJet_Histogram((hName+"WJets"+"qcdselOS"+SubSelName).c_str());
-  TH1F *hDYJetsLowMOS = get1DHistogram((hName+"DYJetsLowM"+"qcdselOS"+SubSelName).c_str());
-  TH1F *hDYJetsOS = get1D_DY_Histogram((hName+"DYJets"+"qcdselOS"+SubSelName).c_str());
-  TH1F *hTTOS = get1DHistogram((hName+"TTbar"+"qcdselOS"+SubSelName).c_str());
-  TH1F *hSoupOS = get1DHistogram((hName+"Data"+"qcdselOS"+SubSelName).c_str());
-  TH1F *hSoupOSb = get1DHistogram((hName+"Data"+"qcdselOS"+SubSelName).c_str());
-
-  float lumi = getLumi();
-  ///Normalise MC histograms according to cross sections
-  std::string sampleName = "DYJetsLowM";
-  float weight = getSampleNormalisation(sampleName);
-  float scale = weight*lumi;
-  hDYJetsLowMOS->Scale(scale);
-  hDYJetsLowMSS->Scale(scale);
-
-  sampleName = "DYJets";
-  weight = getSampleNormalisation(sampleName);
-  scale = weight*lumi;
-  hDYJetsOS->Scale(scale);
-  hDYJetsSS->Scale(scale);
-  
-  sampleName = "WJets";
-  scale = getSampleNormalisation(sampleName); 
-  hWJetsOS->Scale(scale*getWNormalisation("wselOS",SubSelName).first);
-  hWJetsSS->Scale(scale*getWNormalisation("wselSS",SubSelName).first);
-
-// UWAGA UWAGA UWAGA
-// tu mysi byc czytanie histogramow w zaleznosci od ISO!!! 
-// na razie robię podmiankę i daję normalne WJety
-  TH1F *hWJetsOSAsymm = (TH1F*)hWJetsOS->Clone((hName+"hWJetsOSAsymm"+SubSelName).c_str());
-  TH1F *hWJetsSSAsymm = (TH1F*)hWJetsSS->Clone((hName+"hWJetsSSAsymm"+SubSelName).c_str());
-//  std::pair<TH1*, TH1*> WEstimationOS = PlotAsymm(varName,"","Plus");
-//  TH1F * hWJetsOSAsymm = (TH1F*) WEstimationOS.first;
-//  std::pair<TH1*, TH1*> WEstimationSS = PlotAsymm(varName,"qcdselSS","Plus");
-//  TH1F * hWJetsSSAsymm = (TH1F*) WEstimationSS.first;
-  
-  sampleName = "TTbar";
-  weight = getSampleNormalisation(sampleName);
-  scale = weight*lumi;
-  hTTOS->Scale(scale);
-  hTTSS->Scale(scale);
- 
-  ///Subtract backgrounds other than QCD using MC
-  hSoupSS->Add(hDYJetsLowMSS,-1);
-  hSoupSS->Add(hDYJetsSS,-1);
-  hSoupSS->Add(hTTSS,-1);
-
-  TH1F *hSoupSSAsymm = (TH1F*)hSoupSS->Clone((hName+"hSoupSSAsymm"+SubSelName).c_str());
-  hSoupSSAsymm->Reset();
-  hSoupSSAsymm->Add(hSoupSS,1);
-  hSoupSS->Add(hWJetsSS,-1);
-  hSoupSSAsymm->Add(hWJetsSSAsymm,-1);
-  
-  hSoupOS->Add(hDYJetsLowMOS,-1);
-  hSoupOS->Add(hDYJetsOS,-1);
-
-  hSoupOS->Add(hTTOS,-1);
-
-  TH1F *hSoupOSAsymm = (TH1F*)hSoupOS->Clone((hName+"hSoupOSAsymm"+SubSelName).c_str());
-  hSoupOSAsymm->Reset();
-  hSoupOSAsymm->Add(hSoupOS,1);
-  hSoupOS->Add(hWJetsOS,-1);
-  hSoupOSAsymm->Add(hWJetsOSAsymm,-1);
-
-  hSoupOS->Divide(hSoupSS);
-  hSoupOSAsymm->Divide(hSoupSSAsymm);
-
-  //funtion fitting
-  TF1 *line=new TF1("line","[0]",0,2);
-  line->SetParameter(0,1);
-  TCanvas* c = new TCanvas("QCD_OStoSS","QCD_OStoSS",460,500);
-    TLegend* leg = new TLegend(0.1,0.7,0.48,0.9);
-   leg->Clear();
-   leg->Draw();
-
-  hSoupOS->SetLineWidth(3);
-  hSoupOS->GetYaxis()->SetTitleOffset(1.4);
-  hSoupOS->GetYaxis()->SetTitle("OS/SS");
-  hSoupOS->GetXaxis()->SetTitle("muon relative isolation");
-  gStyle->SetOptStat(11);
-  gStyle->SetOptFit(11);
-  hSoupOS->Draw();
-  hSoupOS->Fit("line","","",0.2,0.3);
-  c->Print(TString::Format("fig_pngA/%s.png",hName.c_str()).Data());
-  c->Print(TString::Format("fig_C/%s.C",hName.c_str()).Data());
-
-  float param, dparam;
-  param=line->GetParameter(0);
-  dparam=line->GetParError(0);
-
-  //funtion fitting for Asymmetry
-  TF1 *lineA=new TF1("lineA","[0]",0,2);
-  lineA->SetParameter(0,1);
-//  TCanvas* c = new TCanvas("QCD_OStoSS","QCD_OStoSS",460,500);
-//    TLegend* leg = new TLegend(0.1,0.7,0.48,0.9);
-   leg->Clear();
-   leg->Draw();
-
-  hSoupOSAsymm->SetLineWidth(3);
-  hSoupOSAsymm->GetYaxis()->SetTitleOffset(1.4);
-  hSoupOSAsymm->GetYaxis()->SetTitle("OS/SS");
-  hSoupOSAsymm->GetXaxis()->SetTitle("muon relative isolation");
-  gStyle->SetOptStat(11);
-  gStyle->SetOptFit(11);
-  hSoupOSAsymm->Draw();
-  hSoupOSAsymm->Fit("lineA","","",0.2,0.4);
-
-  hName=hName+"_Asymm";
-  c->Print(TString::Format("fig_pngA/%s.png",hName.c_str()).Data());
-  c->Print(TString::Format("fig_C/%s.C",hName.c_str()).Data());
-
-  float paramA, dparamA;
-  paramA=line->GetParameter(0);
-  dparamA=line->GetParError(0);
-
-//
-
-  std::cout<<"QCD OS/SS ratio: "<<param<<" +- "<<dparam<<std::endl;
-  std::cout<<"QCD OS/SS ratio Asymmetry: "<<paramA<<" +- "<<dparamA<<std::endl;
-
-  return std::make_pair(param, paramA);
-}
-/////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////
-std::pair<TH1*,TH1*> HTTWeightHistograms::getQCDbackground(std::string varName, std::string selName, std::string SubSelName){
-
-  std::cout<<"Calling method: "<<__func__<<std::endl;
-  
-  ///Not very clear and elegant. AK
-  ///Need this to avoid resursive control region labels like
-  ///qcdselSSqcdselOS
-  int ifscale=0; //when SS there should be no scaling
-  if(selName.find("SS")==std::string::npos) ifscale=1;
-  if(selName.find("qcdsel")!=std::string::npos) selName = "";
-
-  std::string hName = "h1D" + varName;
-  // SS selection
-
-  std::pair<TH1*, TH1*> WEstimationSS = PlotAsymm(varName,"qcdselSS","Plus");
-  TH1F * hWJetsAsymm = (TH1F*) WEstimationSS.first;
-
-  TH1F *hWJets = get1D_WJet_Histogram((hName+"WJets"+"qcdselSS"+selName+SubSelName).c_str());
-  TH1F *hDYJetsLowM = get1DHistogram((hName+"DYJetsLowM"+"qcdselSS"+selName+SubSelName).c_str());
-  TH1F *hDYJets = get1D_DY_Histogram((hName+"DYJets"+"qcdselSS"+selName+SubSelName).c_str());
-  TH1F *hTTbar = get1DHistogram((hName+"TTbar"+"qcdselSS"+selName+SubSelName).c_str());
-  TH1F *hSoup = get1DHistogram((hName+"Data"+"qcdselSS"+selName+SubSelName).c_str());
-
-
-  ///Protection against null pointers
-  ///Null pointers happen when sample was not read, or there were no
-  ///events passing particular selection.
-//  if(!hSoup) return 0;
-  if(!hWJets){
-    hWJets = (TH1F*)hSoup->Clone((hName+"WJets"+"qcdselSS"+selName+SubSelName).c_str()); hWJets->Reset();
-  }
-
-  if(!hDYJetsLowM){
-    hDYJetsLowM = (TH1F*)hSoup->Clone((hName+"hDYJetsLowM"+"qcdselSS"+selName+SubSelName).c_str()); hDYJetsLowM->Reset();
-  }
-  if(!hDYJets){
-    hDYJets = (TH1F*)hSoup->Clone((hName+"hDYJets"+"qcdselSS"+selName+SubSelName).c_str()); hDYJets->Reset();
-  }
-  if(!hTTbar){
-    hTTbar = (TH1F*)hSoup->Clone((hName+"hTTbar"+"qcdselSS"+selName+SubSelName).c_str()); hTTbar->Reset();
-  }
-  //////////////////////////////////////////////////////////////////////
-  float lumi = getLumi();
-  ///Normalise MC histograms according to cross sections
-
-  std::string sampleName = "DYJetsLowM";
-  float weight = getSampleNormalisation(sampleName);
-  float scale = weight*lumi;
-  hDYJetsLowM->Scale(scale);
-
-  sampleName = "DYJets";
-  weight = getSampleNormalisation(sampleName);
-  scale = weight*lumi;
-  hDYJets->Scale(scale);
-
-  sampleName = "WJets";
-  float dataToMCScale = getWNormalisation("wselSS",SubSelName).first;
-  scale = getSampleNormalisation(sampleName)*lumi*dataToMCScale;
-  hWJets->Scale(scale);
-
-  sampleName = "TTbar";
-  weight = getSampleNormalisation(sampleName);
-  scale = weight*lumi;
-  hTTbar->Scale(scale);
-
-
-  TH1F *hSoupAsymm = (TH1F*)hSoup->Clone((hName+"hSoupAsymm"+SubSelName).c_str());
-  hSoupAsymm->Reset();
-
-  hSoup->SetName(("h1DQCDEstimate"+varName+SubSelName).c_str());
-  hSoup->Add(hWJets,-1);
-  hSoup->Add(hDYJetsLowM,-1);
-  hSoup->Add(hDYJets,-1);
-
-  hSoup->Add(hTTbar,-1);
-
-  hSoupAsymm->Add(hSoup,1);
-
-//  TH1F *hSoupAsymm = (TH1F*)hSoup->Clone((hName+"hSoupAsymm"+SubSelName).c_str());
-  hSoup->Add(hWJets,-1);
-  hSoupAsymm->Add(hWJetsAsymm,-1); // tu bylo hWJetsAsymm
-
-  if(ifscale==1){
-  hSoup->Scale(getQCDOStoSS(selName,SubSelName).first);
-  hSoupAsymm->Scale(getQCDOStoSS(selName,SubSelName).second);
-  }
-
-  ///Clean up the QCD shape, and remove fluctuations around 0 counts.
-  for(unsigned int iBinX=0;iBinX<=hSoup->GetNbinsX();++iBinX){
-    if(hSoup->GetBinContent(iBinX)<3.0) hSoup->SetBinContent(iBinX,0);
-  }
-
-  for(unsigned int iBinX=0;iBinX<=hSoupAsymm->GetNbinsX();++iBinX){
-    if(hSoupAsymm->GetBinContent(iBinX)<3.0) hSoupAsymm->SetBinContent(iBinX,0);
-  }
-
-  TCanvas* c = new TCanvas("QCD_OStoSS","QCD_OStoSS",460,500);
-
-   TLegend* leg = new TLegend(0.1,0.7,0.48,0.9);
-   leg->Clear();
-   leg->Draw();
-   hSoup->SetStats(kFALSE);
-   hSoup->SetTitle(("QCDBack"+varName+"; selection: "+selName+SubSelName).c_str());
-   hSoup->GetXaxis()->SetTitle(varName.c_str());
-
-   hSoup->Draw("hist");
-   hSoupAsymm->SetLineColor(2);
-   hSoupAsymm->Draw("same");
-  std::string name="QCDBack"+varName+selName+SubSelName;
-  c->Print(TString::Format("fig_pngA/%s.png",name.c_str()).Data());
-  c->Print(TString::Format("fig_C/%s.C",name.c_str()).Data());
-
-  return std::make_pair(hSoup, hSoupAsymm);
 }
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////

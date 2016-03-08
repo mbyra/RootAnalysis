@@ -461,7 +461,7 @@ THStack*  HTTHistograms::plotStack(std::string varName, std::string selName){
 
   if(asymm=="Asymm"){
 	hWJets -> Reset();
-	hWJets = (TH1F*) WJetAsymm(varName,"");
+	hWJets = (TH1F*) WJetAsymm(varName,"","Eta");
   }
 
 //EROOR HERE OLD W+JET BACK
@@ -1004,7 +1004,9 @@ std::pair<float,float> HTTHistograms::getWNormalisation(std::string selName){
 }
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
-TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName){
+TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::string subSelName){
+
+// SubSelName: Eta, MT.
 
 // at that moment it works only for OS sample and OS asymmetry: use it only for them!!!
 
@@ -1021,10 +1023,10 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName){
   std::string hName = "h1D"+varName;
 
 // added histograms
-  TH1F *hTTbar1 = get1DHistogram((hName+"TTbar"+selName+"AsymmPlus").c_str());
-  TH1F *hSoup1 = get1DHistogram((hName+"Data"+selName+"AsymmPlus").c_str());
-  TH1F *hDYJets1 = get1D_DY_Histogram((hName+"DYJets"+selName+"AsymmPlus").c_str());
-  TH1F *hDYJetsLowM1 = get1DHistogram((hName+"DYJetsLowM"+selName+"AsymmPlus").c_str());
+  TH1F *hTTbar1 = get1DHistogram((hName+"TTbar"+selName+"Asymm"+subSelName+"Plus").c_str());
+  TH1F *hSoup1 = get1DHistogram((hName+"Data"+selName+"Asymm"+subSelName+"Plus").c_str());
+  TH1F *hDYJets1 = get1D_DY_Histogram((hName+"DYJets"+selName+"Asymm"+subSelName+"Plus").c_str());
+  TH1F *hDYJetsLowM1 = get1DHistogram((hName+"DYJetsLowM"+selName+"Asymm"+subSelName+"Plus").c_str());
 
   if(!hDYJets1){
     hDYJets1 = (TH1F*)hSoup1->Clone((hName+"hDYJets1"+selName).c_str()); hDYJets1->Reset();
@@ -1033,10 +1035,10 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName){
     hDYJetsLowM1 = (TH1F*)hSoup1->Clone((hName+"hDYJetsLowM1"+selName).c_str()); hDYJetsLowM1->Reset();
   }
 
-  TH1F *hTTbar2 = get1DHistogram((hName+"TTbar"+selName+"AsymmMinus").c_str()); 
-  TH1F *hSoup2 = get1DHistogram((hName+"Data"+selName+"AsymmMinus").c_str());
-  TH1F *hDYJets2 = get1D_DY_Histogram((hName+"DYJets"+selName+"AsymmMinus").c_str());
-  TH1F *hDYJetsLowM2 = get1DHistogram((hName+"DYJetsLowM"+selName+"AsymmMinus").c_str());
+  TH1F *hTTbar2 = get1DHistogram((hName+"TTbar"+selName+"Asymm"+subSelName+"Minus").c_str()); 
+  TH1F *hSoup2 = get1DHistogram((hName+"Data"+selName+"Asymm"+subSelName+"Minus").c_str());
+  TH1F *hDYJets2 = get1D_DY_Histogram((hName+"DYJets"+selName+"Asymm"+subSelName+"Minus").c_str());
+  TH1F *hDYJetsLowM2 = get1DHistogram((hName+"DYJetsLowM"+selName+"Asymm"+subSelName+"Minus").c_str());
 
   if(!hDYJets2){
     hDYJets2 = (TH1F*)hSoup1->Clone((hName+"hDYJets2"+selName).c_str()); hDYJets2->Reset();
@@ -1048,8 +1050,8 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName){
 // sum OS and SS histograms for "All" asymmetry
 
   if(selName2=="All"){
-  TH1F *hSoup12 = get1DHistogram((hName+"Data"+"qcdselSS"+"AsymmPlus").c_str());
-  TH1F *hSoup22 = get1DHistogram((hName+"Data"+"qcdselSS"+"AsymmMinus").c_str());
+  TH1F *hSoup12 = get1DHistogram((hName+"Data"+"qcdselSS"+"Asymm"+subSelName+"Plus").c_str());
+  TH1F *hSoup22 = get1DHistogram((hName+"Data"+"qcdselSS"+"Asymm"+subSelName+"Minus").c_str());
   hSoup1->Add(hSoup12,1);
   hSoup2->Add(hSoup22,1);
   }
@@ -1069,8 +1071,8 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName){
   hDYJets2->Scale(scale);
 
  if(selName2=="All"){
-  TH1F *hDYJets12 = get1D_DY_Histogram((hName+"DYJets"+"qcdselSSAsymmPlus").c_str());
-  TH1F *hDYJetsLowM12 = get1DHistogram((hName+"DYJetsLowM"+"qcdselSSAsymmPlus").c_str());
+  TH1F *hDYJets12 = get1D_DY_Histogram((hName+"DYJets"+"qcdselSSAsymm"+subSelName+"Plus").c_str());
+  TH1F *hDYJetsLowM12 = get1DHistogram((hName+"DYJetsLowM"+"qcdselSSAsymm"+subSelName+"Plus").c_str());
 
   if(!hDYJets12){
     hDYJets12 = (TH1F*)hSoup1->Clone((hName+"hDYJets12"+selName).c_str()); hDYJets12->Reset();
@@ -1079,8 +1081,8 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName){
     hDYJetsLowM12 = (TH1F*)hSoup1->Clone((hName+"hDYJetsLowM12"+selName).c_str()); hDYJetsLowM12->Reset();
   } 
 
-  TH1F *hDYJets22 = get1D_DY_Histogram((hName+"DYJets"+"qcdselSSAsymmMinus").c_str());
-  TH1F *hDYJetsLowM22 = get1DHistogram((hName+"DYJetsLowM"+"qcdselSSAsymmMinus").c_str());
+  TH1F *hDYJets22 = get1D_DY_Histogram((hName+"DYJets"+"qcdselSSAsymm"+subSelName+"Minus").c_str());
+  TH1F *hDYJetsLowM22 = get1DHistogram((hName+"DYJetsLowM"+"qcdselSSAsymm"+subSelName+"Minus").c_str());
 
   if(!hDYJets22){
     hDYJets22 = (TH1F*)hSoup1->Clone((hName+"hDYJets22"+selName).c_str()); hDYJets22->Reset();
@@ -1116,8 +1118,8 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName){
  if(selName2=="All"){
   std::cout<<"------------------------------------------"<<std::endl;
   std::cout<<"--------dodalam TT-----------------"<<std::endl;
-  TH1F *hTTbar12 = get1DHistogram((hName+"TTbar"+"qcdselSS"+"AsymmPlus").c_str());
-  TH1F *hTTbar22 = get1DHistogram((hName+"TTbar"+"qcdselSS"+"AsymmMinus").c_str());
+  TH1F *hTTbar12 = get1DHistogram((hName+"TTbar"+"qcdselSS"+"Asymm"+subSelName+"Plus").c_str());
+  TH1F *hTTbar22 = get1DHistogram((hName+"TTbar"+"qcdselSS"+"Asymm"+subSelName+"Minus").c_str());
   hTTbar12->Scale(scale);
   hTTbar22->Scale(scale);
   hTTbar1->Add(hTTbar12,1);
