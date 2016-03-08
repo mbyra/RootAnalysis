@@ -29,12 +29,18 @@ SummaryAnalyzer::SummaryAnalyzer(const std::string & aName):Analyzer(aName){ }
 SummaryAnalyzer::~SummaryAnalyzer(){ }
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
+Analyzer* SummaryAnalyzer::clone() const{
+
+  SummaryAnalyzer* clone = new SummaryAnalyzer(name());
+  return clone;
+
+};
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
 void SummaryAnalyzer::initialize(TFileDirectory& aDir,
 				 pat::strbitset *aSelections){
-  
-  myDir_ = new TFileDirectory(aDir);
 
-  //selectionFlavours_ = ps.getUntrackedParameter<std::vector<std::string> >("selectionFlavours"); 
+  myDir_ = &aDir;
 
   mySelections_ = aSelections;
 

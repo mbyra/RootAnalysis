@@ -30,9 +30,18 @@ void CPAnalyzer::initialize(TFileDirectory& aDir,
 }
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
+Analyzer* CPAnalyzer::clone() const{
+
+  CPAnalyzer* clone = new CPAnalyzer(name());
+  clone->setHistos(myHistos_);
+  return clone;
+
+};
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
 void CPAnalyzer::finalize(){ 
 
- myHistos_->finalizeHistograms(0,1.0);
+  myHistos_->finalizeHistograms(0,1.0);
  
 }
 //////////////////////////////////////////////////////////////////////////////
@@ -105,7 +114,6 @@ void CPAnalyzer::fillAngles(const DiTauData* aEvent,
   std::pair<float,float>  angles2 = angleBetweenPlanes(aEvent->piMinus_,TLorentzVector(nMinus,0),
   						       aEvent->piPlus_,TLorentzVector(nPlus,0));
 
-
   float weight = myEvent->recoEvent_.nTracksInRefit_;
   weight = 1.0;
   myHistos_->fill1DHistogram("h1DPhi_nVectors"+sysType,angles2.first,weight);
@@ -152,6 +160,9 @@ bool CPAnalyzer::fillVertices(const DiTauData* aEventGen,
   myHistos_->fill1DHistogram("h1DVxPullY"+sysType,pullY);
   myHistos_->fill1DHistogram("h1DVxPullZ"+sysType,pullZ);
 
+  myHistos_->fill2DHistogram("h2DVxPullVsNTrackTrans"+sysType, aEventReco->nTracksInRefit_, sqrt(pullX*pullX + pullY*pullY));
+  myHistos_->fill2DHistogram("h2DVxPullVsNTrackLong"+sysType, aEventReco->nTracksInRefit_, pullZ);
+  
   return true;
 }
 //////////////////////////////////////////////////////////////////////////////
@@ -162,7 +173,7 @@ bool CPAnalyzer::analyze(const EventProxyBase& iEvent){
   myEvent = myEventProxy.event;
   DiTauData* aEventGen = &(myEvent->genEvent_);
   DiTauData* aEventReco = &(myEvent->recoEvent_);
-
+  
   //Skip 3-prong and unknown decays.
   if( !(isOneProng(aEventGen->decModeMinus_) || isLepton(aEventGen->decModeMinus_) ) ||
       !(isOneProng(aEventGen->decModePlus_)  || isLepton(aEventGen->decModePlus_) ) ) return true;
@@ -184,7 +195,6 @@ bool CPAnalyzer::analyze(const EventProxyBase& iEvent){
 
   bool goodGen = false, goodReco = false;
   for(auto it: decayNamesReco) if(it.find("PiPi0Pi0")!=std::string::npos) goodReco = true;
-  //for(auto it: decayNamesReco) if(it.find("1Prong1ProngXPi0")!=std::string::npos) goodReco = true;
   for(auto it: decayNamesGen) if(it.find("PiPi0Pi0")!=std::string::npos) goodGen = true;
   
   if(goodGen&goodReco){
@@ -200,33 +210,36 @@ bool CPAnalyzer::analyze(const EventProxyBase& iEvent){
 
   cosPhiPlus = aEventGen->nPiPlus_.Unit().Dot(aEventReco->nPiPlusAODvx_.Unit());
   myHistos_->fill1DHistogram("h1DCosPhi_PCA_AOD_"+motherName,cosPhiPlus);
-    
+  myHistos_->fillProfile("hProfPhiVsMag_AOD_"+motherName,aEventReco->nPiPlusAODvx_.Mag(),cosPhiPlus);
+
   cosPhiPlus = aEventGen->nPiPlus_.Unit().Dot(aEventReco->nPiPlusGenvx_.Unit());
   myHistos_->fill1DHistogram("h1DCosPhi_PCA_Gen_"+motherName,cosPhiPlus);
+  myHistos_->fillProfile("hProfPhiVsMag_Gen_"+motherName,aEventReco->nPiPlusGenvx_.Mag(),cosPhiPlus);
 
   cosPhiPlus = aEventGen->nPiPlus_.Unit().Dot(aEventReco->nPiPlusRefitvx_.Unit());
   myHistos_->fill1DHistogram("h1DCosPhi_PCA_Refit_"+motherName,cosPhiPlus);
+  myHistos_->fillProfile("hProfPhiVsMag_Refit_"+motherName,aEventReco->nPiPlusRefitvx_.Mag(),cosPhiPlus); 
  
   std::string smearType = "ideal";
   std::string name;
-  bool selected = false;
-  ///
+
   fillVertices(aEventGen,aEventReco,"_"+motherName+"_AOD");
   fillVertices(aEventGen,aEventReco,"_"+motherName+"_PF");
   fillVertices(aEventGen,aEventReco,"_"+motherName+"_RefitBS");
   fillVertices(aEventGen,aEventReco,"_"+motherName+"_RefitNoBS");
-  ////  
-  selected = analysisSelection(aEventReco);
-  ///
+  
+  bool selected = analysisSelection(aEventGen);
   for(auto decayName:decayNamesReco){
     if(decayName!="PiPi0Pi0") continue; //use only PiPi0Pi0 decays
     smearType = "ideal";
     name = "_"+motherName+"_"+decayName+"_"+smearType;
-    fillAngles(aEventReco,name+"_RECO");
+
+    if(aEventReco->nPiPlusRefitvx_.Mag()>0.005 ||
+       aEventReco->nPiMinusRefitvx_.Mag()>0.005) fillAngles(aEventReco,name+"_RECO");
+     
     fillAngles(aEventReco,name+"_RECOGEN");
     fillAngles(aEventReco,name+"_AOD");    
     if(selected) fillAngles(aEventReco, name+"_selected"+"_RECO");
-    continue;
   }  
   ///
   selected = analysisSelection(aEventGen);  
@@ -235,16 +248,14 @@ bool CPAnalyzer::analyze(const EventProxyBase& iEvent){
     smearType = "ideal";
     name = "_"+motherName+"_"+decayName+"_"+smearType;
     fillAngles(aEventGen,name+"_GEN");
-    if(selected) fillAngles(aEventGen, name+"_selected"+"_GEN");
-    /*
+    if(selected) fillAngles(aEventGen, name+"_selected"+"_GEN");    
     smearType = "smearPV";
     name = "_"+motherName+"_"+decayName+"_"+smearType;
-    fillAngles(aEvent, name+"_GEN");
+    fillAngles(aEventGen, name+"_GEN");
     smearType = "smearPV_PCA";
     name = "_"+motherName+"_"+decayName+"_"+smearType;
-    fillAngles(aEvent, name+"_GEN");
-    if(selected) fillAngles(aEvent, name+"_selected"+"_GEN");
-    */
+    fillAngles(aEventGen, name+"_GEN");
+    if(selected) fillAngles(aEventGen, name+"_selected"+"_GEN");    
   }  
 }
 //////////////////////////////////////////////////////////////////////////////
@@ -388,5 +399,17 @@ bool CPAnalyzer::isLepton(int decMode){
 //////////////////////////////////////////////////////////////////////////////
 
 
+
+
+/*
+
+HTT->Draw("abs(recoEvent_.thePV_.fX-genEvent_.thePV_.fX):recoEvent_.nTracksInRefit_","","col")
+
+...ProfileX...
+
+htemp_pfx->Draw()
+
+
+ */
 
 

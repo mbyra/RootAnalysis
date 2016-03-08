@@ -2,13 +2,16 @@
 #include <fstream>
 #include <iterator>
 #include <string>
-
+#include <omp.h>
 #include "TreeAnalyzer.h"
 #include "SummaryAnalyzer.h"
 #include "ObjectMessenger.h"
 #include "EventProxyBase.h"
 
 #include "boost/functional/hash.hpp"
+
+#include "EventProxyBase.h"
+#include "AnalysisHistograms.h"
 #include "boost/property_tree/ptree.hpp"
 #include "boost/property_tree/ini_parser.hpp"
 #include "boost/tokenizer.hpp"
@@ -60,6 +63,7 @@ TreeAnalyzer::TreeAnalyzer(const std::string & aName,
   myObjMessenger_ = new ObjectMessenger("ObjMessenger");
 
   myProxy_ = aProxy;
+  mySummary_ = 0;
 
 }
 //////////////////////////////////////////////////////////////////////////////
@@ -68,8 +72,8 @@ TreeAnalyzer::~TreeAnalyzer(){
 
   std::cout<<"TreeAnalyzer::~TreeAnalyzer() Begin"<<std::endl;
 
-  delete mySummary_;
-  delete store_;
+  if(mySummary_) delete mySummary_;
+  if(store_) delete store_;
 
   std::cout<<"TreeAnalyzer::~TreeAnalyzer() Done"<<std::endl;
 }
@@ -134,6 +138,8 @@ void TreeAnalyzer::parseCfg(const std::string & cfgFileName){
   
   nEventsToAnalyze_ = pt.get("TreeAnalyzer.eventsToAnalyze",-1);
   nEventsToPrint_ = pt.get("TreeAnalyzer.eventsToPrint",100);
+  nThreads_ = pt.get("TreeAnalyzer.threads",1);
+  omp_set_num_threads(nThreads_);  
   
   
 }
@@ -142,20 +148,38 @@ void TreeAnalyzer::parseCfg(const std::string & cfgFileName){
 void  TreeAnalyzer::init(std::vector<Analyzer*> myAnalyzers){
 
   myProxy_->init(fileNames_);
-
   myAnalyzers_ = myAnalyzers;
-  mySummary_ = new SummaryAnalyzer("Summary");
-  myAnalyzers_.push_back(mySummary_);
 
-  for(unsigned int i=0;i<myAnalyzers_.size();++i){ 
-    myDirectories_.push_back(store_->mkdir(myAnalyzers_[i]->name()));
-    myAnalyzers_[i]->initialize(myDirectories_[myDirectories_.size()-1],
-				myStrSelections_);
+  if(nThreads_==1){
+    mySummary_ = new SummaryAnalyzer("Summary");
+    myAnalyzers_.push_back(mySummary_);
+  }
+    
+  for(unsigned int i=0;i<myAnalyzers_.size();++i){
+    std::string analyzerName = myAnalyzers_[i]->name();
+    std::string desc = "";
+    myDirectories_.push_back(store_->mkdir(analyzerName,desc));
+    myAnalyzers_[i]->initialize(myDirectories_[i], myStrSelections_);
   }
 
- for(unsigned int i=0;i<myAnalyzers_.size();++i){
-   myAnalyzers_[i]->addBranch(mySummary_->getTree());  
-   myAnalyzers_[i]->addCutHistos(mySummary_->getHistoList());  
+  
+ for(unsigned int iThread=0;iThread<omp_get_max_threads();++iThread){
+   myProxiesThread_[iThread] = myProxy_->clone();
+   myProxiesThread_[iThread]->init(fileNames_);
+    for(unsigned int iAnalyzer=0;iAnalyzer<myAnalyzers_.size();++iAnalyzer){
+      if(nThreads_==1 || iThread==0) myAnalyzersThreads_[iThread].push_back(myAnalyzers_[iAnalyzer]);
+      else myAnalyzersThreads_[iThread].push_back(myAnalyzers_[iAnalyzer]->clone());
+    }
+  }
+
+ ///Tree making not used at the moment.
+ ///does not work with multithread.
+ if(nThreads_==1){
+   unsigned int iThread = 0;
+   for(unsigned int i=0;i<myAnalyzers_.size();++i){
+     myAnalyzers_[i]->addBranch(mySummary_->getTree());  
+     myAnalyzers_[i]->addCutHistos(mySummary_->getHistoList());
+   }
  }
 }
 //////////////////////////////////////////////////////////////////////////////
@@ -164,48 +188,39 @@ void  TreeAnalyzer::finalize(){
   for(unsigned int i=0;i<myAnalyzers_.size();++i) myAnalyzers_[i]->finalize();
 }
 //////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
 int TreeAnalyzer::loop(){
 
   std::cout<<"Events total: "<<myProxy_->size()<<std::endl;
-
+  TH1::AddDirectory(kFALSE);
   nEventsAnalyzed_ = 0;
-  nEventsSkipped_ = 0;  
+  nEventsSkipped_ = 0;
   if(nEventsToAnalyze_<0 || nEventsToAnalyze_>myProxy_->size()) nEventsToAnalyze_ = myProxy_->size();
   int eventPreviouslyPrinted=-1;
-  ///////
-   for(myProxy_->toBegin();
-       !myProxy_->atEnd() && (nEventsToAnalyze_<0 || (nEventsAnalyzed_+nEventsSkipped_)<nEventsToAnalyze_); ++(*myProxy_)){
-     
-     if((( nEventsAnalyzed_ < nEventsToPrint_) ||
-	 nEventsAnalyzed_%500000==0) &&  nEventsAnalyzed_ != eventPreviouslyPrinted ) {
-       eventPreviouslyPrinted = nEventsAnalyzed_;
-       std::cout<<"Events analyzed: "<<nEventsAnalyzed_<<"/"<<nEventsToAnalyze_<<"\r"<<std::flush;
-     }
-     analyze(*myProxy_);
-   }
-   
-   std::cout << "\n Events skipped: " << nEventsSkipped_ << std::endl ;
-   return nEventsAnalyzed_;
+
+  myProxiesThread_[0]->toBegin();  
+
+  unsigned int aEvent=0;
+  #pragma omp parallel for schedule(dynamic)
+    for(aEvent=0;aEvent<nEventsToAnalyze_;++aEvent){      
+      if(aEvent< nEventsToPrint_ || aEvent%5000000==0)
+	std::cout<<"Events analyzed: "<<aEvent<<"/"<<nEventsToAnalyze_
+		 <<" ("<<(float)aEvent/nEventsToAnalyze_<<")"
+		 <<" thread: "<<omp_get_thread_num()<<std::endl;
+      analyze(myProxiesThread_[omp_get_thread_num()]->toN(aEvent));
+    }
+
+    return nEventsAnalyzed_;   
 }
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 bool TreeAnalyzer::analyze(const EventProxyBase& iEvent){
-
-  clear();
-    ///////
-    for(unsigned int i=0;i<myAnalyzers_.size();++i){
-      ///If analyzer returns false, skip to the last one, the Summary, unless filtering is disabled for this analyzer.
-      if(!myAnalyzers_[i]->analyze(iEvent,myObjMessenger_) && myAnalyzers_[i]->filter() && myAnalyzers_.size()>1) i = myAnalyzers_.size()-2;
-    }
-    ///Clear all the analyzers, even if it was not called in this event.
-    ///Important for proper TTree filling.
-    for(unsigned int i=0;i<myAnalyzers_.size();++i) myAnalyzers_[i]->clear(); 
-        
-    myObjMessenger_->clear();
-    ++nEventsAnalyzed_;
   
-  return 1;
+  for(unsigned int i=0;i<myAnalyzers_.size();++i){
+    myAnalyzersThreads_[omp_get_thread_num()][i]->analyze(iEvent,myObjMessenger_);
+  }
+
+  return true;
 }
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
