@@ -307,8 +307,24 @@ void HTTHistograms::finalizeHistograms(int nRuns, float weight){
 //  plotStack("StatsNJets30","qcdselSS");
 //  plotStack("CSVBtagLeadingJet","qcdselSS");
   
-  plotStack("MassTrans","Asymm");  
-// plotStack("MassTrans","Asymm");
+
+// dwa te same histogramy: jeden robi W+Jet z Asymm, drugi bez: "AsymmEta, AsymmMT", "qcdselSS")
+
+//  plotStack("MassTrans","AsymmEta");  
+  plotStack("MassTrans","qcdselSS");
+std::cout<<"----------------------------------------------------------------"<<std::endl;
+std::cout<<"----------------------------------------------------------------"<<std::endl;
+std::cout<<"----------------------------------------------------------------"<<std::endl;
+  plotStack("MassTrans","");
+
+std::cout<<"----------------------------------------------------------------"<<std::endl;
+std::cout<<"----------------------------------------------------------------"<<std::endl;
+std::cout<<"----------------------------------------------------------------"<<std::endl;
+  plotStack("MassTrans","AsymmMT");  
+std::cout<<"----------------------------------------------------------------"<<std::endl;
+std::cout<<"----------------------------------------------------------------"<<std::endl;
+std::cout<<"----------------------------------------------------------------"<<std::endl;
+
 
 //  plotStack("MassTrans","wselOS");  
 //  plotStack("MassTrans","wselSS");
@@ -321,9 +337,11 @@ void HTTHistograms::finalizeHistograms(int nRuns, float weight){
 //  plotStack("PtMET","mumuselSS");
 
   ///Baseline selection plots
-  plotStack("MassSV","");
-  plotStack("MassVis","");  
-  plotStack("MassTrans","");
+//  plotStack("MassSV","");
+///  plotStack("MassVis","");  
+///  plotStack("MassVis","AsymmEta");  
+///  plotStack("MassVis","AsymmMT"); 
+
 
 //  plotStack("PtMuon","");
 //  plotStack("EtaMuon","");
@@ -351,7 +369,7 @@ void HTTHistograms::finalizeHistograms(int nRuns, float weight){
 
 //  plotStack("NPV","");
 
-  plotStack("NPV","");
+//  plotStack("NPV","");
 
 }
 /////////////////////////////////////////////////////////
@@ -440,11 +458,12 @@ THStack*  HTTHistograms::plotStack(std::string varName, std::string selName){
 
   std::string hName = "h1D"+varName;
 
-  std::string asymm = "";
+  cout<< " ----- sel name 1---"<<selName<<std::endl;
+  std::string asymm = selName;
   if(selName.find("Asymm")!=std::string::npos){
     selName = "";
-    asymm = "Asymm";
   }
+  cout<< " ----- sel name 2---"<<selName<<std::endl;
 
   TH1F *hHiggs = get1DHistogram((hName+"H"+selName).c_str());
 
@@ -459,16 +478,24 @@ THStack*  HTTHistograms::plotStack(std::string varName, std::string selName){
 
   TH1F *hWJets = get1D_WJet_Histogram((hName+"WJets"+selName).c_str());
 
-  if(asymm=="Asymm"){
-	hWJets -> Reset();
-	hWJets = (TH1F*) WJetAsymm(varName,"","Eta");
-  }
+  selName = asymm;
 
-//EROOR HERE OLD W+JET BACK
+  cout<< " ----- sel name 3---"<<selName<<std::endl;
+  if(selName.find("Asymm")!=std::string::npos){
+	hWJets -> Reset();
+  std::cout<<"-----------zmieniam wartosc w+jeta w plotstack -----"<<std::endl;
+  	if(selName.find("MT")!=std::string::npos){
+  std::cout<<"-----------zmieniam wartosc w+jeta w plotstack na mt -----"<<std::endl;
+		hWJets = (TH1F*) WJetAsymm(varName,"","MT");}
+	if(selName.find("Eta")!=std::string::npos){
+  std::cout<<"-----------zmieniam wartosc w+jeta w plotstack na eta -----"<<std::endl;
+		hWJets = (TH1F*) WJetAsymm(varName,"","Eta");}
+  }
 
   pair<float,float> qcdOStoSS = getQCDOStoSS(selName);
 
   TH1F *hQCD = (TH1F*)getQCDbackground(varName,selName);
+
   ///Protection against null pointers
   ///Null pointers happen when sample was not read, or there were no
   ///events passing particular selection.
@@ -513,7 +540,7 @@ THStack*  HTTHistograms::plotStack(std::string varName, std::string selName){
 	if(selName.find("SS")!=std::string::npos) WselType = "wselSS";
 	pair<float,float> dataToMCScale = getWNormalisation(WselType);
 
-  if(selName.find("Asymm")==std::string::npos){
+  if(asymm.find("Asymm")==std::string::npos){
  	hWJets->Scale(scale);
   	hWJets->Scale(dataToMCScale.first);
   }
@@ -714,16 +741,16 @@ THStack*  HTTHistograms::plotStack(std::string varName, std::string selName){
 
   string plotName;
   if(hName.find_last_of("/")<string::npos) plotName = "fig_png/" + hName.substr(hName.find_last_of("/"))+asymm + ".png";    
-  else plotName = "fig_png/hTree_"+hName+Form("_%s",selName.c_str())+asymm+".png";
+  else plotName = "fig_png/hTree_"+hName+Form("_%s",selName.c_str())+".png";
   c1->Print(plotName.c_str());
 
   if(hName.find_last_of("/")<string::npos) plotName = "fig_C/" + hName.substr(hName.find_last_of("/"))+asymm + ".C";    
-  else plotName = "fig_C/hTree_"+hName+Form("_%s",selName.c_str())+asymm+".C";
+  else plotName = "fig_C/hTree_"+hName+Form("_%s",selName.c_str())+".C";
   c1->Print(plotName.c_str()); 
 
   pad1->SetLogy(1);
   if(hName.find_last_of("/")<string::npos) plotName = "fig_png/" + hName.substr(hName.find_last_of("/"))+asymm + "_LogY.png";    
-  else plotName = "fig_png/hTree_"+hName+Form("_%s",selName.c_str())+asymm+"_LogY.png";
+  else plotName = "fig_png/hTree_"+hName+Form("_%s",selName.c_str())+"_LogY.png";
   c1->Print(plotName.c_str()); 
 
   std::cout<<"-------------------------------------------------------------"<<std::endl;
@@ -762,24 +789,49 @@ std::pair<float,float> HTTHistograms::getQCDOStoSS(std::string selName){
   std::cout<<"Calling method: "<<__func__<<std::endl;
   if(selName.find("SS")!=std::string::npos) return  std::make_pair(1.0,0.0);
 
+  std::cout<<"----------------------------------------"<<std::endl;
+  std::cout<<"..... selName "<<selName<<std::endl;
+
   std::string hName = "h1DIso";
+
+std::size_t nazwa = selName.find("Asymm");
+  if(nazwa==std::string::npos){
+    selName = "";
+  }
+
+  std::cout<<"----------------------------------------"<<std::endl;
+  std::cout<<"..... selName "<<selName<<std::endl;
 
 //ERROR THIS IS THE SAME FOR ASYMMETRY BACKGROUND AND FOR THE OLD ONE
 
   // SS selection
-  TH1F *hWJetsSS = get1D_WJet_Histogram((hName+"WJets"+"qcdselSS").c_str());
-  TH1F *hDYJetsLowMSS = get1DHistogram((hName+"DYJetsLowM"+"qcdselSS").c_str());
-  TH1F *hDYJetsSS = get1D_DY_Histogram((hName+"DYJets"+"qcdselSS").c_str());  
-  TH1F *hTTSS = get1DHistogram((hName+"TTbar"+"qcdselSS").c_str());
-  TH1F *hSoupSS = get1DHistogram((hName+"Data"+"qcdselSS").c_str());
-  TH1F *hSoupSSb = get1DHistogram((hName+"Data"+"qcdselSS").c_str());
+  TH1F *hDYJetsLowMSS = get1DHistogram((hName+"DYJetsLowM"+"qcdselSS"+selName).c_str());
+  TH1F *hDYJetsSS = get1D_DY_Histogram((hName+"DYJets"+"qcdselSS"+selName).c_str());  
+  TH1F *hTTSS = get1DHistogram((hName+"TTbar"+"qcdselSS"+selName).c_str());
+  TH1F *hSoupSS = get1DHistogram((hName+"Data"+"qcdselSS"+selName).c_str());
+  TH1F *hSoupSSb = get1DHistogram((hName+"Data"+"qcdselSS"+selName).c_str());
   // OS selection
-  TH1F *hWJetsOS = get1D_WJet_Histogram((hName+"WJets"+"qcdselOS").c_str());
-  TH1F *hDYJetsLowMOS = get1DHistogram((hName+"DYJetsLowM"+"qcdselOS").c_str());
-  TH1F *hDYJetsOS = get1D_DY_Histogram((hName+"DYJets"+"qcdselOS").c_str());
-  TH1F *hTTOS = get1DHistogram((hName+"TTbar"+"qcdselOS").c_str());
-  TH1F *hSoupOS = get1DHistogram((hName+"Data"+"qcdselOS").c_str());
-  TH1F *hSoupOSb = get1DHistogram((hName+"Data"+"qcdselOS").c_str());
+  TH1F *hDYJetsLowMOS = get1DHistogram((hName+"DYJetsLowM"+"qcdselOS"+selName).c_str());
+  TH1F *hDYJetsOS = get1D_DY_Histogram((hName+"DYJets"+"qcdselOS"+selName).c_str());
+  TH1F *hTTOS = get1DHistogram((hName+"TTbar"+"qcdselOS"+selName).c_str());
+  TH1F *hSoupOS = get1DHistogram((hName+"Data"+"qcdselOS"+selName).c_str());
+  TH1F *hSoupOSb = get1DHistogram((hName+"Data"+"qcdselOS"+selName).c_str());
+
+  // W+Jet
+  TH1F *hWJetsOS = get1D_WJet_Histogram((hName+"WJets"+"qcdselOS"+selName).c_str());
+  TH1F *hWJetsSS = get1D_WJet_Histogram((hName+"WJets"+"qcdselSS"+selName).c_str());
+
+  if(selName.find("Asymm")!=std::string::npos){
+	hWJetsOS -> Reset();
+	hWJetsSS -> Reset();
+  	if(selName.find("MT")!=std::string::npos){
+std::cout<<"--------------jestem w dodawaniu MT w ostoss ----------------------"<<std::endl;
+		hWJetsOS = (TH1F*) WJetAsymm("Iso","qcdselOS","MT");
+		hWJetsSS = (TH1F*) WJetAsymm("Iso","qcdselSS","MT");}
+	if(selName.find("Eta")!=std::string::npos){
+		hWJetsOS = (TH1F*) WJetAsymm("Iso","qcdselOS","Eta");
+		hWJetsSS = (TH1F*) WJetAsymm("Iso","qcdselSS","Eta");}
+  }
 
   float lumi = getLumi();
   ///Normalise MC histograms according to cross sections
@@ -798,12 +850,11 @@ std::pair<float,float> HTTHistograms::getQCDOStoSS(std::string selName){
   sampleName = "WJets";
   weight = getSampleNormalisation(sampleName);
   scale= weight*lumi;
-  hWJetsOS->Scale(scale);
-  hWJetsSS->Scale(scale);
-//  if(selName.find("Asymm")==std::string::npos){
-  	hWJetsOS->Scale(getWNormalisation("wselOS").first);
-  	hWJetsSS->Scale(getWNormalisation("wselSS").first);
-//  }
+  if(selName.find("Asymm")==std::string::npos){
+    std::cout<<".............wlazlem do WJetow "<<std::endl;
+  	hWJetsOS->Scale(getWNormalisation("wselOS").first*scale);
+  	hWJetsSS->Scale(getWNormalisation("wselSS").first*scale);
+  }
   
   sampleName = "TTbar";
   weight = getSampleNormalisation(sampleName);
@@ -836,6 +887,8 @@ std::pair<float,float> HTTHistograms::getQCDOStoSS(std::string selName){
   gStyle->SetOptFit(11);
   hSoupOS->Draw();
   hSoupOS->Fit("line","","",0.2,0.3);
+  line->Draw("same");
+  hName = hName + selName;
   c->Print(TString::Format("fig_png/%s.png",hName.c_str()).Data());
   c->Print(TString::Format("fig_C/%s.C",hName.c_str()).Data());
 
@@ -857,13 +910,20 @@ TH1F* HTTHistograms::getQCDbackground(std::string varName, std::string selName){
  
   std::string asymm="";
   if(selName.find("Asymm")!=std::string::npos){
-	asymm="Asymm";
+	asymm=selName;
+        selName="";
   }
+
+  std::cout<<"----------------------------------------"<<std::endl;
+  std::cout<<"..... selName "<<selName<<"..Asymm!!! ..." <<asymm<<std::endl;
   
   ///Not very clear and elegant. AK
   ///Need this to avoid resursive control region labels like
   ///qcdselSSqcdselOS
   if(selName.find("qcdsel")!=std::string::npos) selName = "";
+
+  std::cout<<"----------------------------------------"<<std::endl;
+  std::cout<<"..... selName "<<selName<<"..Asymm!!! ..." <<asymm<<std::endl;
 
   std::string hName = "h1D" + varName;
   // SS selection
@@ -902,12 +962,19 @@ TH1F* HTTHistograms::getQCDbackground(std::string varName, std::string selName){
   scale = weight*lumi;
   hDYJets->Scale(scale);
 
+
   sampleName = "WJets";
   scale = getSampleNormalisation(sampleName)*lumi;
-  hWJets->Scale(scale);
-//  if(selName.find("Asymm")==std::string::npos){
-  	hWJets->Scale(getWNormalisation("wselSS").first);
-//  }
+  if(asymm.find("Asymm")==std::string::npos){
+  	hWJets->Scale(getWNormalisation("wselSS").first * scale);} 
+  
+  if(asymm.find("Asymm")!=std::string::npos){
+	hWJets -> Reset();
+       std::cout<<"----------------------------------------"<<std::endl;
+       std::cout<<"..... wlazlam tutaj 2 "<<std::endl;
+  	if(asymm.find("MT")!=std::string::npos) hWJets = (TH1F*) WJetAsymm(varName,"qcdselSS","MT");
+	if(asymm.find("Eta")!=std::string::npos) hWJets = (TH1F*) WJetAsymm(varName,"qcdselSS","Eta");
+  }
 
   sampleName = "TTbar";
   weight = getSampleNormalisation(sampleName);
@@ -926,6 +993,11 @@ TH1F* HTTHistograms::getQCDbackground(std::string varName, std::string selName){
   }
   
   hSoup->Scale(qcdScale);
+
+  TCanvas* c = new TCanvas("WEstim","QCD_OStoSS",460,500);
+  std::string nazwa = "QCDBack_"+varName+"_" + selName+"_Asymm-_"+asymm;
+  hSoup->Draw();
+  c->Print(TString::Format("fig_png/%s.png",nazwa.c_str()).Data());
 
   return hSoup;
 }
@@ -1010,7 +1082,7 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::str
 
 // at that moment it works only for OS sample and OS asymmetry: use it only for them!!!
 
-  std::cout<<"--- Drawing THStack for variable: "<<varName
+  std::cout<<"--- Drawing WJetAsymm for variable: "<<varName
 	   <<" selection: "<<selName<<std::endl;
 
   std::string selName2="";
@@ -1116,8 +1188,6 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::str
   hTTbar2->Scale(scale);
 
  if(selName2=="All"){
-  std::cout<<"------------------------------------------"<<std::endl;
-  std::cout<<"--------dodalam TT-----------------"<<std::endl;
   TH1F *hTTbar12 = get1DHistogram((hName+"TTbar"+"qcdselSS"+"Asymm"+subSelName+"Plus").c_str());
   TH1F *hTTbar22 = get1DHistogram((hName+"TTbar"+"qcdselSS"+"Asymm"+subSelName+"Minus").c_str());
   hTTbar12->Scale(scale);
@@ -1135,6 +1205,11 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::str
   hSoup1 -> Add(hTTbar1,-1);
   hSoup1 -> Add(hDYJetsLowM1,-1);
   hSoup1 -> Add(hDYJets1,-1);
+
+  TCanvas* c = new TCanvas("WEstim","QCD_OStoSS",460,500);
+  std::string nazwa = "WEstim_"+varName+"_" + selName +"_"+subSelName;
+  hSoup1->Draw();
+  c->Print(TString::Format("fig_png/%s.png",nazwa.c_str()).Data());
 
 return hSoup1;
 }

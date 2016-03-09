@@ -153,6 +153,7 @@ float HTTAnalyzer::getGenWeight(const EventProxyHTT & myEventProxy){
 //////////////////////////////////////////////////////////////////////////////
 float HTTAnalyzer::getAsymmEtaWeight(const EventProxyHTT & myEventProxy){
 
+// it has to weight all samples to calculate Delta. In plot stack use other than W+Jet sample not weighted by that.
   std::string sampleName = getSampleName(myEventProxy);
 
   std::string hNameOS = "EtaAsymmetryOS";
@@ -543,14 +544,28 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
   ///Histograms for the QCD control region
   if(qcdSelectionSS){
     hNameSuffix = sampleName+"qcdselSS";
-    hNameSuffixAsymmEta = hNameSuffixAsymmEta + "qcdselSS";
-    hNameSuffixAsymmMT = hNameSuffixAsymmMT + "qcdselSS";
+    hNameSuffixAsymmEta = sampleName + "qcdselSS" + "AsymmEta";
+    hNameSuffixAsymmMT = sampleName + "qcdselSS" + "AsymmMT";
+    hNameSuffixAsymmEtaP = sampleName + "qcdselSS" + "AsymmEtaPlus";
+    hNameSuffixAsymmMTP = sampleName + "qcdselSS" + "AsymmMTPlus";
+    hNameSuffixAsymmEtaN = sampleName + "qcdselSS" + "AsymmEtaMinus";
+    hNameSuffixAsymmMTN = sampleName + "qcdselSS" + "AsymmMTMinus";
     ///SS ans OS isolation histograms are filled only for mT<40 to remove possible contamnation
     //from TT in high mT region.
     if(aMuon.mt()<100) {
 	myHistos_->fill1DHistogram("h1DIso"+hNameSuffix,aMuon.iso(),eventWeight);
 	myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmEta,aMuon.iso(),eventWeightAsymmEta);
 	myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmMT,aMuon.iso(),eventWeightAsymmMT);
+	if(aMuon.charge()==1){
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffix+"Plus",aMuon.iso(),eventWeight);
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmEta+"Plus",aMuon.iso(),eventWeightAsymmEta);
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmMT+"Plus",aMuon.iso(),eventWeightAsymmMT);
+		}
+        if(aMuon.charge()==-1){
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffix+"Minus",aMuon.iso(),eventWeight);
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmEta+"Minus",aMuon.iso(),eventWeightAsymmEta);
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmMT+"Minus",aMuon.iso(),eventWeightAsymmMT);
+		}
 	}
     ///Fill SS histos in signal mu isolation region. Those histograms
     ///provide shapes for QCD estimate in signal region and in various control regions.
@@ -559,6 +574,14 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
 	fillControlHistos(eventWeight, hNameSuffix);
         fillControlHistos(eventWeightAsymmEta, hNameSuffixAsymmEta);
         fillControlHistos(eventWeightAsymmMT, hNameSuffixAsymmMT);
+	if(aMuon.charge()==1){
+        	fillControlHistos(eventWeightAsymmEta, hNameSuffixAsymmEtaP);
+        	fillControlHistos(eventWeightAsymmMT, hNameSuffixAsymmMTP);
+		}
+        if(aMuon.charge()==-1){
+        	fillControlHistos(eventWeightAsymmEta, hNameSuffixAsymmEtaN);
+        	fillControlHistos(eventWeightAsymmMT, hNameSuffixAsymmMTN);
+		}
 	}
     if(aMuon.mt()>60){
       myHistos_->fill1DHistogram("h1DMassTrans"+hNameSuffix+"wselSS",aMuon.mt(),eventWeight);    
@@ -578,13 +601,37 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
   ///Using the same SS/OS scaling factor for now.    
   if(qcdSelectionOS){
     hNameSuffix = sampleName+"qcdselOS";
-    hNameSuffixAsymmEta = hNameSuffixAsymmEta +"qcdselOS";
-    hNameSuffixAsymmMT = hNameSuffixAsymmMT +"qcdselOS";
+    hNameSuffixAsymmEta = sampleName + "qcdselOS" + "AsymmEta";
+    hNameSuffixAsymmMT = sampleName + "qcdselOS" + "AsymmMT";
     if(aMuon.mt()<100) {
 	myHistos_->fill1DHistogram("h1DIso"+hNameSuffix,aMuon.iso(),eventWeight);
 	myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmEta,aMuon.iso(),eventWeightAsymmEta);
 	myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmMT,aMuon.iso(),eventWeightAsymmMT);
+	if(aMuon.charge()==1){
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffix+"Plus",aMuon.iso(),eventWeight);
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmEta+"Plus",aMuon.iso(),eventWeightAsymmEta);
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmMT+"Plus",aMuon.iso(),eventWeightAsymmMT);
+		}
+        if(aMuon.charge()==-1){
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffix+"Minus",aMuon.iso(),eventWeight);
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmEta+"Minus",aMuon.iso(),eventWeightAsymmEta);
+		myHistos_->fill1DHistogram("h1DIso"+hNameSuffixAsymmMT+"Minus",aMuon.iso(),eventWeightAsymmMT);
+		}
     }
+    if(aMuon.mt()<100 && aMuon.iso()<0.1) {
+    hNameSuffixAsymmEtaP = sampleName + "qcdselOS" + "AsymmEtaPlus";
+    hNameSuffixAsymmMTP = sampleName + "qcdselOS" + "AsymmMTPlus";
+    hNameSuffixAsymmEtaN = sampleName + "qcdselOS" + "AsymmEtaMinus";
+    hNameSuffixAsymmMTN = sampleName + "qcdselOS" + "AsymmMTMinus";
+	if(aMuon.charge()==1){
+        	fillControlHistos(eventWeightAsymmEta, hNameSuffixAsymmEtaP);
+        	fillControlHistos(eventWeightAsymmMT, hNameSuffixAsymmMTP);
+		}
+        if(aMuon.charge()==-1){
+        	fillControlHistos(eventWeightAsymmEta, hNameSuffixAsymmEtaN);
+        	fillControlHistos(eventWeightAsymmMT, hNameSuffixAsymmMTN);
+		}
+	}
   }
 
   ///Histograms for the WJet control region. 

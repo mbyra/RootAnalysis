@@ -77,7 +77,7 @@ std::string HTTWeightsMaker::getSampleName(const EventProxyHTT & myEventProxy){
   if(myEventProxy.wevent->sample()==11) return "DYJetsLowM";
   if(myEventProxy.wevent->sample()==2){
     std::string fileName = myEventProxy.getTTree()->GetCurrentFile()->GetName();
-    if(fileName.find("WJetsHT100to200")!=std::string::npos) return "WJetsHT100to200";
+    if(fileName.find("WJetsHT250to200")!=std::string::npos) return "WJetsHT250to200";
     if(fileName.find("WJetsHT200to400")!=std::string::npos) return "WJetsHT200to400";
     if(fileName.find("WJetsHT400to600")!=std::string::npos) return "WJetsHT400to600";
     if(fileName.find("WJetsHT600toInf")!=std::string::npos) return "WJetsHT600toInf";
@@ -136,7 +136,7 @@ float HTTWeightsMaker::getGenWeight(const EventProxyHTT & myEventProxy){
   /*
   if(myEventProxy.wevent->sample()==2){
     std::string fileName = myEventProxy.getTTree()->GetCurrentFile()->GetName();
-    if(fileName.find("WJetsHT100to200")!=std::string::npos) return 1345/(3*20508.9+1345+359.7+48.9+18.77);
+    if(fileName.find("WJetsHT250to200")!=std::string::npos) return 1345/(3*20508.9+1345+359.7+48.9+18.77);
     if(fileName.find("WJetsHT200to400")!=std::string::npos) return 359.7/(3*20508.9+1345+359.7+48.9+18.77);
     if(fileName.find("WJetsHT400to600")!=std::string::npos) return 48.9/(3*20508.9+1345+359.7+48.9+18.77);
     if(fileName.find("WJetsHT600toInf")!=std::string::npos) return 18.7/(3*20508.9+1345+359.7+48.9+18.77);
@@ -291,7 +291,7 @@ bool HTTWeightsMaker::analyze(const EventProxyBase& iEvent){
 
   ///Note: parts of the signal/control region selection are applied in the following code.
   ///FIXME AK: this should be made in a more clear way.
-  bool baselineSelection = aPair.diq()==-1 && aMuon.mt()<100 && aMuon.iso()<0.1;
+  bool baselineSelection = aPair.diq()==-1 && aMuon.mt()<250 && aMuon.iso()<0.1;
   bool wSelection = aMuon.mt()>60 && aMuon.iso()<0.1;
   bool qcdSelectionSS = aPair.diq()==1;
   bool qcdSelectionOS = aPair.diq()==-1;
@@ -314,12 +314,12 @@ bool HTTWeightsMaker::analyze(const EventProxyBase& iEvent){
   std::string hNameSuffixQN= "QCDDiffMinus"; // in this context it is a difference
 
   //Fill empty histos and "Plus" "Minus" control histos
-    if(aMuon.charge()==1 && aMuon.mt()<100 && aMuon.iso()<0.1)  {
+    if(aMuon.charge()==1 && aMuon.mt()<250 && aMuon.iso()<0.1)  {
       fillControlHistos(eventWeight, hNameSuffixQP);
       hNameSuffixP=sampleName+"DiffPlus";
       fillControlHistos(eventWeight, hNameSuffixP);}
 //      myHistos_->fill1DHistogram("h1DMassTransDiff"+hNameSuffixP,aMuon.mt(),eventWeight);}
-    if(aMuon.charge()==-1 && aMuon.mt()<100 && aMuon.iso()<0.1) {
+    if(aMuon.charge()==-1 && aMuon.mt()<250 && aMuon.iso()<0.1) {
       hNameSuffixN=sampleName+"DiffMinus";
       fillControlHistos(eventWeight, hNameSuffixQN);
       fillControlHistos(eventWeight, hNameSuffixN);}
@@ -332,15 +332,15 @@ bool HTTWeightsMaker::analyze(const EventProxyBase& iEvent){
     hNameSuffixN = sampleName+"qcdselSSMinus";
     ///SS ans OS isolation histograms are filled only for mT<40 to remove possible contamnation
     //from TT in high mT region.
-    if(aMuon.mt()<100) myHistos_->fill1DHistogram("h1DIso"+hNameSuffix,aMuon.iso(),eventWeight);
-    if(aMuon.mt()<100 && aMuon.charge()==1) myHistos_->fill1DHistogram("h1DIso"+hNameSuffix+"Plus",aMuon.iso(),eventWeight);
-    if(aMuon.mt()<100 && aMuon.charge()==-1) myHistos_->fill1DHistogram("h1DIso"+hNameSuffix+"Minus",aMuon.iso(),eventWeight);
+    if(aMuon.mt()<250) myHistos_->fill1DHistogram("h1DIso"+hNameSuffix,aMuon.iso(),eventWeight);
+    if(aMuon.mt()<250 && aMuon.charge()==1) myHistos_->fill1DHistogram("h1DIso"+hNameSuffix+"Plus",aMuon.iso(),eventWeight);
+    if(aMuon.mt()<250 && aMuon.charge()==-1) myHistos_->fill1DHistogram("h1DIso"+hNameSuffix+"Minus",aMuon.iso(),eventWeight);
     ///Fill SS histos in signal mu isolation region. Those histograms
     ///provide shapes for QCD estimate in signal region and in various control regions.
     ///If control region has OS we still use SS QCD estimate.
-    if(aMuon.mt()<100 && aMuon.iso()<0.1) fillControlHistos(eventWeight, hNameSuffix);
-    if(aMuon.mt()<100 && aMuon.iso()<0.1 && aMuon.charge()==1) fillControlHistos(eventWeight, hNameSuffixP);
-    if(aMuon.mt()<100 && aMuon.iso()<0.1 && aMuon.charge()==-1) fillControlHistos(eventWeight, hNameSuffixN);
+    if(aMuon.mt()<250 && aMuon.iso()<0.1) fillControlHistos(eventWeight, hNameSuffix);
+    if(aMuon.mt()<250 && aMuon.iso()<0.1 && aMuon.charge()==1) fillControlHistos(eventWeight, hNameSuffixP);
+    if(aMuon.mt()<250 && aMuon.iso()<0.1 && aMuon.charge()==-1) fillControlHistos(eventWeight, hNameSuffixN);
     if(aMuon.mt()>60){
       myHistos_->fill1DHistogram("h1DMassTrans"+hNameSuffix+"wselSS",aMuon.mt(),eventWeight);    
       myHistos_->fill1DHistogram("h1DMassTrans"+hNameSuffix+"wselOS",aMuon.mt(),eventWeight);   
@@ -357,11 +357,11 @@ bool HTTWeightsMaker::analyze(const EventProxyBase& iEvent){
     hNameSuffix = sampleName+"qcdselOS";
     hNameSuffixP = sampleName+"qcdselOSPlus";
     hNameSuffixN = sampleName+"qcdselOSMinus";    
-    if(aMuon.mt()<100) myHistos_->fill1DHistogram("h1DIso"+hNameSuffix,aMuon.iso(),eventWeight);
-    if(aMuon.mt()<100 && aMuon.charge()==1) {
+    if(aMuon.mt()<250) myHistos_->fill1DHistogram("h1DIso"+hNameSuffix,aMuon.iso(),eventWeight);
+    if(aMuon.mt()<250 && aMuon.charge()==1) {
 	myHistos_->fill1DHistogram("h1DIso"+hNameSuffix+"Plus",aMuon.iso(),eventWeight);
 	 fillControlHistos(eventWeight, hNameSuffixP);}
-    if(aMuon.mt()<100 && aMuon.charge()==-1){
+    if(aMuon.mt()<250 && aMuon.charge()==-1){
 	myHistos_->fill1DHistogram("h1DIso"+hNameSuffix+"Minus",aMuon.iso(),eventWeight);
 	 fillControlHistos(eventWeight, hNameSuffixN); }
   }
