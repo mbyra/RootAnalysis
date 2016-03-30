@@ -288,6 +288,11 @@ void HTTWeightHistograms::finalizeHistograms(int nRuns, float weight){
   TFile f("AsymmWeights.root","recreate");
 
   WJetEstimation("EtaMuon","","Plus");
+  WJetEstimation("EtaMuon","All","Plus");
+  WJetEstimation("EtaMuon","qcdselSS","Plus");
+  WJetEstimation("MassTrans","","Plus");
+  WJetEstimation("MassTrans","All","Plus");
+  WJetEstimation("MassTrans","qcdselSS","Plus");
 
   std::pair<std::pair<TH1*,TH1*>, TH1*> WEstimation = PlotAsymm("EtaMuon","","Plus");
   TH1F * hAsymmEtaMC = (TH1F*) WEstimation.second;

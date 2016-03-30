@@ -310,21 +310,22 @@ void HTTHistograms::finalizeHistograms(int nRuns, float weight){
 
 // dwa te same histogramy: jeden robi W+Jet z Asymm, drugi bez: "AsymmEta, AsymmMT", "qcdselSS")
 
-//  plotStack("MassTrans","AsymmEta");  
-  plotStack("MassTrans","qcdselSS");
-std::cout<<"----------------------------------------------------------------"<<std::endl;
-std::cout<<"----------------------------------------------------------------"<<std::endl;
-std::cout<<"----------------------------------------------------------------"<<std::endl;
+  plotStack("MassTrans","AsymmMT"); 
+  plotStack("MassTrans","AsymmEta");  
   plotStack("MassTrans","");
+  plotStack("MassTrans","qcdselSS");
 
-std::cout<<"----------------------------------------------------------------"<<std::endl;
-std::cout<<"----------------------------------------------------------------"<<std::endl;
-std::cout<<"----------------------------------------------------------------"<<std::endl;
-  plotStack("MassTrans","AsymmMT");  
-std::cout<<"----------------------------------------------------------------"<<std::endl;
-std::cout<<"----------------------------------------------------------------"<<std::endl;
-std::cout<<"----------------------------------------------------------------"<<std::endl;
+  plotStack("EtaMuon","AsymmMT"); 
+  plotStack("EtaMuon","AsymmEta");  
+  plotStack("EtaMuon","");
+  plotStack("EtaMuon","qcdselSS");
 
+  WJetAsymm("MassTrans","","MT");
+  WJetAsymm("MassTrans","","Eta");
+  WJetAsymm("MassTrans","All","MT");
+  WJetAsymm("MassTrans","All","Eta");
+  WJetAsymm("MassTrans","qcdselSS","MT");
+  WJetAsymm("MassTrans","qcdselSS","Eta");
 
 //  plotStack("MassTrans","wselOS");  
 //  plotStack("MassTrans","wselSS");
@@ -338,9 +339,9 @@ std::cout<<"----------------------------------------------------------------"<<s
 
   ///Baseline selection plots
 //  plotStack("MassSV","");
-///  plotStack("MassVis","");  
-///  plotStack("MassVis","AsymmEta");  
-///  plotStack("MassVis","AsymmMT"); 
+  plotStack("MassVis","");  
+  plotStack("MassVis","AsymmEta");  
+  plotStack("MassVis","AsymmMT"); 
 
 
 //  plotStack("PtMuon","");
@@ -458,12 +459,10 @@ THStack*  HTTHistograms::plotStack(std::string varName, std::string selName){
 
   std::string hName = "h1D"+varName;
 
-  cout<< " ----- sel name 1---"<<selName<<std::endl;
   std::string asymm = selName;
   if(selName.find("Asymm")!=std::string::npos){
     selName = "";
   }
-  cout<< " ----- sel name 2---"<<selName<<std::endl;
 
   TH1F *hHiggs = get1DHistogram((hName+"H"+selName).c_str());
 
@@ -480,15 +479,11 @@ THStack*  HTTHistograms::plotStack(std::string varName, std::string selName){
 
   selName = asymm;
 
-  cout<< " ----- sel name 3---"<<selName<<std::endl;
   if(selName.find("Asymm")!=std::string::npos){
 	hWJets -> Reset();
-  std::cout<<"-----------zmieniam wartosc w+jeta w plotstack -----"<<std::endl;
   	if(selName.find("MT")!=std::string::npos){
-  std::cout<<"-----------zmieniam wartosc w+jeta w plotstack na mt -----"<<std::endl;
 		hWJets = (TH1F*) WJetAsymm(varName,"","MT");}
 	if(selName.find("Eta")!=std::string::npos){
-  std::cout<<"-----------zmieniam wartosc w+jeta w plotstack na eta -----"<<std::endl;
 		hWJets = (TH1F*) WJetAsymm(varName,"","Eta");}
   }
 
@@ -810,12 +805,21 @@ std::size_t nazwa = selName.find("Asymm");
   TH1F *hTTSS = get1DHistogram((hName+"TTbar"+"qcdselSS"+selName).c_str());
   TH1F *hSoupSS = get1DHistogram((hName+"Data"+"qcdselSS"+selName).c_str());
   TH1F *hSoupSSb = get1DHistogram((hName+"Data"+"qcdselSS"+selName).c_str());
+
+  if(!hDYJetsLowMSS){
+    hDYJetsLowMSS = (TH1F*)hSoupSS->Clone((hName+"DYJetsLowM"+"qcdselSS"+selName).c_str()); hDYJetsLowMSS->Reset();
+  } 
+
   // OS selection
   TH1F *hDYJetsLowMOS = get1DHistogram((hName+"DYJetsLowM"+"qcdselOS"+selName).c_str());
   TH1F *hDYJetsOS = get1D_DY_Histogram((hName+"DYJets"+"qcdselOS"+selName).c_str());
   TH1F *hTTOS = get1DHistogram((hName+"TTbar"+"qcdselOS"+selName).c_str());
   TH1F *hSoupOS = get1DHistogram((hName+"Data"+"qcdselOS"+selName).c_str());
   TH1F *hSoupOSb = get1DHistogram((hName+"Data"+"qcdselOS"+selName).c_str());
+
+  if(!hDYJetsLowMOS){
+    hDYJetsLowMOS = (TH1F*)hSoupOS->Clone((hName+"DYJetsLowM"+"qcdselOS"+selName).c_str()); hDYJetsLowMOS->Reset();
+  }
 
   // W+Jet
   TH1F *hWJetsOS = get1D_WJet_Histogram((hName+"WJets"+"qcdselOS"+selName).c_str());
@@ -825,7 +829,6 @@ std::size_t nazwa = selName.find("Asymm");
 	hWJetsOS -> Reset();
 	hWJetsSS -> Reset();
   	if(selName.find("MT")!=std::string::npos){
-std::cout<<"--------------jestem w dodawaniu MT w ostoss ----------------------"<<std::endl;
 		hWJetsOS = (TH1F*) WJetAsymm("Iso","qcdselOS","MT");
 		hWJetsSS = (TH1F*) WJetAsymm("Iso","qcdselSS","MT");}
 	if(selName.find("Eta")!=std::string::npos){
@@ -941,7 +944,7 @@ TH1F* HTTHistograms::getQCDbackground(std::string varName, std::string selName){
     hWJets = (TH1F*)hSoup->Clone((hName+"WJets"+"qcdselSS").c_str()); hWJets->Reset();
   }
   if(!hDYJetsLowM){
-    hDYJetsLowM = (TH1F*)hSoup->Clone((hName+"hDYJetsLowM"+"qcdselSS").c_str()); hDYJetsLowM->Reset();
+    hDYJetsLowM = (TH1F*)hSoup->Clone((hName+"hDYJetsLowM"+"qcdselSS"+selName).c_str()); hDYJetsLowM->Reset();
   }
   if(!hDYJets){
     hDYJets = (TH1F*)hSoup->Clone((hName+"hDYJets"+"qcdselSS").c_str()); hDYJets->Reset();
@@ -1101,10 +1104,10 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::str
   TH1F *hDYJetsLowM1 = get1DHistogram((hName+"DYJetsLowM"+selName+"Asymm"+subSelName+"Plus").c_str());
 
   if(!hDYJets1){
-    hDYJets1 = (TH1F*)hSoup1->Clone((hName+"hDYJets1"+selName).c_str()); hDYJets1->Reset();
+    hDYJets1 = (TH1F*)hSoup1->Clone((hName+"hDYJets1"+selName+"Asymm"+subSelName+"Plus").c_str()); hDYJets1->Reset();
   }
   if(!hDYJetsLowM1){
-    hDYJetsLowM1 = (TH1F*)hSoup1->Clone((hName+"hDYJetsLowM1"+selName).c_str()); hDYJetsLowM1->Reset();
+    hDYJetsLowM1 = (TH1F*)hSoup1->Clone((hName+"hDYJetsLowM1"+selName+"Asymm"+subSelName+"Plus").c_str()); hDYJetsLowM1->Reset();
   }
 
   TH1F *hTTbar2 = get1DHistogram((hName+"TTbar"+selName+"Asymm"+subSelName+"Minus").c_str()); 
@@ -1113,10 +1116,10 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::str
   TH1F *hDYJetsLowM2 = get1DHistogram((hName+"DYJetsLowM"+selName+"Asymm"+subSelName+"Minus").c_str());
 
   if(!hDYJets2){
-    hDYJets2 = (TH1F*)hSoup1->Clone((hName+"hDYJets2"+selName).c_str()); hDYJets2->Reset();
+    hDYJets2 = (TH1F*)hSoup1->Clone((hName+"hDYJets2"+selName+"Asymm"+subSelName+"Minus").c_str()); hDYJets2->Reset();
   }
   if(!hDYJetsLowM2){
-    hDYJetsLowM2 = (TH1F*)hSoup1->Clone((hName+"hDYJetsLowM2"+selName).c_str()); hDYJetsLowM2->Reset();
+    hDYJetsLowM2 = (TH1F*)hSoup1->Clone((hName+"hDYJetsLowM2"+selName+"Asymm"+subSelName+"Minus").c_str()); hDYJetsLowM2->Reset();
   }
 
 // sum OS and SS histograms for "All" asymmetry
@@ -1206,9 +1209,35 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::str
   hSoup1 -> Add(hDYJetsLowM1,-1);
   hSoup1 -> Add(hDYJets1,-1);
 
-  TCanvas* c = new TCanvas("WEstim","QCD_OStoSS",460,500);
-  std::string nazwa = "WEstim_"+varName+"_" + selName +"_"+subSelName;
-  hSoup1->Draw();
+// reference W+Jet background
+
+	TH1F *hWJets = get1D_WJet_Histogram((hName+"WJets"+selName).c_str()); 
+	TH1F *hWJets2 = get1D_WJet_Histogram((hName+"WJets"+"qcdselSS").c_str()); 
+	sampleName = "WJets";
+	weight = getSampleNormalisation(sampleName);
+	scale = weight * lumi;
+
+	std::string WselType = "wselOS";
+	if(selName.find("SS")!=std::string::npos) WselType = "wselSS";
+	pair<float,float> dataToMCScale = getWNormalisation(WselType);
+ 	hWJets->Scale(scale);
+  	hWJets->Scale(dataToMCScale.first);
+
+	  if(selName2=="All"){
+	    WselType = "wselSS";
+	    dataToMCScale = getWNormalisation(WselType);
+	    float scale = weight*lumi*dataToMCScale.first;
+	    hWJets2-> Scale(scale);
+	    hWJets -> Add(hWJets2,1);
+	  }
+
+
+  TCanvas* c = new TCanvas("WEstim","Asymm",460,500);
+  std::string nazwa = "WEstim_"+varName+"_" + selName +"_"+selName2+"_"+subSelName;
+  hSoup1->Draw("hist");
+  hWJets->SetLineColor(2);
+  hWJets->Draw("same");
+//  hSoup1->Print("all");
   c->Print(TString::Format("fig_png/%s.png",nazwa.c_str()).Data());
 
 return hSoup1;

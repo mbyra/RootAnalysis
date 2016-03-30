@@ -277,8 +277,8 @@ bool HTTWeightsMaker::analyze(const EventProxyBase& iEvent){
 
   ///This stands for core selection, that is common to all regions.
   bool tauKinematics = aTau.pt()>30 && fabs(aTau.eta())<2.3;
-//  bool tauID = 1; // for 16.02. data
-  bool tauID = aTau.tauID(byMediumCombinedIsolationDeltaBetaCorr3Hits);
+  bool tauID = 1; // for 16.02. data
+//  bool tauID = aTau.tauID(byMediumCombinedIsolationDeltaBetaCorr3Hits);
   bool muonKinematics = aMuon.pt()>19 && fabs(aMuon.eta())<2.1;
   bool trigger = aPair.trigger(HLT_IsoMu17_eta2p1);
   if(sampleName=="Data") trigger = aPair.trigger(HLT_IsoMu18);

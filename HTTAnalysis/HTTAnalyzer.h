@@ -169,6 +169,8 @@ class HTTAnalyzer: public Analyzer{
   Wjet aJet;
   int nJets30;
 
+  int liczbaZer;
+
   ///Variables stored in a TTree
   Double_t muonPt;
  

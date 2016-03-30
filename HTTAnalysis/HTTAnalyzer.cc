@@ -41,6 +41,7 @@ void HTTAnalyzer::initialize(TFileDirectory& aDir,
 			     pat::strbitset *aSelections){
 
   mySelections_ = aSelections;
+  liczbaZer=0;
   
   myHistos_ = new HTTHistograms(&aDir, selectionFlavours_);
 }
@@ -49,6 +50,9 @@ void HTTAnalyzer::initialize(TFileDirectory& aDir,
 void HTTAnalyzer::finalize(){ 
 
   myHistos_->finalizeHistograms(0,1.0);
+  
+  std::cout<<"---------------------------------------"<<std::endl;
+  std::cout<<"--- Liczba Zer "<<liczbaZer<<std::endl;
  
 }
 //////////////////////////////////////////////////////////////////////////////
@@ -195,13 +199,22 @@ float HTTAnalyzer::getAsymmMTWeight(const EventProxyHTT & myEventProxy){
   if(aPair.diq()==1){
     iBin = hMTAsymmSS->FindBin(aMuon.mt());
     weight = hMTAsymmSS->GetBinContent(iBin);
-    weight = 1/weight;
+    if(weight!=0){
+    weight = 1/weight;}
+    else {
+	liczbaZer++;
+	}
   }
 
   if(aPair.diq()==-1){
     iBin = hMTAsymmOS->FindBin(aMuon.mt());
     weight = hMTAsymmOS->GetBinContent(iBin);
-    weight = 1/weight;
+    
+    if(weight!=0){
+    weight = 1/weight;}
+    else{
+    liczbaZer++;
+	}
   }
 
   return weight;
@@ -489,7 +502,8 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
 
   ///This stands for core selection, that is common to all regions.
   bool tauKinematics = aTau.pt()>30 && fabs(aTau.eta())<2.3;
-  bool tauID = aTau.tauID(byMediumCombinedIsolationDeltaBetaCorr3Hits);
+//  bool tauID = aTau.tauID(byMediumCombinedIsolationDeltaBetaCorr3Hits);
+  bool tauID = 1;
   bool muonKinematics = aMuon.pt()>19 && fabs(aMuon.eta())<2.1;
   bool trigger = aPair.trigger(HLT_IsoMu17_eta2p1);
   if(sampleName=="Data") trigger = aPair.trigger(HLT_IsoMu18);
