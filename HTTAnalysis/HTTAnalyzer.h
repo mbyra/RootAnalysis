@@ -91,10 +91,10 @@ class HTTAnalyzer: public Analyzer{
   float getGenWeight(const EventProxyHTT & myEventProxy);
 
   //Return Asymmetry weight for W+Jet Background based on Assym(Eta)
-  float getAsymmEtaWeight(const EventProxyHTT & myEventProxy);
+  std::pair<float,float> getAsymmEtaWeight(const EventProxyHTT & myEventProxy);
 
   //Return Asymmetry weight for W+Jet Background based on Assym(mT)
-  float getAsymmMTWeight(const EventProxyHTT & myEventProxy);
+  std::pair<float,float> getAsymmMTWeight(const EventProxyHTT & myEventProxy);
 
   ///Fill histograms for all control plots.
   ///Histogram names will end with hNameSuffix

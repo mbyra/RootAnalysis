@@ -77,7 +77,7 @@ std::string HTTWeightsMaker::getSampleName(const EventProxyHTT & myEventProxy){
   if(myEventProxy.wevent->sample()==11) return "DYJetsLowM";
   if(myEventProxy.wevent->sample()==2){
     std::string fileName = myEventProxy.getTTree()->GetCurrentFile()->GetName();
-    if(fileName.find("WJetsHT250to200")!=std::string::npos) return "WJetsHT250to200";
+    if(fileName.find("WJetsHT100to200")!=std::string::npos) return "WJetsHT100to200";
     if(fileName.find("WJetsHT200to400")!=std::string::npos) return "WJetsHT200to400";
     if(fileName.find("WJetsHT400to600")!=std::string::npos) return "WJetsHT400to600";
     if(fileName.find("WJetsHT600toInf")!=std::string::npos) return "WJetsHT600toInf";

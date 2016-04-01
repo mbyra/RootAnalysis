@@ -269,7 +269,7 @@ void HTTWeightHistograms::defineHistograms(){
    std::cout<<"defineHistograms Adding histogram: "<<file_<<" "<<file_->fullPath()<<std::endl;
 
    add1DHistogram("h1DStatsTemplate","",21,-0.5,20.5,file_);
-   add1DHistogram("h1DMassTemplate",";SVFit mass [GeV/c^{2}]; Events",50,0,200,file_);
+   add1DHistogram("h1DMassTemplate",";SVFit mass [GeV/c^{2}]; Events",25,0,200,file_); //temporary change: 25 instead of 50
    add1DHistogram("h1DEtaTemplate",";#eta; Events",24,-2.4,2.4,file_);
    float bins[31] = {0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26, 0.28, 0.3, 0.32, 0.34, 0.36, 0.38, 0.4, 0.42, 0.44, 0.46, 0.48, 0.5};
    add1DHistogram("h1DIsoTemplate",";Isolation; Events",30,bins,file_);
@@ -313,6 +313,16 @@ void HTTWeightHistograms::finalizeHistograms(int nRuns, float weight){
   TH1F * hAsymmMassTransMCSS = (TH1F*) WEstimation.second;
   hAsymmMassTransMCSS -> SetName("MassTransAsymmetrySS");
   hAsymmMassTransMCSS -> Write(); 
+
+  WEstimation = PlotAsymm("EtaMuon","All","Plus");
+  TH1F * hAsymmEtaMCAll = (TH1F*) WEstimation.second;
+  hAsymmEtaMCAll -> SetName("EtaAsymmetryAll");
+  hAsymmEtaMCAll -> Write(); 
+
+  WEstimation = PlotAsymm("MassTrans","All","Plus");
+  TH1F * hAsymmMassTransMCAll = (TH1F*) WEstimation.second;
+  hAsymmMassTransMCAll -> SetName("MassTransAsymmetryAll");
+  hAsymmMassTransMCAll -> Write(); 
 
   f.Close();
 
@@ -397,7 +407,6 @@ double HTTWeightHistograms::MakeDiff(TH1F *hTTbar, TH1F* hDYJets, TH1F* hSoup, T
     scale = weight*lumi;
     hWJets12-> Scale(scale);
     hWJets11 -> Add(hWJets12,1);
-    scale = weight*lumi;
     hWJets22-> Scale(scale);
     hWJets21 -> Add(hWJets22,1);
   }
@@ -513,7 +522,7 @@ std::pair<std::pair<TH1*,TH1*>,TH1*>  HTTWeightHistograms::PlotAsymm(std::string
 
   MakeDiff(hTTbar, hDYJets, hSoup, hWJets, hQCD, hTTbarS, hDYJetsS, hSoupS, hWJetsS, hQCDS, varName, selName,"Plus");
 
-  int rebinFactor = 2;  
+  int rebinFactor = 1;  
   hSoup->Rebin(rebinFactor);
   hWJets->Rebin(rebinFactor);
   hTTbar->Rebin(rebinFactor);
@@ -546,9 +555,9 @@ std::pair<std::pair<TH1*,TH1*>,TH1*>  HTTWeightHistograms::PlotAsymm(std::string
 
 // here Asymmetry from Data
 
-  hSoupS->Add(hDYJetsS,1);
-  hSoupS->Add(hTTbarS,1);
-//  hSoupS->Add(hQCDS,1);
+  hSoupS->Add(hDYJetsS,-1);
+  hSoupS->Add(hTTbarS,-1);
+//  hSoupS->Add(hQCDS,-1);
 
   hSoup->Divide(hSoupS);
 
@@ -622,7 +631,7 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
   TH1F *hWJets = get1DHistogram((hName+"WJets"+selName).c_str());
   TH1F *hWJets2 = get1DHistogram((hName+"WJets"+"qcdselSS").c_str());
 
-  int rebinFactor = 2;  
+  int rebinFactor = 1;  
   hWJets->Rebin(rebinFactor); 
   hWJets2->Rebin(rebinFactor);
 
@@ -674,11 +683,16 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
   hWJets->SetLineWidth(1.2);
   hWJets->Draw("same");
 
+
+
  TLegend *leg = new TLegend(0.6,0.6,0.99,0.9,NULL,"brNDC");
   setupLegend(leg);
   leg->SetTextSize(0.03);
   leg->AddEntry(hWJets,"Old","l");
   leg->AddEntry(hWJetsAsymm,"Data Asymm","l");
+
+  float inthWJetsAsymm = hWJetsAsymm->Integral(0,hWJetsAsymm->GetNbinsX()+1);
+  leg->SetHeader(Form("#int N = %.2f",inthWJetsAsymm));
 //  leg->AddEntry((TObject*)0, Form("#int WAsymm = %.3f ",inthWJetsAsymm), "");
 //  leg->AddEntry((TObject*)0, Form("#int WOld = %.3f ",inthWJets), "");
   leg->Draw();
@@ -701,7 +715,7 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
   leg->Clear();
   leg->SetTextSize(0.03);
   leg->AddEntry(hWJets,"Old","l");
-  leg->AddEntry(hWJetsAsymmMC,"Data Asymm","l");
+  leg->AddEntry(hWJetsAsymmMC,"Data AsymmMC","l");
 //  leg->AddEntry((TObject*)0, Form("#int WAsymm = %.3f ",inthWJetsAsymm), "");
 //  leg->AddEntry((TObject*)0, Form("#int WOld = %.3f ",inthWJets), "");
   leg->Draw();

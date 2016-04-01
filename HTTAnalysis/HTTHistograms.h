@@ -17,6 +17,9 @@ class THStack;
 class HTTHistograms: public AnalysisHistograms {
    public:
 
+  ///1.04.tymczsowe - ROOT file with PU histogram
+  TFile *asymmFile_;
+
   HTTHistograms(std::string fileName="Histos.root", int opt=0);
 
   HTTHistograms(TFileDirectory *myDir);

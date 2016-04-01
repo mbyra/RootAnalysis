@@ -273,7 +273,7 @@ void HTTHistograms::defineHistograms(){
 
    add1DHistogram("h1DStatsTemplate","",21,-0.5,20.5,file_);
    add1DHistogram("h1DNPVTemplate",";Number of PV; Events",61,-0.5,60.5,file_);
-   add1DHistogram("h1DMassTemplate",";SVFit mass [GeV/c^{2}]; Events",50,0,200,file_);
+   add1DHistogram("h1DMassTemplate",";SVFit mass [GeV/c^{2}]; Events",25,0,200,file_); //uwaga uwaha! zmienione binowanie 
    add1DHistogram("h1DPtTemplate",";p_{T}; Events",20,0,100,file_);
    add1DHistogram("h1DEtaTemplate",";#eta; Events",24,-2.4,2.4,file_);
    add1DHistogram("h1DPhiTemplate",";#phi; Events",8,-M_PI,M_PI,file_);
@@ -327,6 +327,13 @@ void HTTHistograms::finalizeHistograms(int nRuns, float weight){
   WJetAsymm("MassTrans","qcdselSS","MT");
   WJetAsymm("MassTrans","qcdselSS","Eta");
 
+  WJetAsymm("EtaMuon","","MT");
+  WJetAsymm("EtaMuon","","Eta");
+  WJetAsymm("EtaMuon","All","MT");
+  WJetAsymm("EtaMuon","All","Eta");
+  WJetAsymm("EtaMuon","qcdselSS","MT");
+  WJetAsymm("EtaMuon","qcdselSS","Eta");
+
 //  plotStack("MassTrans","wselOS");  
 //  plotStack("MassTrans","wselSS");
 
@@ -342,7 +349,6 @@ void HTTHistograms::finalizeHistograms(int nRuns, float weight){
   plotStack("MassVis","");  
   plotStack("MassVis","AsymmEta");  
   plotStack("MassVis","AsymmMT"); 
-
 
 //  plotStack("PtMuon","");
 //  plotStack("EtaMuon","");
@@ -1209,6 +1215,12 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::str
   hSoup1 -> Add(hDYJetsLowM1,-1);
   hSoup1 -> Add(hDYJets1,-1);
 
+//1.04  std::string filePath = "AsymmWeights.root";
+//1.04  asymmFile_ = new TFile(filePath.c_str());
+//1.04  std::string hNameAll= "MassTransAsymmetryAll";
+//1.04  TH1F *hMTAsymmAll = (TH1F*)asymmFile_->Get(hNameAll.c_str());
+//1.04  hSoup1 -> Divide(hMTAsymmAll);
+
 // reference W+Jet background
 
 	TH1F *hWJets = get1D_WJet_Histogram((hName+"WJets"+selName).c_str()); 
@@ -1235,9 +1247,20 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::str
   TCanvas* c = new TCanvas("WEstim","Asymm",460,500);
   std::string nazwa = "WEstim_"+varName+"_" + selName +"_"+selName2+"_"+subSelName;
   hSoup1->Draw("hist");
+  hSoup1->SetStats();
   hWJets->SetLineColor(2);
   hWJets->Draw("same");
 //  hSoup1->Print("all");
+
+  TLegend *leg = new TLegend(0.6,0.6,0.99,0.9,NULL,"brNDC");
+  setupLegend(leg);
+  leg->SetTextSize(0.03);
+  leg->AddEntry(hWJets,"Old","l");
+  leg->AddEntry(hSoup1,"Data Asymm","l");
+  float inthSoup1 = hSoup1->Integral(0,hSoup1->GetNbinsX()+1);
+  leg->SetHeader(Form("#int N = %.2f",inthSoup1));
+  leg->Draw();
+
   c->Print(TString::Format("fig_png/%s.png",nazwa.c_str()).Data());
 
 return hSoup1;
