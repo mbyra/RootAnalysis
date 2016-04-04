@@ -507,6 +507,18 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
 
   setAnalysisObjects(myEventProxy);
 
+// for asymmetry weight W+Jet: ETA
+  std::string hNameSuffixAsymmEta = sampleName + "AsymmEta";
+// choose .first to have OS and SS weights; .second to have All weights
+  float asymmWeightEta = getAsymmEtaWeight(myEventProxy).second; // this weight is used only to fill some histograms
+  float eventWeightAsymmEta = eventWeight*asymmWeightEta;
+
+// for asymmetry weight W+Jet: MT
+  std::string hNameSuffixAsymmMT = sampleName + "AsymmMT";
+// choose .first to have OS and SS weights; .second to have All weights
+  float asymmWeightMT = getAsymmMTWeight(myEventProxy).second; // this weight is used only to fill some histograms
+  float eventWeightAsymmMT = eventWeight*asymmWeightMT;
+
   std::pair<bool, bool> goodDecayModes = checkTauDecayMode(myEventProxy);
   bool goodGenDecayMode = goodDecayModes.first;
   bool goodRecoDecayMode = goodDecayModes.second;
@@ -524,12 +536,12 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
   bool muonKinematics = aMuon.pt()>19 && fabs(aMuon.eta())<2.1;
   bool trigger = aPair.trigger(HLT_IsoMu17_eta2p1);
   if(sampleName=="Data") trigger = aPair.trigger(HLT_IsoMu18);
-  bool extraRequirements = aTau.decayMode()!=5 && aTau.decayMode()!=6 && nJets30==0;
+  bool extraRequirements = nJets30==0;
 
   if(!myEventProxy.wpair->size()) return true;
   if(!tauKinematics || !muonKinematics || !trigger) return true;
   //if(!tauKinematics || !tauID || !muonKinematics || !trigger) return true;
-  //if(!extraRequirements) return true;
+  if(!extraRequirements) return true;
 
   ///Note: parts of the signal/control region selection are applied in the following code.
   ///FIXME AK: this should be made in a more clear way.
@@ -539,18 +551,6 @@ bool HTTAnalyzer::analyze(const EventProxyBase& iEvent){
   bool qcdSelectionOS = aPair.diq()==-1;
   bool ttSelection = aJet.csvtag()>0.9 && nJets30>1;
   bool mumuSelection =  aMuon.mt()<250 && aMuon.iso()<0.1 && aPair.m_vis()>85 && aPair.m_vis()<95;
-
-// for asymmetry weight W+Jet: ETA
-  std::string hNameSuffixAsymmEta = sampleName + "AsymmEta";
-// choose .first to have OS and SS weights; .second to have All weights
-  float asymmWeightEta = getAsymmEtaWeight(myEventProxy).second; // this weight is used only to fill some histograms
-  float eventWeightAsymmEta = eventWeight*asymmWeightEta;
-
-// for asymmetry weight W+Jet: MT
-  std::string hNameSuffixAsymmMT = sampleName + "AsymmMT";
-// choose .first to have OS and SS weights; .second to have All weights
-  float asymmWeightMT = getAsymmMTWeight(myEventProxy).second; // this weight is used only to fill some histograms
-  float eventWeightAsymmMT = eventWeight*asymmWeightMT;
 
   ///Fill variables stored in TTree
   muonPt = aMuon.pt();

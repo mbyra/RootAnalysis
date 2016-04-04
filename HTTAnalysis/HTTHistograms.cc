@@ -334,6 +334,13 @@ void HTTHistograms::finalizeHistograms(int nRuns, float weight){
   WJetAsymm("EtaMuon","qcdselSS","MT");
   WJetAsymm("EtaMuon","qcdselSS","Eta");
 
+  WJetAsymm("MassVis","","MT");
+  WJetAsymm("MassVis","","Eta");
+  WJetAsymm("MassVis","All","MT");
+  WJetAsymm("MassVis","All","Eta");
+  WJetAsymm("MassVis","qcdselSS","MT");
+  WJetAsymm("MassVis","qcdselSS","Eta");
+
 //  plotStack("MassTrans","wselOS");  
 //  plotStack("MassTrans","wselSS");
 
@@ -1221,6 +1228,27 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::str
 //1.04  TH1F *hMTAsymmAll = (TH1F*)asymmFile_->Get(hNameAll.c_str());
 //1.04  hSoup1 -> Divide(hMTAsymmAll);
 
+// MC asymmetry
+
+  TH1F *hWJetsP1 = get1DHistogram((hName+"WJets"+selName+"Asymm"+subSelName+"Plus").c_str());
+  TH1F *hWJetsN1 = get1DHistogram((hName+"WJets"+selName+"Asymm"+subSelName+"Minus").c_str());
+   sampleName = "WJets";
+   weight = getSampleNormalisation(sampleName);
+   scale = weight*lumi;
+   hWJetsP1->Scale(scale);
+   hWJetsN1->Scale(scale);
+
+	 if(selName2=="All"){
+	  TH1F *hWJetsP2 = get1DHistogram((hName+"WJets"+"qcdselSS"+"Asymm"+subSelName+"Plus").c_str());
+	  TH1F *hWJetsN2 = get1DHistogram((hName+"WJets"+"qcdselSS"+"Asymm"+subSelName+"Minus").c_str());
+	  hWJetsP2->Scale(scale);
+	  hWJetsN2->Scale(scale);
+	  hWJetsN1->Add(hWJetsN2,1);
+	  hWJetsP1->Add(hWJetsP2,1);
+	  }
+
+  hWJetsP1->Add(hWJetsN1,-1);
+
 // reference W+Jet background
 
 	TH1F *hWJets = get1D_WJet_Histogram((hName+"WJets"+selName).c_str()); 
@@ -1262,6 +1290,25 @@ TH1* HTTHistograms::WJetAsymm(std::string varName, std::string selName, std::str
   leg->Draw();
 
   c->Print(TString::Format("fig_png/%s.png",nazwa.c_str()).Data());
+
+  TCanvas* c2 = new TCanvas("WEstimMC","Asymm",460,500);
+  nazwa = "WEstimMC_"+varName+"_" + selName +"_"+selName2+"_"+subSelName;
+  hWJetsP1->Draw("hist");
+  hWJetsP1->SetStats();
+  hWJets->SetLineColor(2);
+  hWJets->Draw("same");
+//  hSoup1->Print("all");
+
+  TLegend *leg2 = new TLegend(0.6,0.6,0.99,0.9,NULL,"brNDC");
+  setupLegend(leg2);
+  leg2->SetTextSize(0.03);
+  leg2->AddEntry(hWJets,"Old","l");
+  leg2->AddEntry(hSoup1,"Data Asymm","l");
+  float inthWJetsP1 = hWJetsP1->Integral(0,hWJetsP1->GetNbinsX()+1);
+  leg2->SetHeader(Form("#int N = %.2f",inthWJetsP1));
+  leg2->Draw();
+
+  c2->Print(TString::Format("fig_png/%s.png",nazwa.c_str()).Data());
 
 return hSoup1;
 }

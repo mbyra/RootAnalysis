@@ -282,12 +282,12 @@ bool HTTWeightsMaker::analyze(const EventProxyBase& iEvent){
   bool muonKinematics = aMuon.pt()>19 && fabs(aMuon.eta())<2.1;
   bool trigger = aPair.trigger(HLT_IsoMu17_eta2p1);
   if(sampleName=="Data") trigger = aPair.trigger(HLT_IsoMu18);
-  bool extraRequirements = aTau.decayMode()!=5 && aTau.decayMode()!=6 && nJets30==0;
+  bool extraRequirements = nJets30==0;
 
   if(!myEventProxy.wpair->size()) return true;
   if(!tauKinematics || !muonKinematics || !trigger) return true;
   //if(!tauKinematics || !tauID || !muonKinematics || !trigger) return true;
-  //if(!extraRequirements) return true;
+  if(!extraRequirements) return true;
 
   ///Note: parts of the signal/control region selection are applied in the following code.
   ///FIXME AK: this should be made in a more clear way.
