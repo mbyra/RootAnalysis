@@ -59,7 +59,7 @@ class HTTWeightHistograms: public AnalysisHistograms {
 
   std::pair<std::pair<TH1*,TH1*>,TH1*> PlotAsymm(std::string varName, std::string selName, std::string SubSelName);
 
-  double * WJetEstimation(std::string varName, std::string selName, std::string SubSelName);
+  std::pair<double,double> WJetEstimation(std::string varName, std::string selName, std::string SubSelName);
 
 };
 

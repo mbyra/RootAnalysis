@@ -270,7 +270,7 @@ void HTTWeightHistograms::defineHistograms(){
 
    add1DHistogram("h1DStatsTemplate","",21,-0.5,20.5,file_);
    add1DHistogram("h1DMassTemplate",";SVFit mass [GeV/c^{2}]; Events",25,0,200,file_); //temporary change: 25 instead of 50
-   add1DHistogram("h1DEtaTemplate",";#eta; Events",24,-2.4,2.4,file_);
+   add1DHistogram("h1DEtaTemplate",";#eta; Events",23,-2.3,2.3,file_);
    float bins[31] = {0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26, 0.28, 0.3, 0.32, 0.34, 0.36, 0.38, 0.4, 0.42, 0.44, 0.46, 0.48, 0.5};
    add1DHistogram("h1DIsoTemplate",";Isolation; Events",30,bins,file_);
    
@@ -286,13 +286,6 @@ void HTTWeightHistograms::finalizeHistograms(int nRuns, float weight){
 //  PlotAsymm("EtaMuon","","Plus"); 
 
   TFile f("AsymmWeights.root","recreate");
-
-  WJetEstimation("EtaMuon","","Plus");
-  WJetEstimation("EtaMuon","All","Plus");
-  WJetEstimation("EtaMuon","qcdselSS","Plus");
-  WJetEstimation("MassTrans","","Plus");
-  WJetEstimation("MassTrans","All","Plus");
-  WJetEstimation("MassTrans","qcdselSS","Plus");
 
   std::pair<std::pair<TH1*,TH1*>, TH1*> WEstimation = PlotAsymm("EtaMuon","","Plus");
   TH1F * hAsymmEtaMC = (TH1F*) WEstimation.second;
@@ -323,6 +316,20 @@ void HTTWeightHistograms::finalizeHistograms(int nRuns, float weight){
   TH1F * hAsymmMassTransMCAll = (TH1F*) WEstimation.second;
   hAsymmMassTransMCAll -> SetName("MassTransAsymmetryAll");
   hAsymmMassTransMCAll -> Write(); 
+
+  WJetEstimation("EtaMuon","","Plus");
+  WJetEstimation("EtaMuon","All","Plus");
+  WJetEstimation("EtaMuon","qcdselSS","Plus");
+  WJetEstimation("MassVis","All","Plus");
+
+  std::pair<float,float> ErrorOS = WJetEstimation("MassTrans","","Plus");
+  cout<<"OS: StatError40 "<<ErrorOS.first<<" StatError40MC "<<ErrorOS.second<<std::endl;
+
+  std::pair<float,float> ErrorAll = WJetEstimation("MassTrans","All","Plus");
+  cout<<"All: StatError40 "<<ErrorAll.first<<" StatError40MC "<<ErrorAll.second<<std::endl;
+
+  std::pair<float,float> ErrorSS = WJetEstimation("MassTrans","qcdselSS","Plus");
+  cout<<"SS: StatError40 "<<ErrorSS.first<<" StatError40MC "<<ErrorSS.second<<std::endl;
 
   f.Close();
 
@@ -477,6 +484,54 @@ double HTTWeightHistograms::MakeDiff(TH1F *hTTbar, TH1F* hDYJets, TH1F* hSoup, T
   hTTbar2->Add(hTTbar22,1);
   }
 
+// plot stack diff for Plus / Minus
+
+  hSoup1->SetLineColor(1);
+  hSoup1->SetFillColor(1);
+  hSoup1->SetMarkerStyle(20);
+
+  hWJets11->SetFillColor(kRed+2);
+  hTTbar1->SetFillColor(kBlue+2);
+  hDYJets1->SetFillColor(kOrange-3);
+  hDYJetsLowM1->SetFillColor(kOrange-7);
+
+  THStack *hs1 = new THStack("hs1","Stacked histograms Plus");          
+  hs1->Add(hTTbar1,"hist");
+  hs1->Add(hWJets11,"hist");
+  hs1->Add(hDYJetsLowM1,"hist");
+  hs1->Add(hDYJets1,"hist");
+
+  TCanvas* c = new TCanvas("Diff","Plus",460,500);
+  std::string nazwa = "Stack_Plus_"+varName+"_" + selName +"_"+selName2;
+  hs1->Draw("hist");
+  hSoup1->Draw("same");
+
+  c->Print(TString::Format("fig_pngA/%s.png",nazwa.c_str()).Data());
+
+// plot stack diff for Minus
+
+  hSoup2->SetLineColor(1);
+  hSoup2->SetFillColor(1);
+  hSoup2->SetMarkerStyle(20);
+
+  hWJets21->SetFillColor(kRed+2);
+  hTTbar2->SetFillColor(kBlue+2);
+  hDYJets2->SetFillColor(kOrange-3);
+  hDYJetsLowM2->SetFillColor(kOrange-7);
+
+  THStack *hs2 = new THStack("hs1","Stacked histograms Plus");          
+  hs2->Add(hTTbar2,"hist");
+  hs2->Add(hWJets21,"hist");
+  hs2->Add(hDYJetsLowM2,"hist");
+  hs2->Add(hDYJets2,"hist");
+
+  TCanvas* c2 = new TCanvas("Diff","Plus",460,500);
+  nazwa = "Stack_Minus_"+varName+"_" + selName +"_"+selName2;
+  hs2->Draw("hist");
+  hSoup2->Draw("same");
+
+  c2->Print(TString::Format("fig_pngA/%s.png",nazwa.c_str()).Data());
+
 // make difference hist (Minus)
   hTTbar -> Add(hTTbar1,1);
   hTTbar -> Add(hTTbar2,-1);
@@ -542,11 +597,17 @@ std::pair<std::pair<TH1*,TH1*>,TH1*>  HTTWeightHistograms::PlotAsymm(std::string
 
 //  TH1F* W  = (TH1F*)hSoup->Clone(("Asymm"+varName+selName).c_str);
 
-  hName = hName + selName + "WEstimation";
+  hName = hName + "_"+selName + "_WEstimation";
 
   TH1F *W = (TH1F*)hSoup->Clone(hName.c_str());
   W  -> Reset();
+  W  -> Sumw2();
   W  -> Add(hSoup,1);
+
+cout<<"hSoup Delta Dane Np-Nn: --------------------------------"<<endl;
+W -> Print("all");
+cout<<"hWJets Delta MC Np-Nn: --------------------------------"<<endl;
+hWJets -> Print("all");
 
   std::string hNameMC = hName +"MC" ;
   TH1F* WMC  = (TH1F*)hSoup->Clone(hNameMC.c_str());
@@ -559,10 +620,18 @@ std::pair<std::pair<TH1*,TH1*>,TH1*>  HTTWeightHistograms::PlotAsymm(std::string
   hSoupS->Add(hTTbarS,-1);
 //  hSoupS->Add(hQCDS,-1);
 
+cout<<"hWJets MONTE CARLO: NMC--------------------------------"<<endl;
+hWJetsS -> Print("all");
+cout<<"hSoup DATA: ND--------------------------------"<<endl;
+hSoupS -> Print("all");
+
   hSoup->Divide(hSoupS);
 
 // here Asymmetry from MC
   hWJets -> Divide(hWJetsS);
+
+cout<<"Asymetia MC: AMC--------------------------------"<<endl;
+hWJets -> Print("all");
 
 // WJet Bac. Estimation from the Data
   W -> Divide(hWJets);
@@ -574,6 +643,8 @@ std::pair<std::pair<TH1*,TH1*>,TH1*>  HTTWeightHistograms::PlotAsymm(std::string
   TCanvas *c2 = getDefaultCanvas();
   c2->SetName("c2");
   c2->SetTitle("W asymmetry");
+
+  hName = "Asymm_"+ varName + "_"+selName;
 
   if(varName.find("SVfit")!=std::string::npos){
     hSoup->GetXaxis()->SetTitle("SVFit mass [GeV/c^{2}]");
@@ -594,12 +665,12 @@ std::pair<std::pair<TH1*,TH1*>,TH1*>  HTTWeightHistograms::PlotAsymm(std::string
   hSoup->SetStats(kFALSE);
 
 // drawing asymmetries
-  hSoup->Draw("hist");
+//  hSoup->Draw("hist");
   hWJets->SetLineColor(1);
   hWJets->SetLineWidth(1.2);
 //  hWJets->SetMinimum(0.0);
 //  hWJets->SetMaximum(0.5);
-  hWJets->Draw("same");
+  hWJets->Draw("hist");
   
   c2->Print(TString::Format("fig_pngA/%s.png",hName.c_str()).Data());
 
@@ -612,7 +683,7 @@ std::pair<std::pair<TH1*,TH1*>,TH1*>  HTTWeightHistograms::PlotAsymm(std::string
 }
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
-double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string selName, std::string SubSelName){
+std::pair<double,double> HTTWeightHistograms::WJetEstimation(std::string varName, std::string selName, std::string SubSelName){
 
   std::string hName = "h1D"+varName;
 
@@ -629,7 +700,9 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
 	}
 
   TH1F *hWJets = get1DHistogram((hName+"WJets"+selName).c_str());
+  hWJets->Sumw2();
   TH1F *hWJets2 = get1DHistogram((hName+"WJets"+"qcdselSS").c_str());
+  hWJets2->Sumw2();
 
   int rebinFactor = 1;  
   hWJets->Rebin(rebinFactor); 
@@ -641,9 +714,19 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
   std::string WselType = "wselOS";
   if(selName.find("SS")!=std::string::npos) WselType = "wselSS";
   pair<float,float> dataToMCScale = getWNormalisation(WselType,"");
+
+  TH1F* Werror  = (TH1F*)hWJets->Clone("Werror");
+  Werror -> Reset();
+  
+	for(int i=0; i< Werror->GetNbinsX()+2; i++){
+	Werror -> SetBinContent(i,dataToMCScale.first);
+	Werror -> SetBinError(i,dataToMCScale.second);
+	}
+
   float weight = getSampleNormalisation("WJets");
-  float scale = weight*lumi*dataToMCScale.first;
+  float scale = weight*lumi;
   hWJets->Scale(scale);
+  hWJets-> Multiply(Werror);
 
   if((SubSelName=="Plus" || SubSelName=="Minus") && selName2=="All"){
     WselType = "wselSS";
@@ -662,7 +745,7 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
     hWJetsAsymm->GetXaxis()->SetTitle("SVFit mass [GeV/c^{2}]");
     hWJetsAsymm->SetTitle("WJet SVFit mass [GeV/c^{2}]");}
 
-  if(varName.find("Mt")!=std::string::npos){
+  if(varName.find("MassTrans")!=std::string::npos){
     hWJetsAsymm->GetXaxis()->SetTitle("Mt [GeV/c^{2}]");
     hWJetsAsymm->SetTitle("WJet Mt [GeV/c^{2}]");}
 
@@ -677,13 +760,23 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
   hWJetsAsymm -> SetStats(kFALSE);
 
   hWJetsAsymm -> Draw("hist");
+
+// estimation of statistical error
+
+  double  StatError40;
+  double  StatError40MC;
+  if(varName.find("MassTrans")!=std::string::npos){
+	//int iBin = hWJetsAsymm->FindBin(40);
+	double intWJet = hWJets -> IntegralAndError(0,5,StatError40,"");
+	double intWJetAsymm = hWJetsAsymm -> IntegralAndError(0,5,StatError40MC,"");
+	cout<<"5 binów: intWJet "<<intWJet<<"pm"<<intWJet<<" intWJetAsymm "<<intWJetAsymm<<"pm"<<intWJetAsymm<<std::endl;
+  }
+
 //  hWJetsAsymm->SetMinimum(-2000);
 //  hWJetsAsymm->SetMaximum(8000);
   hWJets -> SetLineColor(1);
   hWJets->SetLineWidth(1.2);
   hWJets->Draw("same");
-
-
 
  TLegend *leg = new TLegend(0.6,0.6,0.99,0.9,NULL,"brNDC");
   setupLegend(leg);
@@ -706,8 +799,8 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
   hWJetsAsymmMC -> SetStats(kFALSE);
 
   hWJetsAsymmMC -> Draw("hist");
-  hWJetsAsymmMC->SetMinimum(-2000);
-  hWJetsAsymmMC->SetMaximum(8000);
+//  hWJetsAsymmMC->SetMinimum(-2000);
+//  hWJetsAsymmMC->SetMaximum(8000);
   hWJets -> SetLineColor(1);
   hWJets->SetLineWidth(1.2);
   hWJets->Draw("same");
@@ -723,7 +816,7 @@ double * HTTWeightHistograms::WJetEstimation(std::string varName, std::string se
   hName="WJetBackMC"+varName+selName+selName2;
   c1->Print(TString::Format("fig_pngA/%s.png",hName.c_str()).Data());
 
-return 0;
+  return std::make_pair(StatError40, StatError40MC);
 }
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
@@ -779,6 +872,11 @@ std::pair<float,float> HTTWeightHistograms::getWNormalisation(std::string selNam
   float inthWJets=hWJets->Integral(0,hWJets->GetNbinsX()+1);
   float intdata=datamtlo->Integral(0,datamtlo->GetNbinsX()+1);
 
+
+  double errorW, errorData;
+  hWJets->IntegralAndError(0,hWJets->GetNbinsX()+1,errorW,"");
+  datamtlo->IntegralAndError(0,datamtlo->GetNbinsX()+1,errorData,"");
+
   // Calculate weight
   weight=intdata/inthWJets;
 //---------test
@@ -803,7 +901,7 @@ std::pair<float,float> HTTWeightHistograms::getWNormalisation(std::string selNam
   dweight=((inthSoup+inthDYJets+inthDYJetsLowM+inthTT+inthOther)/inthWJets/inthWJets+intdata*intdata/(inthWJets*inthWJets*inthWJets));
   dweight=sqrt(dweight);
   cout<<"Selecion name: "<<selName<<std::endl;
-  cout<<"DATA: "<<inthSoup<<" DATA - MC(!WJets): "<<intdata<<" MC WJets "<<inthWJets
+  cout<<"DATA: "<<inthSoup<<" DATA - MC(!WJets): "<<intdata<<" error "<<errorData<<" MC WJets "<<inthWJets<<" error "<<errorW
       <<" DYJets: "<<inthDYJets<<" DYJetsLowM: "<<inthDYJetsLowM
       <<" TTbar: "<<inthTT<<" Other: "<<inthOther<<endl;
   cout<<"WJets scale:"<<weight<<" dweight "<<dweight<<endl;
