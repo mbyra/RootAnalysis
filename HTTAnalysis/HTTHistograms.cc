@@ -399,6 +399,8 @@ void HTTHistograms::finalizeHistograms(int nRuns, float weight){
 
   AnalysisHistograms::finalizeHistograms();
 
+  return;
+
   ////Code below tests W+n jets normalisation
   ///Samples split into jet multiplicity are compared to
   ///inclusive sample.
