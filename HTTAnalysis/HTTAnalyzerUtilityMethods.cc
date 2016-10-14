@@ -216,6 +216,10 @@ bool HTTAnalyzer::isLepton(int decMode){
 //////////////////////////////////////////////////////////////////////////////
 float HTTAnalyzer::getLeptonCorrection(float eta, float pt, hadronicTauDecayModes tauDecayMode){
 
+  ///TEST
+  return 1.0;
+  //////
+  
   if(sampleName.find("Data")!=std::string::npos) return 1.0;
   
   if(tauDecayMode == tauDecayMuon){
