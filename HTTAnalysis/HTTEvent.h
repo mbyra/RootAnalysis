@@ -56,18 +56,18 @@ class HTTEvent{
   };
 
   HTTEvent(){ clear();}
-    
+
   ~HTTEvent(){}
 
   ///Data member setters.
   void setRun(unsigned int x){runId = x;}
-  
+
   void setEvent(unsigned long int x){eventId = x;}
-  
+
   void setNPU(float x){nPU = x;}
-  
+
   void setNPV(unsigned int x){nPV = x;}
-  
+
   void setMCatNLOWeight(float x){aMCatNLOweight = x;}
 
   void setMCWeight(float x){mcWeight = x;}
@@ -79,11 +79,11 @@ class HTTEvent{
   void setLHEnOutPartons(int x){lheNOutPartons = x;}
 
   void setSampleType(sampleTypeEnum x){sampleType = x;}
-  
+
   void setDecayModeMinus(int x){decayModeMinus = x;}
-  
+
   void setDecayModePlus(int x){decayModePlus = x;}
-  
+
   void setDecayModeBoson(int x){decayModeBoson = x;}
 
   void setGenPV(const TVector3 & aPV) {genPV = aPV;}
@@ -108,31 +108,31 @@ class HTTEvent{
   unsigned int getRunId() const {return runId;}
 
   unsigned long int getEventId() const {return eventId;}
-    
+
   float getNPU() const {return nPU;}
-  
+
   unsigned int getNPV() const {return nPV;}
-  
+
   float getMCatNLOWeight() const {return aMCatNLOweight;}
 
-  float setPtReWeight() const {return ptReWeight;}
+  float getPtReWeight() const {return ptReWeight;}
 
   float getMCWeight() const {return mcWeight;}
 
   float getLHE_Ht() const {return lheHt;}
 
   int getLHEnOutPartons() const {return lheNOutPartons;}
-  
+
   sampleTypeEnum getSampleType() const {return sampleType;}
-  
+
   int getDecayModeMinus() const {return decayModeMinus;}
-  
+
   int getDecayModePlus() const {return decayModePlus;}
-  
+
   int getDecayModeBoson() const {return decayModeBoson;}
 
   TVector2 getMET() const {return met;}
-  
+
   const TVector3 & getGenPV() const {return genPV;}
 
   const TVector3 & getAODPV() const {return AODPV;}
@@ -156,7 +156,7 @@ class HTTEvent{
 
   ///Weight used to modify the pt shape.
   float ptReWeight;
-  
+
   ///Ht value from LHE record.
   float lheHt;
 
@@ -177,12 +177,12 @@ class HTTEvent{
 
   ///Boson (H, Z, W) decay mode
   int decayModeBoson;
-    
+
   ///Tau decay modes
   int decayModeMinus, decayModePlus;
 
-  ///Primary Vertices recontructed with different methods  
-  //Generated PV position 
+  ///Primary Vertices recontructed with different methods
+  //Generated PV position
   TVector3 genPV;
 
   //PV stored in miniAOD
@@ -199,7 +199,7 @@ class HTTEvent{
 
   ///Bit word coding event selection result
   TBits selectionWord;
-  
+
   //MET vector
   TVector2 met;
 
@@ -208,10 +208,16 @@ class HTTEvent{
 namespace sysEffects{
 
 enum sysEffectsEnum{NOMINAL, NOMINAL_SVFIT,
-		    TESUp, TESDown, 
+		    TESUp, TESDown,
+        JESUp, JESDown,
 		    M2TUp, M2TDown,
 		    E2TUp, E2TDown,
-		    DUMMY}; 
+		    J2TUp, J2TDown,
+		    ZPtUp, ZPtDown,
+		    TTUp, TTDown,
+        QCDSFUp, QCDSFDown,
+        WSFUp, WSFDown,
+		    DUMMY};
 }
 ///////////////////////////////////////////////////
 class HTTParticle{
@@ -219,7 +225,7 @@ class HTTParticle{
   public:
 
   HTTParticle(){ clear();}
-  
+
   ~HTTParticle(){}
 
   void clear();
@@ -228,13 +234,13 @@ class HTTParticle{
   void setP4(const TLorentzVector &aP4) { p4 = aP4;}
 
   void setChargedP4(const TLorentzVector &aP4) { chargedP4 = aP4;}
-  
+
   void setNeutralP4(const TLorentzVector &aP4) { neutralP4 = aP4;}
 
   void setPCA(const TVector3 &aV3) {pca = aV3;}
 
   void setPCARefitPV(const TVector3 &aV3) {pcaRefitPV = aV3;}
-  
+
   void setPCAGenPV(const TVector3 &aV3) {pcaGenPV = aV3;}
 
   void setProperties(const std::vector<Double_t> & aProperties) { properties = aProperties;}
@@ -273,7 +279,7 @@ class HTTParticle{
 
   ///Nominal (as recontructed) four-momentum
   TLorentzVector p4;
- 
+
   ///Charged and neutral components four-momentum
   TLorentzVector chargedP4, neutralP4;
 
@@ -294,7 +300,7 @@ class HTTPair{
  public:
 
   HTTPair(){ clear();}
-  
+
   ~HTTPair(){}
 
   void clear();
@@ -315,7 +321,7 @@ class HTTPair{
   void setLeg2(const HTTParticle &aParticle){leg2 = aParticle;}
 
   void setMETMatrix(float m00, float m01, float m10, float m11) {metMatrix.push_back(m00); metMatrix.push_back(m01); metMatrix.push_back(m10); metMatrix.push_back(m11);}
-  
+
   ///Data member getters.
   TLorentzVector getP4(sysEffects::sysEffectsEnum type = sysEffects::NOMINAL) const {return p4Vector[(unsigned int)type];}
 
@@ -323,9 +329,9 @@ class HTTPair{
 
   TVector2 getSVMET(sysEffects::sysEffectsEnum type = sysEffects::NOMINAL) const {return svMetVector[(unsigned int)type];}
 
-  float getMTLeg1() const {return mtLeg1;}
+  float getMTLeg1(sysEffects::sysEffectsEnum type = sysEffects::NOMINAL) const {return getSystScaleMT(leg1, type);}
 
-  float getMTLeg2() const {return mtLeg2;}
+  float getMTLeg2(sysEffects::sysEffectsEnum type = sysEffects::NOMINAL) const {return getSystScaleMT(leg2, type);}
 
   HTTParticle getLeg1() const {return leg1;}
 
@@ -335,22 +341,26 @@ class HTTPair{
 
   HTTParticle getTau() const {return abs(leg1.getPDGid())==15 ? leg1 : leg2; }
 
-  float getMTMuon() const {return abs(leg1.getPDGid())==13 ? getMTLeg1() : getMTLeg2(); }
+  float getMTMuon(sysEffects::sysEffectsEnum type = sysEffects::NOMINAL) const {return abs(leg1.getPDGid())==13 ? getMTLeg1(type) : getMTLeg2(type); }
 
   std::vector<float> getMETMatrix() const {return metMatrix;}
 
  private:
 
-  ///Return MET modified according to given systematic effect.                                                                                    
+  ///Return MET modified according to given systematic effect.
   ///The MET is corrected for accorging leptons corrections.
-  ///The recoil correctino is not updated.                                                                                                
+  ///The recoil correctino is not updated.
   TVector2 getSystScaleMET(sysEffects::sysEffectsEnum type=sysEffects::NOMINAL) const;
+
+  ///Return transverse mass caluculated according to the scale shifts.
+  float getSystScaleMT(const HTTParticle &aPerticle,
+		       sysEffects::sysEffectsEnum type=sysEffects::NOMINAL) const;
 
   ///Nominal met as calculated from PF.
   ///Includes recoil corrections.
   TVector2 met;
 
-  ///Vectors holding p4 and MET for 
+  ///Vectors holding p4 and MET for
   ///for various scale variances.
   std::vector<TLorentzVector> p4Vector;
   std::vector<TVector2> svMetVector;
@@ -367,4 +377,3 @@ class HTTPair{
 };
 
 #endif
-

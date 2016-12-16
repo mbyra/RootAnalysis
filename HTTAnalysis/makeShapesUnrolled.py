@@ -31,13 +31,14 @@ categoryNames = [
                  "muTau_0jet_low", "muTau_0jet_high",
                  "muTau_1jet_low", "muTau_1jet_high",
                  "muTau_vbf_low",  "muTau_vbf_high",
+
                  "mt_0jet", 
                  "mt_boosted", "mt_vbf",
                  "mt_CP_Phi", "mt_CP_Rho",
                  "mt_wjets_0jet_cr", 
                  "mt_wjets_boosted_cr", "mt_wjets_vbf_cr",
-                 "mt_antiiso_0jet_cr", 
-                 "mt_antiiso_boosted_cr", "mt_antiiso_vbf_cr"   
+                 "mt_antiiso_0jet_cr",
+                 "mt_antiiso_boosted_cr", "mt_antiiso_vbf_cr"
                  ]
 
 histogramsMap = {
@@ -66,7 +67,7 @@ histogramsMap = {
     "WH130_OS":"WH130",
     "EWK2Jets_OS":"EWKZ"
     }
-    
+
 #according to https://twiki.cern.ch/twiki/bin/view/CMS/SMTauTau2016#Systematic_uncertainties
 nuisanceParams = {
     "CMS_shape_t_13TeV":(("mt_","tt_","et_","em_"),("","")),
@@ -80,45 +81,47 @@ nuisanceParams = {
     "QCDSFUncert_13TeV":(("mt_",""),("0jet_","vbf_","boosted_")),
     "WSFUncert_13TeV":(("mt_",""),("0jet_","vbf_","boosted_")),
     "CMS_scale_gg_13TeV":(("",""),("","")),
-    "CMS_htt_zmumuShape_13TeV":(("",""),("vbf_","boosted_","VBF_")),
+    "CMS_htt_zmumuShape_13TeV":(("",""),("0jet_","vbf_","boosted_")),
     }
 
 def getSingleNPHistos(prefix, np, histo):
-    
-    hUp = WAW_file.Get(prefix+np+"Up")
+
+    hName = prefix+"_"+np
+    hUp = WAW_file.Get(hName+"Up")
+
     if hUp==None :
-        print prefix+np+"Up/Down are missing"
+        print "Missing histogram: ",hName+"Up"
         hUp = histo.Clone()
-        
-    hDown = WAW_file.Get(prefix+np+"Down")
+
+    hDown = WAW_file.Get(hName+"Down")
     if hDown==None :
         #almost always where there is no Up histo, there is no down histo, so there is no need to print its name again
         #print prefix+np
         hDown = histo.Clone()
-    
+
     return (hUp, hDown)
-    
-    
-    
+
+
+
 def getDoubleNPHistos(prefix, np1, np2, histo):
 
     hUpUp = WAW_file.Get(prefix+np1+"Up"+np2+"Up")
     if hUpUp==None :
-        #print prefix+np1+"Up/Down"+np2+"Up/Down"
+        print "Missing histogram: ",prefix+np1+"Up/Down"+np2+"Up/Down"
         hUpUp = histo.Clone()
-        
+
     hUpDown = WAW_file.Get(prefix+np1+"Up"+np2+"Down")
     if hUpDown==None :
         hUpDown = histo.Clone()
-        
+
     hDownUp = WAW_file.Get(prefix+np1+"Down"+np2+"Up")
     if hDownUp==None :
         hDownUp = histo.Clone()
-        
+
     hDownDown = WAW_file.Get(prefix+np1+"Down"+np2+"Down")
     if hDownDown==None :
         hDownDown = histo.Clone()
-    
+
     return (hUpUp, hUpDown, hDownUp, hDownDown)
 
 import array
@@ -146,32 +149,32 @@ for iCategory in xrange(0,len(categoryNames)):
             histogram = TH1F(value,"",nbins[categoryName][0]*nbins[categoryName][1],0.5,nbins[categoryName][0]*nbins[categoryName][1] + 0.5)
         histogram.SetName(value)
         histogram.Write()
-        
+
         if value=="data_obs": continue
-        
+
         for key1, value1 in nuisanceParams.items():
             index = key1.find("13TeV")
             name = key1
             for chn in value1[0]:
-                if (chn==channel or chn==""): 
+                if (chn==channel or chn==""):
                   name = key1[:index]+chn+key1[index:]
                   done1 = True
                   for cat in value1[1]:
                     index = name.find("13TeV")
                     nuisanceParam = name[:index]+cat+name[index:]
-                    
+
                     histos = getSingleNPHistos(histoPrefix[categoryName] + key+"_"+str(iCategory), nuisanceParam, histogram)
                     histogramUp = histos[0]
                     histogramUp.SetName(value+"_"+nuisanceParam+"Up")
                     histogramUp.Write()
-                    
+
                     histogramDown = histos[1]
                     histogramDown.SetName(value+"_"+nuisanceParam+"Down")
                     histogramDown.Write()
-                    
+
                     if cat=="": break
                 if (chn=="" or done1): break
-                
+
 print "\n\n\n\n\nCONTROL REGIONS\n\n\n\n\n"
 
 ##################################################
@@ -250,26 +253,26 @@ nuisanceParams = {
     "CMS_scale_gg_13TeV":(("",""),("ggH120","ggH125","ggH130"))
     }
 
-nbins = {"mt_wjets_0jet_cr":(1,80,200), 
-         "mt_wjets_boosted_cr":(1,80,200), 
+nbins = {"mt_wjets_0jet_cr":(1,80,200),
+         "mt_wjets_boosted_cr":(1,80,200),
          "mt_wjets_vbf_cr":(1,80,200),
-         "mt_antiiso_0jet_cr":(4,40,200), 
-         "mt_antiiso_boosted_cr":(4,40,200), 
-         "mt_antiiso_vbf_cr":(4,40,200)   
+         "mt_antiiso_0jet_cr":(4,40,200),
+         "mt_antiiso_boosted_cr":(4,40,200),
+         "mt_antiiso_vbf_cr":(4,40,200)
          }
-    
 
-    
-categoryDirMade = True    
+
+
+categoryDirMade = True
 
 for iCategory in xrange(0,len(categoryNames)):
     categoryName = categoryNames[iCategory]
-    if categoryName not in histoPrefix.keys(): continue    
+    if categoryName not in histoPrefix.keys(): continue
     if categoryDirMade: gDirectory.cd("..")
     gDirectory.mkdir(categoryName)
     gDirectory.cd(categoryName)
     categoryDirMade=True
-    
+
     for key,value in histogramsMap.iteritems():
         hName = histoPrefix[categoryName] + key
         if categoryName.count("antiiso")>0 and value!="QCD": 
@@ -282,7 +285,7 @@ for iCategory in xrange(0,len(categoryNames)):
         histogram.SetName(value)
         histogram.Write()
         if value=="data_obs": continue
-        
+
         for np in ("CMS_scale_j_13TeV", "CMS_scale_t_mt_13TeV"):
             histos = getSingleNPHistos(hName, np ,histogram)
             hUp = histos[0]
@@ -291,19 +294,19 @@ for iCategory in xrange(0,len(categoryNames)):
             hUp.Write()
             hDown.SetName(value+"_"+np+"Down")
             hDown.Write()
-        
+
         for key1, value1 in nuisanceParams.items():
             index = key1.find("13TeV")
             name = key1
             for chn in value1[0]:
                 if (chn!=channel and chn!=""): continue
                 name = key1[:index]+chn+key1[index:]
-                if key1.count("Uncert")>0: 
+                if key1.count("Uncert")>0:
                   index = name.find("13TeV")
                   cat = categoryName.split("_")[2]
                   name = name[:index]+cat+"_"+name[index:]
                 done1 = True
-                
+
                 for proc in value1[1]:
                   if proc!= value: continue
                   histos = getSingleNPHistos(hName, name, histogram)
@@ -331,4 +334,3 @@ for iCategory in xrange(0,len(categoryNames)):
                   '''
                   if proc=="": break
                 if (chn=="" or done1): break
-
