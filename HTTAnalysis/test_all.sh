@@ -27,7 +27,10 @@ create_directories() {
 	for (( i=1; $i <= $MAX_THREADS; i++ )); do
 		mkdir -p tests/$i #create tests/thread_no directory if not exist
 		cp htt.ini tests/$i/ #copy main htt.ini to this directory
-		sed 's/threads = 1/threads = $i/g' tests/$i/htt.ini #change "threads = 1" to "threads = thread_no"
+		echo "%s/threads = 1/threads = $i/g
+		w
+		q
+		" | ex tests/$i/htt.ini #change "threads = 1" to "threads = thread_no"
 		for (( j=1; $j <= $N_TESTS; j++ )); do
 			mkdir -p tests/$i/$j #create subdirectories for each of N_TESTS tests
 		done
@@ -40,8 +43,8 @@ run_tests() {
 		for (( j=1; $j <= $N_TESTS; j++ )); do
 			echo -n "./test $htt_ini_path"
 			echo ""
-			#./test tests/$i/htt.ini 2>&1 | tee tests/$i/$j/output.txt #run test with output redirected also to file in test directory
-			cp -R fig_png tests/$i/$j #copy directory containing images to proper directory
+			./test tests/$i/htt.ini 2>&1 | tee tests/$i/$j/output.txt #run test with output redirected also to file in test directory
+			cp -R fig_jpg tests/$i/$j #copy directory containing images to proper directory
 		done
 	done
 }
