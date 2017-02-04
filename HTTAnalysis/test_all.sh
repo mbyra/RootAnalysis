@@ -30,7 +30,7 @@ create_directories() {
 		echo "%s/threads = 1/threads = $i/g
 		w
 		q
-		" | ex tests/$i #change "threads = 1" to "threads = thread_no"
+		" | ex tests/$i/htt.ini #change "threads = 1" to "threads = thread_no"
 		for (( j=1; $j <= $N_TESTS; j++ )); do
 			mkdir -p tests/$i/$j #create subdirectories for each of N_TESTS tests
 		done
@@ -44,7 +44,7 @@ run_tests() {
 			echo -n "./test $htt_ini_path"
 			echo ""
 			./test tests/$i/htt.ini 2>&1 | tee tests/$i/$j/output.txt #run test with output redirected also to file in test directory
-			cp -R png_jpg tests/$i/$j #copy directory containing images to proper directory
+			cp -R fig_jpg tests/$i/$j #copy directory containing images to proper directory
 		done
 	done
 }
