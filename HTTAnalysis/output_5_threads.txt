@@ -70,13 +70,10 @@ Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /hom
 Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
 Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
 Events total: 2173854
-Events analyzed: 0/2173854 (0) thread: 0
+Events analyzed: 0/2173854 (0) thread: 1
 Warning in <TClass::Init>: no dictionary for class CrystalBallEfficiency is available
-[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() creating code export directory .wscode.ac09e4bc-7fc3-31e6-9717-d738ff32f8ac.w to extract coded embedded in workspace
-[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Extracting declaration code of class CrystalBallEfficiency, file .wscode.ac09e4bc-7fc3-31e6-9717-d738ff32f8ac.w/CrystalBallEfficiency.h
-[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Extracting implementation code of class CrystalBallEfficiency, file .wscode.ac09e4bc-7fc3-31e6-9717-d738ff32f8ac.w/CrystalBallEfficiency.cxx
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() reusing code export directory .wscode.ac09e4bc-7fc3-31e6-9717-d738ff32f8ac.w to extract coded embedded in workspace
 [#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Compiling code unit CrystalBallEfficiency to define class CrystalBallEfficiency
-Info in <TUnixSystem::ACLiC>: creating shared library /home/mb347056/RootAnalysis/HTTAnalysis/.wscode.ac09e4bc-7fc3-31e6-9717-d738ff32f8ac.w/CrystalBallEfficiency_cxx.so
 [#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
 RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
 RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
@@ -122,33 +119,33 @@ RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning nul
 [#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
 RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
 Events analyzed: 217385/2173854 (0.0999998) thread: 0
-Events analyzed: 434770/2173854 (0.2) thread: 1
+Events analyzed: 434770/2173854 (0.2) thread: 0
 Events analyzed: 652155/2173854 (0.299999) thread: 1
-Events analyzed: 869540/2173854 (0.399999) thread: 1
-Events analyzed: 1086925/2173854 (0.499999) thread: 0
+Events analyzed: 869540/2173854 (0.399999) thread: 2
+Events analyzed: 1086925/2173854 (0.499999) thread: 2
 Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
 Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
 Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
 Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
 Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
-Events analyzed: 1304310/2173854 (0.599999) thread: 3
-Events analyzed: 1521695/2173854 (0.699999) thread: 0
-Events analyzed: 1739080/2173854 (0.799999) thread: 2
+Events analyzed: 1304310/2173854 (0.599999) thread: 1
+Events analyzed: 1521695/2173854 (0.699999) thread: 2
+Events analyzed: 1739080/2173854 (0.799999) thread: 0
 Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
 Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
 Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
 Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
 Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
-Events analyzed: 1956465/2173854 (0.899998) thread: 1
-Events analyzed: 2173850/2173854 (0.999998) thread: 2
-1D histogram size mismatch.  thread 0: 52552 thread 1 45387
-2D histogram size mismatch.  thread 0: 9277 thread 1 7905
-1D histogram size mismatch.  thread 0: 52552 thread 2 45765
-2D histogram size mismatch.  thread 0: 9277 thread 2 7972
-1D histogram size mismatch.  thread 0: 52552 thread 3 45795
-2D histogram size mismatch.  thread 0: 9277 thread 3 8019
-1D histogram size mismatch.  thread 0: 52552 thread 4 46131
-2D histogram size mismatch.  thread 0: 9277 thread 4 8048
+Events analyzed: 1956465/2173854 (0.899998) thread: 4
+Events analyzed: 2173850/2173854 (0.999998) thread: 4
+1D histogram size mismatch.  thread 0: 52552 thread 1 45787
+2D histogram size mismatch.  thread 0: 9277 thread 1 7985
+1D histogram size mismatch.  thread 0: 52552 thread 2 46270
+2D histogram size mismatch.  thread 0: 9277 thread 2 8120
+1D histogram size mismatch.  thread 0: 52552 thread 3 45536
+2D histogram size mismatch.  thread 0: 9277 thread 3 7937
+1D histogram size mismatch.  thread 0: 52552 thread 4 45769
+2D histogram size mismatch.  thread 0: 9277 thread 4 7996
 ERROR: Histogram: h1DMassTransDY3JetsMatchL_OS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransDY4JetsMatchL_OS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransDYLowMMatchL_OS_11 not found in thread: 0
@@ -177,7 +174,7 @@ ERROR: Histogram: h1DMassTransWZTo1L3NuMatchL_OS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransWZTo1L3NuMatchT_OS_11 not found in thread: 0
 ERROR: Histogram: h1DStatsWZTo1L3Nu not found in thread: 0
 ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
-Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451298 Final weight: 3.58452e-06
+Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 383 Reco preselection efficiency: 0.000451298 Final weight: 3.59388e-06
 ERROR: Histogram: h1DMassTransWZJToLLLNu_OS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransWZJToLLLNuMatchL_OS_11 not found in thread: 0
 ERROR: Histogram: h1DStatsWZJToLLLNu not found in thread: 0
@@ -236,7 +233,7 @@ ERROR: Histogram: h1DMassTransWZTo1L3NuMatchL_SS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransWZTo1L3NuMatchT_SS_11 not found in thread: 0
 ERROR: Histogram: h1DStatsWZTo1L3Nu not found in thread: 0
 ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
-Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451298 Final weight: 3.58452e-06
+Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 383 Reco preselection efficiency: 0.000451298 Final weight: 3.59388e-06
 ERROR: Histogram: h1DMassTransWZJToLLLNu_SS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransWZJToLLLNuMatchL_SS_11 not found in thread: 0
 ERROR: Histogram: h1DStatsWZJToLLLNu not found in thread: 0
@@ -276,17 +273,17 @@ Sample name: DYLowM Xsection: 71600 [pb]  Events analyzed: 666 Reco preselection
 Sample name: DYJets Xsection: 5765.4 [pb]  Events analyzed: 1 Reco preselection efficiency: 1 Final weight: 5765.4
 Selecion name: _OS_11
  DATA:              19298
- DATA - MC(!WJets): 15745.8
+ DATA - MC(!WJets): 15913.3
  MC WJets           17272.9
- DYJets:            1350.98
- DYLowM:            125.043
+ DYJets:            1345.04
+ DYLowM:            62.5215
  TTbar:             449.295
  single T:          329.532
- DiBoson:           732.125
- QCD:               565.229
-WJets scale:0.911588 dweight 0.0110627
+ DiBoson:           732.136
+ QCD:               466.169
+WJets scale:0.921286 dweight 0.0111082
 WSFUncertainty: 0
-WJets scale with uncertainty: 0.911588 dweight 0.0110627
+WJets scale with uncertainty: 0.921286 dweight 0.0111082
 ERROR: Histogram: h1DMassTransDY0JetsMatchL_SS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransDY2JetsMatchL_SS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransDY3JetsMatchL_SS_11 not found in thread: 0
@@ -319,7 +316,7 @@ ERROR: Histogram: h1DMassTransWZTo1L3NuMatchL_SS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransWZTo1L3NuMatchT_SS_11 not found in thread: 0
 ERROR: Histogram: h1DStatsWZTo1L3Nu not found in thread: 0
 ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
-Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451298 Final weight: 3.58452e-06
+Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 383 Reco preselection efficiency: 0.000451298 Final weight: 3.59388e-06
 ERROR: Histogram: h1DMassTransWZJToLLLNu_SS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransWZJToLLLNuMatchL_SS_11 not found in thread: 0
 ERROR: Histogram: h1DStatsWZJToLLLNu not found in thread: 0
@@ -379,7 +376,7 @@ ERROR: Histogram: h1DMassTransWZTo1L3NuMatchL_SS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransWZTo1L3NuMatchT_SS_11 not found in thread: 0
 ERROR: Histogram: h1DStatsWZTo1L3Nu not found in thread: 0
 ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
-Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451298 Final weight: 3.58452e-06
+Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 383 Reco preselection efficiency: 0.000451298 Final weight: 3.59388e-06
 ERROR: Histogram: h1DMassTransWZJToLLLNu_SS_11 not found in thread: 0
 ERROR: Histogram: h1DMassTransWZJToLLLNuMatchL_SS_11 not found in thread: 0
 ERROR: Histogram: h1DStatsWZJToLLLNu not found in thread: 0
@@ -419,17 +416,17 @@ Sample name: DYLowM Xsection: 71600 [pb]  Events analyzed: 666 Reco preselection
 Sample name: DYJets Xsection: 5765.4 [pb]  Events analyzed: 1 Reco preselection efficiency: 1 Final weight: 5765.4
 Selecion name: _SS_11
  DATA:              4568
- DATA - MC(!WJets): 3258.19
- MC WJets           3275.97
- DYJets:            272.169
- DYLowM:            329.44
- TTbar:             32.3357
- single T:          66.6703
- DiBoson:           43.9696
- QCD:               565.229
-WJets scale:0.994573 dweight 0.0276817
+ DATA - MC(!WJets): 3266.52
+ MC WJets           3286.33
+ DYJets:            274.519
+ DYLowM:            417.437
+ TTbar:             30.8651
+ single T:          68.129
+ DiBoson:           44.3587
+ QCD:               466.169
+WJets scale:0.993972 dweight 0.0276096
 WSFUncertainty: 0
-WJets scale with uncertainty: 0.994573 dweight 0.0276817
+WJets scale with uncertainty: 0.993972 dweight 0.0276096
 --- Drawing THStack for variable: MassSV category: 6
 ERROR: Histogram: h1DStatsTTbarMatchL not found in thread: 0
 Sample name: TTbarMatchJ Xsection: 831.76 [pb]  Events analyzed: 295106 Reco preselection efficiency: 0.00323676 Final weight: 9.12286e-06
@@ -444,7 +441,7 @@ Sample name: ZZTo2L2QMatchJ Xsection: 3.22 [pb]  Events analyzed: 24602 Reco pre
 ERROR: Histogram: h1DStatsZZTo4LMatchL not found in thread: 0
 Sample name: ZZTo4LMatchJ Xsection: 1.212 [pb]  Events analyzed: 24786 Reco preselection efficiency: 0.00353872 Final weight: 1.73038e-07
 ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
-Sample name: WZTo1L3NuMatchJ Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451298 Final weight: 3.58452e-06
+Sample name: WZTo1L3NuMatchJ Xsection: 3.05 [pb]  Events analyzed: 383 Reco preselection efficiency: 0.000451298 Final weight: 3.59388e-06
 ERROR: Histogram: h1DStatsWZJToLLLNuMatchL not found in thread: 0
 Sample name: WZJToLLLNuMatchJ Xsection: 4.708 [pb]  Events analyzed: 9427 Reco preselection efficiency: 0.00779971 Final weight: 3.89531e-06
 ERROR: Histogram: h1DStatsWWTo1L1Nu2QMatchL not found in thread: 0
@@ -509,7 +506,7 @@ ERROR: Histogram: h1DMassSVWZTo1L3NuMatchL_SS_6 not found in thread: 0
 ERROR: Histogram: h1DMassSVWZTo1L3NuMatchT_SS_6 not found in thread: 0
 ERROR: Histogram: h1DStatsWZTo1L3Nu not found in thread: 0
 ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
-Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451298 Final weight: 3.58452e-06
+Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 383 Reco preselection efficiency: 0.000451298 Final weight: 3.59388e-06
 ERROR: Histogram: h1DMassSVWZJToLLLNu_SS_6 not found in thread: 0
 ERROR: Histogram: h1DMassSVWZJToLLLNuMatchL_SS_6 not found in thread: 0
 ERROR: Histogram: h1DStatsWZJToLLLNu not found in thread: 0
@@ -561,8 +558,8 @@ Sample name: qqH125 Xsection: 0.100415 [pb]  Events analyzed: 31362 Reco presele
 Sample name: ggH130 Xsection: 2.45172 [pb]  Events analyzed: 3584 Reco preselection efficiency: 0.0186336 Final weight: 1.27468e-05
 Sample name: qqH130 Xsection: 0.0828424 [pb]  Events analyzed: 4580 Reco preselection efficiency: 0.0233324 Final weight: 4.22033e-07
 Sample name: ZH120 Xsection: 0.0693812 [pb]  Events analyzed: 1294 Reco preselection efficiency: 0.0171243 Final weight: 9.18165e-07
-Sample name: ZH125 Xsection: 0.0554268 [pb]  Events analyzed: 11949 Reco preselection efficiency: 0.0187925 Final weight: 8.7171e-08
-Sample name: ZH130 Xsection: 0.042739 [pb]  Events analyzed: 1693 Reco preselection efficiency: 0.0198403 Final weight: 5.0086e-07
+Sample name: ZH125 Xsection: 0.0554268 [pb]  Events analyzed: 11960 Reco preselection efficiency: 0.0187925 Final weight: 8.70908e-08
+Sample name: ZH130 Xsection: 0.042739 [pb]  Events analyzed: 1684 Reco preselection efficiency: 0.0198403 Final weight: 5.03537e-07
 Sample name: WminusH120 Xsection: 0.0546185 [pb]  Events analyzed: 1779 Reco preselection efficiency: 0.0324807 Final weight: 9.97217e-07
 Sample name: WminusH125 Xsection: 0.0430436 [pb]  Events analyzed: 14094 Reco preselection efficiency: 0.0344483 Final weight: 1.05206e-07
 Sample name: WminusH130 Xsection: 0.0327035 [pb]  Events analyzed: 1982 Reco preselection efficiency: 0.0360367 Final weight: 5.94614e-07
@@ -574,35 +571,35 @@ Info in <TCanvas::SaveSource>: C++ Macro file: fig_C/hTree_h1DMassSV__OS_6_0jet.
 Info in <TCanvas::Print>: png file fig_png/hTree_h1DMassSV__OS_6_0jet_LogY.png has been created
 Event count summary for selecion name: _OS_6_0jet
 Data: 98241
-MC (no Higgs): 95774.2
-MC W->l: 15062.9
+MC (no Higgs): 96057.7
+MC W->l: 15345.9
 MC TTbarJ: 40.7193
 MC TTbarT: 149.02
 MC single T: 164.925
-MC DiBosonJ: 63.3409
-MC DiBosonT: 412.443
-MC ZTT: 64114.5
-MC ZL: 5773.34
-MC ZJ: 1608.4
+MC DiBosonJ: 63.3453
+MC DiBosonT: 412.434
+MC ZTT: 64114.4
+MC ZL: 5773.33
+MC ZJ: 1608.39
 MC Z->ll(m<50): 1551.55
 MC H(125)->tau tau: 475.556
 qqH(125)->tau tau: 2.12685
 ggH(125)->tau tau: 467.932
-ZH(125)->tau tau: 1.19011
+ZH(125)->tau tau: 1.1897
 WplusH(125)->tau tau: 2.87143
 WminusH(125)->tau tau: 1.43604
-QCD: 6769.93
+QCD: 6769.54
 QCD_MC: 0
-EWK 2Jets: 63.1575
+EWK 2Jets: 64.0784
 Correction factors:
 QCD SS to OS: 1 +- 0.15
-W MC to DATA: 0.911588 +- 0.0110627
+W MC to DATA: 0.921286 +- 0.0111082
 ----------------------------------------
 -------------------------------------------------------------
 Analysed events: 2173854 
-RealTime=196.487571 seconds, CpuTime=928.220000 seconds
-11063.57 events / RealTime second .
-2341.96 events / CpuTime second .
+RealTime=190.225092 seconds, CpuTime=914.210000 seconds
+11427.80 events / RealTime second .
+2377.85 events / CpuTime second .
 TreeAnalyzer::~TreeAnalyzer() Begin
 TreeAnalyzer::~TreeAnalyzer() Done
 Done

@@ -537,9 +537,9 @@ W MC to DATA: 0.916502 +- 0.0111349
 ----------------------------------------
 -------------------------------------------------------------
 Analysed events: 2173854 
-RealTime=431.885137 seconds, CpuTime=431.180000 seconds
-5033.41 events / RealTime second .
-5041.64 events / CpuTime second .
+RealTime=425.443114 seconds, CpuTime=424.550000 seconds
+5109.62 events / RealTime second .
+5120.37 events / CpuTime second .
 TreeAnalyzer::~TreeAnalyzer() Begin
 TreeAnalyzer::~TreeAnalyzer() Done
 Done
