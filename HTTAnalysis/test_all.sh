@@ -20,6 +20,7 @@ parse_argument() {
 		exit 1
 	else 
 		N_TESTS=$1
+		T_THREADS=$2
 	fi;
 }
 
