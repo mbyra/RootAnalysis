@@ -27,10 +27,7 @@ create_directories() {
 	for (( i=1; $i <= $MAX_THREADS; i++ )); do
 		mkdir -p tests/$i #create tests/thread_no directory if not exist
 		cp htt.ini tests/$i/ #copy main htt.ini to this directory
-		echo "%s/threads = 1/threads = $i/g
-		w
-		q
-		" | ex tests/$i/htt.ini #change "threads = 1" to "threads = thread_no"
+		sed 's/threads = 1/threads = $i/g' tests/$i/htt.ini #change "threads = 1" to "threads = thread_no"
 		for (( j=1; $j <= $N_TESTS; j++ )); do
 			mkdir -p tests/$i/$j #create subdirectories for each of N_TESTS tests
 		done
