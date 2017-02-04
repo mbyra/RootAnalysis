@@ -44,7 +44,7 @@ run_tests() {
 			echo -n "./test $htt_ini_path"
 			echo ""
 			#./test tests/$i/htt.ini 2>&1 | tee tests/$i/$j/output.txt #run test with output redirected also to file in test directory
-			cp -R fig_jpg tests/$i/$j #copy directory containing images to proper directory
+			cp -R fig_png tests/$i/$j #copy directory containing images to proper directory
 		done
 	done
 }
