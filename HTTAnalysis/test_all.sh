@@ -43,7 +43,7 @@ run_tests() {
 	for (( i=1; $i <= $T_THREADS; i++ )); do
 			htt_ini_path="tests/$i/htt.ini" #path to htt.ini containing "threads = i"
 		for (( j=1; $j <= $N_TESTS; j++ )); do
-			echo -n "./test $htt_ini_path"
+			echo -n "./test $htt_ini_path, test no $j"
 			echo ""
 			./test tests/$i/htt.ini 2>&1 | tee tests/$i/$j/output.txt #run test with output redirected also to file in test directory
 			cp -R fig_jpg tests/$i/$j #copy directory containing images to proper directory
