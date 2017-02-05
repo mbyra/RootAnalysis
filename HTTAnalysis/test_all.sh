@@ -54,7 +54,7 @@ run_tests() {
 			echo -n "Running test: schedule $SCHEDULE, threads $i, test $j..."
 			echo ""
 			#./test tests/$i/htt.ini 2>&1 | tee tests/$i/$j/output.txt #run test with output redirected also to file in test directory
-			time -o $path/test_$j/time.txt ./test $path/htt.ini 2>&1 $path/test_$j/output.txt #run test with output redirected also to file in test directory
+			time -o $path/test_$j/time.txt ./test $path/htt.ini >$path/test_$j/output.txt 2>$path/test_$j/output.txt #run test with output redirected also to file in test directory
 			cp -R fig_png $path/test_$j/ #copy directory containing images to proper directory
 			echo ""
 		done
