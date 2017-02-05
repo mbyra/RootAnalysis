@@ -54,7 +54,7 @@ run_tests() {
 			echo -n "Running test: schedule $SCHEDULE, threads $i, test $j..."
 			echo ""
 			#./test tests/$i/htt.ini 2>&1 | tee tests/$i/$j/output.txt #run test with output redirected also to file in test directory
-			{ time ./test $path/htt.ini 2>&1 $path/test_$j/output.txt ; } >$path/test_$j/time.txt 2>$path/test_$j/time.txt #run test with output redirected also to file in test directory
+			{ time ./test $path/htt.ini 2>&1 $path/test_$j/output.txt ; } >$path/test_$j/time.txt #run test with output redirected also to file in test directory
 			cp -R fig_png $path/test_$j/ #copy directory containing images to proper directory
 		done
 	done
@@ -65,12 +65,10 @@ grep_outputs() {
 		path="tests/$SCHEDULE/$i" #path to main directory of given schedule and currently iterated amount of threads
 		for (( j=1; $j <= $N_TESTS; j++ )); do
 			echo -n "Result of test: schedule $SCHEDULE threads $i test $j. Analyzed data:"
+			echo ""
 			grep 'Data: ' $path/test_$j/output.txt
-			echo ""
 			grep 'real' $path/test_$j/time.txt
-			echo ""
 			grep 'user' $path/test_$j/time.txt
-			echo ""
 			grep 'sys' $path/test_$j/time.txt
 			echo ""
 			echo ""
@@ -80,5 +78,5 @@ grep_outputs() {
 
 parse_arguments $@ #check if user entered number of tests to run, otherwise print usage info
 create_directories #create necessary directories to run and store test results
-run_tests
+# run_tests
 grep_outputs #print number of processed data, and time of each evaluation
