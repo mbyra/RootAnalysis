@@ -6,7 +6,8 @@
 # USAGE: bash test_all.sh N T 
 
 N_TESTS=1 #number of tests for each number of threads passed by user
-T_THREADS=10 #maximal number of threads to use during each test
+T_THREADS=20 #maximal number of threads to use during each test
+SCHEDULE="dynamic"
 
 usage() {
 	echo "Usage: bash ./test_all N T"
@@ -14,7 +15,7 @@ usage() {
 }
 
 parse_arguments() {
-	if [[ $# -ne 2 ]]; then
+	if [[ $# -le 0 ]]; then
 		echo "Illegal number of parameters"
 		usage
 		exit 1
@@ -27,27 +28,46 @@ parse_arguments() {
 create_directories() {
 	mkdir -p tests #create tests directory if not exist
 	for (( i=1; $i <= $T_THREADS; i++ )); do
-		mkdir -p tests/$i #create tests/thread_no directory if not exist
-		cp htt.ini tests/$i/ #copy main htt.ini to this directory
+		path="tests/$SCHEDULE/$i/" #path to htt.ini containing "threads = i"
+		mkdir -p $path #create tests/thread_no directory if not exist
+		cp htt.ini $path/ #copy main htt.ini to this directory
 		echo "%s/threads = 1/threads = $i/g
 		w
 		q
-		" | ex tests/$i/htt.ini #change "threads = 1" to "threads = i"
+		" | ex $path/htt.ini #change "threads = 1" to "threads = i"
 		for (( j=1; $j <= $N_TESTS; j++ )); do
-			mkdir -p tests/$i/$j #create subdirectories for each of N_TESTS tests
+			mkdir -p $path/test_$j #create subdirectories for each of N_TESTS tests
 		done
 	done
 }
 
 run_tests() {
 	for (( i=1; $i <= $T_THREADS; i++ )); do
-			htt_ini_path="tests/$i/htt.ini" #path to htt.ini containing "threads = i"
+			path="tests/$SCHEDULE/$i/" #path to main directory of given schedule and currently iterated amount of threads
 		for (( j=1; $j <= $N_TESTS; j++ )); do
-			echo -n "./test $htt_ini_path, test no $j"
+			echo -n "./test $path/htt.ini   schedule = $SCHEDULE, test no = $j"
 			echo ""
 			#./test tests/$i/htt.ini 2>&1 | tee tests/$i/$j/output.txt #run test with output redirected also to file in test directory
-			./test tests/$i/htt.ini >tests/$i/$j/output.txt 2>tests/$i/$j/output.txt #run test with output redirected also to file in test directory
-			cp -R fig_png tests/$i/$j #copy directory containing images to proper directory
+			{ time ./test $path/htt.ini 2>&1 $path/test_$j/output.txt ; } 2>&1 $path/test_$j/time.txt #run test with output redirected also to file in test directory
+			cp -R fig_png $path/test_$j/ #copy directory containing images to proper directory
+		done
+	done
+}
+
+grep_outputs() {
+	for (( i=1; $i <= $T_THREADS; i++ )); do
+		path="tests/$SCHEDULE/$i/" #path to main directory of given schedule and currently iterated amount of threads
+		for (( j=1; $j <= $N_TESTS; j++ )); do
+			echo -n "schedule $SCHEDULE threads $i test $j. Analyzed data:"
+			grep 'Data: ' $path/test_$j/output.txt
+			echo ""
+			grep 'real' $path/test_$j/time.txt
+			echo ""
+			grep 'user' $path/test_$j/time.txt
+			echo ""
+			grep 'sys' $path/test_$j/time.txt
+			echo ""
+			echo ""
 		done
 	done
 }
@@ -55,3 +75,4 @@ run_tests() {
 parse_arguments $@ #check if user entered number of tests to run, otherwise print usage info
 create_directories #create necessary directories to run and store test results
 run_tests
+grep_outputs #print number of processed data, and time of each evaluation
