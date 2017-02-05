@@ -26,7 +26,8 @@ grep_outputs() {
 	for (( i=1; $i <= $T_THREADS; i++ )); do
 		for (( j=1; $j <= $N_TESTS; j++ )); do
 			echo -n "Threads: $i. TestL $j. Analyzed data:"
-			grep 'Data = ' tests/$i/$j/output.txt		
+			grep 'Data = ' tests/$i/$j/output.txt	
+			echo -n	
 		done
 	done
 }
