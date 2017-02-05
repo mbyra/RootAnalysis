@@ -1,9 +1,11 @@
 #!/bin/bash
 
-#This script runs test equal to "./test htt.ini" N times, each time for 1, 2, 3...T threads.
-#Creates if necessary directory ./tests, and subdirectories for each number of threads with subdirectories for each test.
-#Saves output of each test and resulting png_jpg images to proper directories.
-# USAGE: bash test_all.sh N T 
+# This script runs test equal to "./test htt.ini" N times, each time for 1, 2, 3...T threads.
+# Creates (if necessary) directory ./tests, and subdirectories for each number of threads with subdirectories for each test.
+# Saves output of each test and resulting png_jpg images to proper directories.
+# Measures time of each test to compare time on different schedules. To change directory in tests/ which will keep results of tests
+# of current schedule from "dynamic", add third argument - name of directory e.g. "bash test_all.sh 2 10 guided"
+# USAGE: bash test_all.sh N T    OR    bash test_all.sh N T SCHEDULE_DIRECTORY_NAME 
 
 N_TESTS=1 #number of tests for each number of threads passed by user
 T_THREADS=20 #maximal number of threads to use during each test
@@ -15,13 +17,16 @@ usage() {
 }
 
 parse_arguments() {
-	if [[ $# -le 0 ]]; then
+	if [[ $# -ne 2 -a $# -ne 3 ]] ; then
 		echo "Illegal number of parameters"
 		usage
 		exit 1
 	else 
 		N_TESTS=$1
 		T_THREADS=$2
+
+	if [[ $# -eq 3 ]]; then
+		SCHEDULE=$3
 	fi;
 }
 
