@@ -78,5 +78,5 @@ grep_outputs() {
 
 parse_arguments $@ #check if user entered number of tests to run, otherwise print usage info
 create_directories #create necessary directories to run and store test results
-# run_tests
+run_tests
 grep_outputs #print number of processed data, and time of each evaluation
