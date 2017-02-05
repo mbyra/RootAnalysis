@@ -1,0 +1,127 @@
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Warning in <TClass::Init>: no dictionary for class CrystalBallEfficiency is available
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+MuonRun2016B23Sep2016_v3_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_WWTo1L1Nu2Q13TeVamcatnloFXFX_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_DYJetsToLLM50_ext1_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_W4JetsToLNuTuneCUETP8M113TeV_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_WminusHToTauTauM12013TeV_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_WplusHToTauTauM13013TeV_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_ZZTo4L13TeVamcatnloFXFX_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_VBFHToTauTauM12513TeV_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_DY2JetsToLLM50_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_WZJToLLLNuTuneCUETP8M113TeV_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_ZHToTauTauM12013TeV_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_W1JetsToLNuTuneCUETP8M113TeV_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_EWKZ2JetsZToLLM_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_STtWantitop_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_WZTo1L3Nu13TeVamcatnloFXFX_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_ZHToTauTauM13013TeV_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_SingleMuonRun2016HPromptReco_v2_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_SingleMuonRun2016E23Sep2016_v1_v70.root
+ /scratch/akalinow/CMS/HiggsCP/Data/NTUPLES_05_12_2016/MT//MT_GluGluHToTauTauM12013TeV_v70.root
+ /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+ /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Events total: 2173854
+Events analyzed: 0/2173854 (0) thread: 0
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() reusing code export directory .wscode.ac09e4bc-7fc3-31e6-9717-d738ff32f8ac.w to extract coded embedded in workspace
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Compiling code unit CrystalBallEfficiency to define class CrystalBallEfficiency
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+Events analyzed: 217385/2173854 (0.0999998) thread: 5
+Events analyzed: 434770/2173854 (0.2) thread: 6
+Events analyzed: 652155/2173854 (0.299999) thread: 5
+Events analyzed: 869540/2173854 (0.399999) thread: 3
+Events analyzed: 1086925/2173854 (0.499999) thread: 6
+Events analyzed: 1304310/2173854 (0.599999) thread: 3
+Events analyzed: 1521695/2173854 (0.699999) thread: 5
+Events analyzed: 1739080/2173854 (0.799999) thread: 4
+Events analyzed: 1956465/2173854 (0.899998) thread: 6
