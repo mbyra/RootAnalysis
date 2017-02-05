@@ -17,7 +17,7 @@ usage() {
 }
 
 parse_arguments() {
-	if [[ $# -ne 2 -a $# -ne 3 ]] ; then
+	if [[ $# -ne 2 ]] && [[ $# -ne 3 ]]; then
 		echo "Illegal number of parameters"
 		usage
 		exit 1
