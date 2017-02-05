@@ -24,7 +24,8 @@ parse_arguments() {
 	else 
 		N_TESTS=$1
 		T_THREADS=$2
-
+	fi
+	
 	if [[ $# -eq 3 ]]; then
 		SCHEDULE=$3
 	fi;
