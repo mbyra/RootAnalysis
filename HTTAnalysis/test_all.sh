@@ -34,7 +34,7 @@ parse_arguments() {
 create_directories() {
 	mkdir -p tests #create tests directory if not exist
 	for (( i=1; $i <= $T_THREADS; i++ )); do
-		path="tests/$SCHEDULE/$i/" #path to htt.ini containing "threads = i"
+		path="tests/$SCHEDULE/$i" #path to htt.ini containing "threads = i"
 		mkdir -p $path #create tests/thread_no directory if not exist
 		cp htt.ini $path/ #copy main htt.ini to this directory
 		echo "%s/threads = 1/threads = $i/g
@@ -49,9 +49,9 @@ create_directories() {
 
 run_tests() {
 	for (( i=1; $i <= $T_THREADS; i++ )); do
-			path="tests/$SCHEDULE/$i/" #path to main directory of given schedule and currently iterated amount of threads
+			path="tests/$SCHEDULE/$i" #path to main directory of given schedule and currently iterated amount of threads
 		for (( j=1; $j <= $N_TESTS; j++ )); do
-			echo -n "./test $path/htt.ini   schedule = $SCHEDULE, test no = $j"
+			echo -n "Running test: schedule $SCHEDULE, threads $i, test $j..."
 			echo ""
 			#./test tests/$i/htt.ini 2>&1 | tee tests/$i/$j/output.txt #run test with output redirected also to file in test directory
 			{ time ./test $path/htt.ini 2>&1 $path/test_$j/output.txt ; } >$path/test_$j/time.txt 2>$path/test_$j/time.txt #run test with output redirected also to file in test directory
@@ -62,9 +62,9 @@ run_tests() {
 
 grep_outputs() {
 	for (( i=1; $i <= $T_THREADS; i++ )); do
-		path="tests/$SCHEDULE/$i/" #path to main directory of given schedule and currently iterated amount of threads
+		path="tests/$SCHEDULE/$i" #path to main directory of given schedule and currently iterated amount of threads
 		for (( j=1; $j <= $N_TESTS; j++ )); do
-			echo -n "schedule $SCHEDULE threads $i test $j. Analyzed data:"
+			echo -n "Result of test: schedule $SCHEDULE threads $i test $j. Analyzed data:"
 			grep 'Data: ' $path/test_$j/output.txt
 			echo ""
 			grep 'real' $path/test_$j/time.txt
