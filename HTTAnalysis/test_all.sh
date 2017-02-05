@@ -13,7 +13,7 @@ usage() {
 	echo "(Run N times ''./test htt.ini'', each time for 1,2...T threads, save output and png_jpg to ./tests/T/N"
 }
 
-parse_argument() {
+parse_arguments() {
 	if [[ $# -ne 2 ]]; then
 		echo "Illegal number of parameters"
 		usage
@@ -52,6 +52,6 @@ run_tests() {
 	done
 }
 
-parse_argument $@ #check if user entered number of tests to run, otherwise print usage info
+parse_arguments $@ #check if user entered number of tests to run, otherwise print usage info
 create_directories #create necessary directories to run and store test results
 run_tests
