@@ -1,0 +1,2 @@
+602.69user 497.68system 2:23.13elapsed 768%CPU (0avgtext+0avgdata 584908maxresident)k
+0inputs+21224outputs (0major+266774minor)pagefaults 0swaps

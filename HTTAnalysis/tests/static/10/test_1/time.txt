@@ -1,0 +1,2 @@
+600.04user 651.51system 2:30.17elapsed 833%CPU (0avgtext+0avgdata 619248maxresident)k
+0inputs+21200outputs (0major+287167minor)pagefaults 0swaps
