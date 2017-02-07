@@ -1,0 +1,241 @@
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Warning in <TClass::Init>: no dictionary for class CrystalBallEfficiency is available
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+Error in <TTree::SetBranchStatus>: unknown branch -> HTTEvent
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 9 (Thread 0x7fd229d7b700 (LWP 57358)):
+#0  0x000000327aa9dadf in std::string::append(std::string const&) () from /usr/lib64/libstdc++.so.6
+#1  0x00000000004254e4 in HTTAnalyzer::fillControlHistos(std::string const&, float, sysEffects::sysEffectsEnum const&) ()
+#2  0x000000000042e712 in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#3  0x00007fd23f31237d in TreeAnalyzer::loop() [clone ._omp_fn.0] () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#4  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#5  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#6  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 8 (Thread 0x7fd22937a700 (LWP 57359)):
+#0  0x000000327020e334 in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00000032702095f3 in _L_lock_892 () from /lib64/libpthread.so.0
+#2  0x00000032702094d7 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00007fd23e8d55d3 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007fd23c9bc655 in TVector3::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#5  0x00007fd23ea4ba02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007fd23e924dad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007fd23e8d35e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007fd23e8d557f in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#9  0x00007fd23c9a3fd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#10 0x00007fd23ea4ba02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007fd23e94b532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007fd23e8d321c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#13 0x00007fd23d454fe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007fd23d44a5e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#15 0x00007fd23d45d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#16 0x00007fd23d45d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#17 0x00007fd23d4a77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#18 0x00007fd23f300fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#19 0x00007fd23f3122f6 in TreeAnalyzer::loop() [clone ._omp_fn.0] () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#20 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#21 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#22 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 7 (Thread 0x7fd228979700 (LWP 57360)):
+#0  0x00007fd23e8d3171 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#1  0x00007fd23d454fe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#2  0x00007fd23d44a5e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#3  0x00007fd23d45d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#4  0x00007fd23d45d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#5  0x00007fd23d4a77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007fd23f300fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#7  0x00007fd23f3122f6 in TreeAnalyzer::loop() [clone ._omp_fn.0] () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#8  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#9  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#10 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 6 (Thread 0x7fd227f78700 (LWP 57361)):
+#0  0x000000326faac7fd in waitpid () from /lib64/libc.so.6
+#1  0x000000326fa3e5c9 in do_system () from /lib64/libc.so.6
+#2  0x000000326fa3e900 in system () from /lib64/libc.so.6
+#3  0x00007fd23ef802ba in TUnixSystem::StackTrace() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#4  0x00007fd23ef8225c in TUnixSystem::DispatchSignals(ESignals) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#5  <signal handler called>
+#6  0x00007fd23eccec50 in vtable for TStreamerInfoActions::TConfiguredAction () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007fd23ef30e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#8  0x00007fd23ef2ede3 in THashList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#9  0x00007fd23eecf4da in TObject::~TObject() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#10 0x00007fd23e8fa099 in TFile::~TFile() [clone .localalias.122] () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007fd23d473f45 in TChain::LoadTree(long long) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007fd23d4700e4 in TChain::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007fd23f300fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x00007fd23f3122f6 in TreeAnalyzer::loop() [clone ._omp_fn.0] () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#16 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#17 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 5 (Thread 0x7fd227577700 (LWP 57362)):
+#0  0x000000326f611594 in __tls_get_addr () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fd23ea46a0d in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#2  0x00007fd23e924dad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#3  0x00007fd23e8d35e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007fd23e8d557f in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#5  0x00007fd23e1a237b in TH1::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libHist.so
+#6  0x00007fd23ef77758 in TStreamerBase::ReadBuffer(TBuffer&, char*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#7  0x00007fd23ea4c962 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007fd23e924dad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#9  0x00007fd23e8d35e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#10 0x00007fd23e8d3d05 in TBufferFile::ReadClassBuffer(TClass const*, void*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007fd23e919e45 in TKey::ReadObj() () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007fd23e8e0151 in TDirectoryFile::Get(char const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#13 0x000000000043aeaa in HTTAnalyzer::getPreselectionEff(EventProxyHTT const&) ()
+#14 0x000000000042d21a in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#15 0x00007fd23f31237d in TreeAnalyzer::loop() [clone ._omp_fn.0] () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#16 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#17 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#18 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 4 (Thread 0x7fd226b76700 (LWP 57363)):
+#0  0x0000003270e0cef7 in inflate_fast () from /lib64/libz.so.1
+#1  0x0000003270e0b3bd in inflate () from /lib64/libz.so.1
+#2  0x00007fd23ef8bff7 in R__unzip () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#3  0x00007fd23d441e70 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#4  0x00007fd23d44a24a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#5  0x00007fd23d44a7c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007fd23d45d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007fd23d45d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007fd23d4a77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007fd23f300fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#10 0x00007fd23f3122f6 in TreeAnalyzer::loop() [clone ._omp_fn.0] () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#12 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#13 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7fd226175700 (LWP 57364)):
+#0  0x00007fd23e8d55c2 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#1  0x00007fd23c9ba805 in TVector2::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#2  0x00007fd23e910c0d in TGenCollectionStreamer::ReadObjects(int, TBuffer&, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#3  0x00007fd23e910e47 in TGenCollectionStreamer::ReadBufferGeneric(TBuffer&, void*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007fd23e8d4a49 in TBufferFile::ReadFastArray(void*, TClass const*, int, TMemberStreamer*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#5  0x00007fd23ea4b598 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007fd23e94b532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007fd23e8d321c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007fd23d454fe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007fd23d44a5e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007fd23d45d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007fd23d45d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007fd23d4a77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007fd23f300fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x00007fd23f3122f6 in TreeAnalyzer::loop() [clone ._omp_fn.0] () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#16 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#17 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x7fd225774700 (LWP 57365)):
+#0  0x0000003270e0d007 in inflate_fast () from /lib64/libz.so.1
+#1  0x0000003270e0b3bd in inflate () from /lib64/libz.so.1
+#2  0x00007fd23ef8bff7 in R__unzip () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#3  0x00007fd23d441e70 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#4  0x00007fd23d44a24a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#5  0x00007fd23d44a7c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007fd23d45d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007fd23d45d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007fd23d4a77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007fd23f300fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#10 0x00007fd23f3122f6 in TreeAnalyzer::loop() [clone ._omp_fn.0] () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#12 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#13 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7fd23e82db80 (LWP 57328)):
+#0  0x000000327020e4c5 in __lll_unlock_wake () from /lib64/libpthread.so.0
+#1  0x000000327020a947 in _L_unlock_657 () from /lib64/libpthread.so.0
+#2  0x000000327020a8af in pthread_mutex_unlock () from /lib64/libpthread.so.0
+#3  0x00007fd23e8d5664 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007fd23c9a3fd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#5  0x00007fd23ea4ba02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007fd23e94b532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007fd23e8d321c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007fd23d454fe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007fd23d44a5e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007fd23d45d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007fd23d45d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007fd23d4a77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007fd23f300fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x00007fd23f3122f6 in TreeAnalyzer::loop() [clone ._omp_fn.0] () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x0000003271c09aed in GOMP_parallel () from /usr/lib64/libgomp.so.1
+#16 0x00007fd23f312f13 in TreeAnalyzer::loop() () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#17 0x000000000041636a in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x00007fd23eccec50 in vtable for TStreamerInfoActions::TConfiguredAction () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007fd23ef30e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#8  0x00007fd23ef2ede3 in THashList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#9  0x00007fd23eecf4da in TObject::~TObject() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#10 0x00007fd23e8fa099 in TFile::~TFile() [clone .localalias.122] () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007fd23d473f45 in TChain::LoadTree(long long) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007fd23d4700e4 in TChain::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007fd23f300fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x00007fd23f3122f6 in TreeAnalyzer::loop() [clone ._omp_fn.0] () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#16 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#17 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+===========================================================
+
+
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+Thread 1 (process 57328):
+#0  0x000000326faac7fd in waitpid () from /lib64/libc.so.6
