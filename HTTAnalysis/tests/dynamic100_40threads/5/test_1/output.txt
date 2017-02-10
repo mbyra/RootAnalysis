@@ -1,0 +1,546 @@
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Warning in <TClass::Init>: no dictionary for class CrystalBallEfficiency is available
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlaye[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+0/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 5 (Thread 0x7f13fa8d3700 (LWP 22404)):
+#0  0x000000326fe09691 in __ieee754_atan2 () from /lib64/libm.so.6
+#1  0x000000326fe24995 in atan2 () from /lib64/libm.so.6
+#2  0x0000000000429796 in HTTAnalyzer::getSeparatedJets(EventProxyHTT const&, float) ()
+#3  0x000000000042be97 in HTTAnalyzer::setAnalysisObjects(EventProxyHTT const&) ()
+#4  0x000000000042d27b in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#5  0x00007f140d84237d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#6  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#7  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#8  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 4 (Thread 0x7f13f9ed2700 (LWP 22405)):
+#0  0x00007f140ce0d91c in TCollectionClassStreamer::Stream(TBuffer&, void*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#1  0x00007f140ce04a49 in TBufferFile::ReadFastArray(void*, TClass const*, int, TMemberStreamer*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#2  0x00007f140cf7b598 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#3  0x00007f140ce7b532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f140ce0321c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#5  0x00007f140b984fe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f140b97a5e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f140b98d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f140b98d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f140b9d77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f140d830fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x00007f140d8422f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#12 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#13 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#14 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f13f94d1700 (LWP 22406)):
+#0  0x0000003270e0d1d3 in inflate_fast () from /lib64/libz.so.1
+#1  0x0000003270e0b3bd in inflate () from /lib64/libz.so.1
+#2  0x00007f140d4bbff7 in R__unzip () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#3  0x00007f140b971e70 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#4  0x00007f140b97a24a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#5  0x00007f140b97a7c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f140b98d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f140b98d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f140b9d77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f140d830fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#10 0x00007f140d8422f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#12 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#13 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x7f13f8ad0700 (LWP 22407)):
+#0  0x0000003270e0ceea in inflate_fast () from /lib64/libz.so.1
+#1  0x0000003270e0b3bd in inflate () from /lib64/libz.so.1
+#2  0x00007f140d4bbff7 in R__unzip () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#3  0x00007f140b971e70 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#4  0x00007f140b97a24a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#5  0x00007f140b97a7c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f140b98d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f140b98d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f140b9d77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f140d830fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#10 0x00007f140d8422f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#12 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#13 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7f140cd5bb80 (LWP 22374)):
+#0  0x000000326faac7fd in waitpid () from /lib64/libc.so.6
+#1  0x000000326fa3e5c9 in do_system () from /lib64/libc.so.6
+#2  0x000000326fa3e900 in system () from /lib64/libc.so.6
+#3  0x00007f140d4b02ba in TUnixSystem::StackTrace() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#4  0x00007f140d4b225c in TUnixSystem::DispatchSignals(ESignals) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#5  <signal handler called>
+#6  0x0000000000000000 in ?? ()
+#7  0x00007f140d460e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#8  0x00007f140d460e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#9  0x00007f140d45ede3 in THashList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#10 0x00007f140d3ff4da in TObject::~TObject() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#11 0x00007f140ce2a099 in TFile::~TFile () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007f140b9a3f45 in TChain::LoadTree(long long) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f140b9a00e4 in TChain::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007f140d830fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x00007f140d8422f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#16 0x0000003271c09aed in GOMP_parallel () from /usr/lib64/libgomp.so.1
+#17 0x00007f140d842f13 in TreeAnalyzer::loop() () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#18 0x000000000041636a in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x0000000000000000 in ?? ()
+#7  0x00007f140d460e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#8  0x00007f140d460e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#9  0x00007f140d45ede3 in THashList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#10 0x00007f140d3ff4da in TObject::~TObject() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#11 0x00007f140ce2a099 in TFile::~TFile () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007f140b9a3f45 in TChain::LoadTree(long long) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f140b9a00e4 in TChain::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007f140d830fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x00007f140d8422f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#16 0x0000003271c09aed in GOMP_parallel () from /usr/lib64/libgomp.so.1
+#17 0x00007f140d842f13 in TreeAnalyzer::loop() () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#18 0x000000000041636a in main ()
+===========================================================
+
+
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 5 (Thread 0x7f13fa8d3700 (LWP 22404)):
+#0  0x000000327020e334 in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00000032702095f3 in _L_lock_892 () from /lib64/libpthread.so.0
+#2  0x00000032702094d7 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00007f140601e274 in TCling::ResetGlobals() () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#4  0x00007f140d415f14 in TROOT::EndOfProcessCleanups() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#5  0x00007f140d4ad7b1 in TUnixSystem::Exit(int, bool) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#6  0x00007f140d4b2376 in TUnixSystem::DispatchSignals(ESignals) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#7  <signal handler called>
+#8  0x00007f140d40143c in TObject::SetBit(unsigned int, bool) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#9  0x00007f140d401d3d in TObjectSpy::~TObjectSpy() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#10 0x00007f140d401dc9 in TObjectSpy::~TObjectSpy() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#11 0x00007f140ce055a3 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007f140aed3fd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#13 0x00007f140cf7ba02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#14 0x00007f140ce7b532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#15 0x00007f140ce0321c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#16 0x00007f140b984fe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#17 0x00007f140b97a5e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#18 0x00007f140b98d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#19 0x00007f140b98d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#20 0x00007f140b9d77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#21 0x00007f140d830fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#22 0x00007f140d8422f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#23 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#24 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#25 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 4 (Thread 0x7f13f9ed2700 (LWP 22405)):
+#0  0x000000327020e334 in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00000032702095f3 in _L_lock_892 () from /lib64/libpthread.so.0
+#2  0x00000032702094d7 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00007f140601e274 in TCling::ResetGlobals() () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#4  0x00007f140d415f14 in TROOT::EndOfProcessCleanups() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#5  0x00007f140d4ad7b1 in TUnixSystem::Exit(int, bool) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#6  0x00007f140d4b2376 in TUnixSystem::DispatchSignals(ESignals) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#7  <signal handler called>
+#8  0x00007f140ce05579 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#9  0x00007f140aeec655 in TVector3::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#10 0x00007f140cf7ba02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007f140ce54dad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007f140ce035e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#13 0x00007f140b981a69 in TBranchElement::ReadLeavesMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007f140b97a5e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#15 0x00007f140b98d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#16 0x00007f140b98d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#17 0x00007f140b9d77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#18 0x00007f140d830fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#19 0x00007f140d8422f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#20 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#21 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#22 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f13f94d1700 (LWP 22406)):
+#0  0x000000327020e334 in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00000032702095f3 in _L_lock_892 () from /lib64/libpthread.so.0
+#2  0x00000032702094d7 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00007f140601e274 in TCling::ResetGlobals() () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#4  0x00007f140d415f14 in TROOT::EndOfProcessCleanups() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#5  0x00007f140d4ad7b1 in TUnixSystem::Exit(int, bool) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#6  0x00007f140d4b2376 in TUnixSystem::DispatchSignals(ESignals) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#7  <signal handler called>
+#8  0x0000000000002ade in ?? ()
+#9  0x00007f140ce0557f in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#10 0x00007f140aed3fd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#11 0x00007f140cf7ba02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007f140ce7b532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#13 0x00007f140ce0321c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#14 0x00007f140b984fe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#15 0x00007f140b97a5e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#16 0x00007f140b98d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#17 0x00007f140b98d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#18 0x00007f140b9d77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#19 0x00007f140d830fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#20 0x00007f140d8422f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#21 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#22 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#23 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x7f13f8ad0700 (LWP 22407)):
+#0  0x000000326faac7fd in waitpid () from /lib64/libc.so.6
+#1  0x000000326fa3e5c9 in do_system () from /lib64/libc.so.6
+#2  0x000000326fa3e900 in system () from /lib64/libc.so.6
+#3  0x00007f140d4b02ba in TUnixSystem::StackTrace() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#4  0x00007f140d4b225c in TUnixSystem::DispatchSignals(ESignals) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#5  <signal handler called>
+#6  0x00007f140d40143c in TObject::SetBit(unsigned int, bool) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#7  0x00007f140d401d3d in TObjectSpy::~TObjectSpy() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#8  0x00007f140d401dc9 in TObjectSpy::~TObjectSpy() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#9  0x00007f140ce055a3 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#10 0x00007f140c6d237b in TH1::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libHist.so
+#11 0x00007f140d4a7758 in TStreamerBase::ReadBuffer(TBuffer&, char*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#12 0x00007f140cf7c962 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#13 0x00007f140ce54dad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#14 0x00007f140ce035e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#15 0x00007f140ce03d05 in TBufferFile::ReadClassBuffer(TClass const*, void*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#16 0x00007f140ce49e45 in TKey::ReadObj() () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#17 0x00007f140ce10151 in TDirectoryFile::Get(char const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#18 0x000000000043aeaa in HTTAnalyzer::getPreselectionEff(EventProxyHTT const&) ()
+#19 0x000000000042d21a in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#20 0x00007f140d84237d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#21 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#22 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#23 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7f140cd5bb80 (LWP 22374)):
+#0  0x00007f140624aa51 in clang::ASTReader::ReadDeclContextStorage(clang::serialization::ModuleFile&, llvm::BitstreamCursor&, std::pair<unsigned long, unsigned long> const&, clang::serialization::DeclContextInfo&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#1  0x00007f140629c68a in clang::ASTReader::ReadDeclRecord(unsigned int) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#2  0x00007f1406248bed in clang::ASTReader::GetDecl(unsigned int) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#3  0x00007f140697e56e in clang::MultiplexExternalSemaSource::GetExternalDecl(unsigned int) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#4  0x00007f1406a84063 in clang::ClassTemplateDecl::LoadLazySpecializations() const () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#5  0x00007f1406a84079 in clang::ClassTemplateDecl::getSpecializations() const () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#6  0x00007f1406a869fa in clang::ClassTemplateDecl::findSpecialization(llvm::ArrayRef<clang::TemplateArgument>, void*&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#7  0x00007f14068ae789 in clang::Sema::CheckTemplateIdType(clang::TemplateName, clang::SourceLocation, clang::TemplateArgumentListInfo&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#8  0x00007f140691f351 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformTemplateSpecializationType(clang::TypeLocBuilder&, clang::TemplateSpecializationTypeLoc, clang::TemplateName) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#9  0x00007f140691fe3f in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformTSIInObjectScope () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#10 0x00007f1406920444 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformNestedNameSpecifierLoc(clang::NestedNameSpecifierLoc, clang::QualType, clang::NamedDecl*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#11 0x00007f140690d381 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformType(clang::TypeLocBuilder&, clang::TypeLoc) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#12 0x00007f140690e8d1 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformType(clang::TypeSourceInfo*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#13 0x00007f140690e9c3 in clang::Sema::SubstType(clang::TypeSourceInfo*, clang::MultiLevelTemplateArgumentList const&, clang::SourceLocation, clang::DeclarationName) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#14 0x00007f1406934f6f in clang::TemplateDeclInstantiator::InstantiateTypedefNameDecl(clang::TypedefNameDecl*, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#15 0x00007f14069352c0 in clang::TemplateDeclInstantiator::VisitTypedefDecl(clang::TypedefDecl*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#16 0x00007f140690f5fa in clang::Sema::InstantiateClass(clang::SourceLocation, clang::CXXRecordDecl*, clang::CXXRecordDecl*, clang::MultiLevelTemplateArgumentList const&, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#17 0x00007f140692bf98 in clang::Sema::InstantiateClassTemplateSpecialization(clang::SourceLocation, clang::ClassTemplateSpecializationDecl*, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#18 0x00007f1406953375 in clang::Sema::RequireCompleteTypeImpl(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#19 0x00007f1406953745 in clang::Sema::RequireCompleteType(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#20 0x00007f140660572b in clang::Sema::RequireCompleteDeclContext(clang::CXXScopeSpec&, clang::DeclContext*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#21 0x00007f14068a52ab in clang::Sema::CheckTypenameType(clang::ElaboratedTypeKeyword, clang::SourceLocation, clang::NestedNameSpecifierLoc, clang::IdentifierInfo const&, clang::SourceLocation) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#22 0x00007f1406907a69 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::RebuildDependentNameType () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#23 0x00007f140690d3b7 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformType(clang::TypeLocBuilder&, clang::TypeLoc) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#24 0x00007f140690e8d1 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformType(clang::TypeSourceInfo*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#25 0x00007f140690e9c3 in clang::Sema::SubstType(clang::TypeSourceInfo*, clang::MultiLevelTemplateArgumentList const&, clang::SourceLocation, clang::DeclarationName) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#26 0x00007f14068adac8 in clang::Sema::CheckTemplateArgumentList(clang::TemplateDecl*, clang::SourceLocation, clang::TemplateArgumentListInfo&, bool, llvm::SmallVectorImpl<clang::TemplateArgument>&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#27 0x00007f14068ae21c in clang::Sema::CheckTemplateIdType(clang::TemplateName, clang::SourceLocation, clang::TemplateArgumentListInfo&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#28 0x00007f140691f351 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformTemplateSpecializationType(clang::TypeLocBuilder&, clang::TemplateSpecializationTypeLoc, clang::TemplateName) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#29 0x00007f140691fe3f in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformTSIInObjectScope () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#30 0x00007f1406920444 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformNestedNameSpecifierLoc(clang::NestedNameSpecifierLoc, clang::QualType, clang::NamedDecl*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#31 0x00007f140690d381 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformType(clang::TypeLocBuilder&, clang::TypeLoc) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#32 0x00007f1406910aa2 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformReferenceType(clang::TypeLocBuilder&, clang::ReferenceTypeLoc) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#33 0x00007f140690cb19 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformType(clang::TypeLocBuilder&, clang::TypeLoc) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#34 0x00007f140690e8d1 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformType(clang::TypeSourceInfo*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#35 0x00007f140690e9c3 in clang::Sema::SubstType(clang::TypeSourceInfo*, clang::MultiLevelTemplateArgumentList const&, clang::SourceLocation, clang::DeclarationName) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#36 0x00007f140690ac58 in clang::Sema::SubstParmVarDecl(clang::ParmVarDecl*, clang::MultiLevelTemplateArgumentList const&, int, llvm::Optional<unsigned int>, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#37 0x00007f140690b9a5 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformFunctionTypeParams(clang::SourceLocation, clang::ParmVarDecl**, unsigned int, clang::QualType const*, llvm::SmallVectorImpl<clang::QualType>&, llvm::SmallVectorImpl<clang::ParmVarDecl*>*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#38 0x00007f1406912420 in clang::Sema::SubstFunctionDeclType(clang::TypeSourceInfo*, clang::MultiLevelTemplateArgumentList const&, clang::SourceLocation, clang::DeclarationName, clang::CXXRecordDecl*, unsigned int) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#39 0x00007f140692fda1 in clang::TemplateDeclInstantiator::SubstFunctionType(clang::FunctionDecl*, llvm::SmallVectorImpl<clang::ParmVarDecl*>&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#40 0x00007f140693905a in clang::TemplateDeclInstantiator::VisitCXXMethodDecl(clang::CXXMethodDecl*, clang::TemplateParameterList*, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#41 0x00007f140690f5fa in clang::Sema::InstantiateClass(clang::SourceLocation, clang::CXXRecordDecl*, clang::CXXRecordDecl*, clang::MultiLevelTemplateArgumentList const&, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#42 0x00007f140692bf98 in clang::Sema::InstantiateClassTemplateSpecialization(clang::SourceLocation, clang::ClassTemplateSpecializationDecl*, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#43 0x00007f1406953375 in clang::Sema::RequireCompleteTypeImpl(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#44 0x00007f1406953745 in clang::Sema::RequireCompleteType(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#45 0x00007f140660572b in clang::Sema::RequireCompleteDeclContext(clang::CXXScopeSpec&, clang::DeclContext*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#46 0x00007f14068a36c7 in clang::Sema::LookupTemplateName(clang::LookupResult&, clang::Scope*, clang::CXXScopeSpec&, clang::QualType, bool, bool&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#47 0x00007f14068a4534 in clang::Sema::isTemplateName(clang::Scope*, clang::CXXScopeSpec&, bool, clang::UnqualifiedId&, clang::OpaquePtr<clang::QualType>, bool, clang::OpaquePtr<clang::TemplateName>&, bool&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#48 0x00007f14068b005f in clang::Sema::ActOnDependentTemplateName(clang::Scope*, clang::CXXScopeSpec&, clang::SourceLocation, clang::UnqualifiedId&, clang::OpaquePtr<clang::QualType>, bool, clang::OpaquePtr<clang::TemplateName>&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#49 0x00007f140691e79f in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformDependentTemplateSpecializationType(clang::TypeLocBuilder&, clang::DependentTemplateSpecializationTypeLoc, clang::NestedNameSpecifierLoc) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#50 0x00007f140690d45e in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformType(clang::TypeLocBuilder&, clang::TypeLoc) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#51 0x00007f14069123ad in clang::Sema::SubstFunctionDeclType(clang::TypeSourceInfo*, clang::MultiLevelTemplateArgumentList const&, clang::SourceLocation, clang::DeclarationName, clang::CXXRecordDecl*, unsigned int) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#52 0x00007f140692fda1 in clang::TemplateDeclInstantiator::SubstFunctionType(clang::FunctionDecl*, llvm::SmallVectorImpl<clang::ParmVarDecl*>&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#53 0x00007f140693905a in clang::TemplateDeclInstantiator::VisitCXXMethodDecl(clang::CXXMethodDecl*, clang::TemplateParameterList*, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#54 0x00007f140690f5fa in clang::Sema::InstantiateClass(clang::SourceLocation, clang::CXXRecordDecl*, clang::CXXRecordDecl*, clang::MultiLevelTemplateArgumentList const&, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#55 0x00007f140692bf98 in clang::Sema::InstantiateClassTemplateSpecialization(clang::SourceLocation, clang::ClassTemplateSpecializationDecl*, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#56 0x00007f1406953375 in clang::Sema::RequireCompleteTypeImpl(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#57 0x00007f1406953745 in clang::Sema::RequireCompleteType(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#58 0x00007f14066f7719 in clang::Sema::CheckBaseSpecifier(clang::CXXRecordDecl*, clang::SourceRange, bool, clang::AccessSpecifier, clang::TypeSourceInfo*, clang::SourceLocation) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#59 0x00007f140690ede0 in clang::Sema::SubstBaseSpecifiers(clang::CXXRecordDecl*, clang::CXXRecordDecl*, clang::MultiLevelTemplateArgumentList const&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#60 0x00007f140690f464 in clang::Sema::InstantiateClass(clang::SourceLocation, clang::CXXRecordDecl*, clang::CXXRecordDecl*, clang::MultiLevelTemplateArgumentList const&, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#61 0x00007f140692bf98 in clang::Sema::InstantiateClassTemplateSpecialization(clang::SourceLocation, clang::ClassTemplateSpecializationDecl*, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#62 0x00007f1406953375 in clang::Sema::RequireCompleteTypeImpl(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#63 0x00007f1406953745 in clang::Sema::RequireCompleteType(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#64 0x00007f140660572b in clang::Sema::RequireCompleteDeclContext(clang::CXXScopeSpec&, clang::DeclContext*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#65 0x00007f14068a36c7 in clang::Sema::LookupTemplateName(clang::LookupResult&, clang::Scope*, clang::CXXScopeSpec&, clang::QualType, bool, bool&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#66 0x00007f14068a4534 in clang::Sema::isTemplateName(clang::Scope*, clang::CXXScopeSpec&, bool, clang::UnqualifiedId&, clang::OpaquePtr<clang::QualType>, bool, clang::OpaquePtr<clang::TemplateName>&, bool&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#67 0x00007f14068b005f in clang::Sema::ActOnDependentTemplateName(clang::Scope*, clang::CXXScopeSpec&, clang::SourceLocation, clang::UnqualifiedId&, clang::OpaquePtr<clang::QualType>, bool, clang::OpaquePtr<clang::TemplateName>&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#68 0x00007f140691fafc in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformTSIInObjectScope () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#69 0x00007f1406920444 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformNestedNameSpecifierLoc(clang::NestedNameSpecifierLoc, clang::QualType, clang::NamedDecl*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#70 0x00007f140690d381 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformType(clang::TypeLocBuilder&, clang::TypeLoc) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#71 0x00007f140690e8d1 in clang::TreeTransform<(anonymous namespace)::TemplateInstantiator>::TransformType(clang::TypeSourceInfo*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#72 0x00007f140690e9c3 in clang::Sema::SubstType(clang::TypeSourceInfo*, clang::MultiLevelTemplateArgumentList const&, clang::SourceLocation, clang::DeclarationName) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#73 0x00007f1406934f6f in clang::TemplateDeclInstantiator::InstantiateTypedefNameDecl(clang::TypedefNameDecl*, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#74 0x00007f14069352c0 in clang::TemplateDeclInstantiator::VisitTypedefDecl(clang::TypedefDecl*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#75 0x00007f140690f5fa in clang::Sema::InstantiateClass(clang::SourceLocation, clang::CXXRecordDecl*, clang::CXXRecordDecl*, clang::MultiLevelTemplateArgumentList const&, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#76 0x00007f140692bf98 in clang::Sema::InstantiateClassTemplateSpecialization(clang::SourceLocation, clang::ClassTemplateSpecializationDecl*, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#77 0x00007f1406953375 in clang::Sema::RequireCompleteTypeImpl(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#78 0x00007f1406953745 in clang::Sema::RequireCompleteType(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#79 0x00007f14066f7719 in clang::Sema::CheckBaseSpecifier(clang::CXXRecordDecl*, clang::SourceRange, bool, clang::AccessSpecifier, clang::TypeSourceInfo*, clang::SourceLocation) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#80 0x00007f140690ede0 in clang::Sema::SubstBaseSpecifiers(clang::CXXRecordDecl*, clang::CXXRecordDecl*, clang::MultiLevelTemplateArgumentList const&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#81 0x00007f140690f464 in clang::Sema::InstantiateClass(clang::SourceLocation, clang::CXXRecordDecl*, clang::CXXRecordDecl*, clang::MultiLevelTemplateArgumentList const&, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#82 0x00007f140692bf98 in clang::Sema::InstantiateClassTemplateSpecialization(clang::SourceLocation, clang::ClassTemplateSpecializationDecl*, clang::TemplateSpecializationKind, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#83 0x00007f1406953375 in clang::Sema::RequireCompleteTypeImpl(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#84 0x00007f1406953745 in clang::Sema::RequireCompleteType(clang::SourceLocation, clang::QualType, clang::Sema::TypeDiagnoser&) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#85 0x00007f140660572b in clang::Sema::RequireCompleteDeclContext(clang::CXXScopeSpec&, clang::DeclContext*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#86 0x00007f1406150b6a in cling::LookupHelper::findScope(llvm::StringRef, cling::LookupHelper::DiagSetting, clang::Type const**, bool) const () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#87 0x00007f1406071e69 in TClingClassInfo::TClingClassInfo(cling::Interpreter*, char const*) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#88 0x00007f1406023c66 in TCling::SetClassInfo(TClass*, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#89 0x00007f140d4711e5 in TClass::SetUnloaded() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#90 0x00007f140d458ba4 in ROOT::RemoveClass(char const*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#91 0x00007f140d48aece in ROOT::TGenericClassInfo::~TGenericClassInfo() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#92 0x000000326fa35ae2 in exit () from /lib64/libc.so.6
+#93 0x00007f140d4ad7bd in TUnixSystem::Exit(int, bool) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#94 0x00007f140d4b2376 in TUnixSystem::DispatchSignals(ESignals) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#95 <signal handler called>
+#96 0x0000000000000000 in ?? ()
+#97 0x00007f140d460e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#98 0x00007f140d460e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#99 0x00007f140d45ede3 in THashList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#100 0x00007f140d3ff4da in TObject::~TObject() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#101 0x00007f140ce2a099 in TFile::~TFile () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#102 0x00007f140b9a3f45 in TChain::LoadTree(long long) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#103 0x00007f140b9a00e4 in TChain::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#104 0x00007f140d830fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#105 0x00007f140d8422f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#106 0x0000003271c09aed in GOMP_parallel () from /usr/lib64/libgomp.so.1
+#107 0x00007f140d842f13 in TreeAnalyzer::loop() () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#108 0x000000000041636a in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#8  0x00007f140d40143c in TObject::SetBit(unsigned int, bool) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#9  0x00007f140d401d3d in TObjectSpy::~TObjectSpy() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#10 0x00007f140d401dc9 in TObjectSpy::~TObjectSpy() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#11 0x00007f140ce055a3 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007f140aed3fd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#13 0x00007f140cf7ba02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#14 0x00007f140ce7b532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#15 0x00007f140ce0321c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#16 0x00007f140b984fe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#17 0x00007f140b97a5e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#18 0x00007f140b98d551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#19 0x00007f140b98d4fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#20 0x00007f140b9d77d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#21 0x00007f140d830fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#22 0x00007f140d8422f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#23 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#24 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#25 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+===========================================================
+
+

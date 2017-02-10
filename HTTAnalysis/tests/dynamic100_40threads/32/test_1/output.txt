@@ -1,0 +1,1700 @@
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTaEvents total: 2173854
+Events analyzed: 0/2173854 (0) thread: 0
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() reusing code export directory .wscode.ac09e4bc-7fc3-31e6-9717-d738ff32f8ac.w to extract coded embedded in workspace
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Compiling code unit CrystalBallEfficiency to define class CrystalBallEfficiency
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+er::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 32 (Thread 0x7f62f25fd700 (LWP 34667)):
+#0  0x000000327aa9c5d3 in std::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char const*, unsigned long, unsigned long) const () from /usr/lib64/libstdc++.so.6
+#1  0x00000000004569a5 in HTTHistograms::getTemplateName(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) ()
+#2  0x00007f63156eb0d0 in AnalysisHistograms::fill1DHistogram(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, float) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#3  0x000000000042e200 in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#4  0x00007f63156fa37d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#5  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#6  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#7  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 31 (Thread 0x7f62f1bfc700 (LWP 34668)):
+#0  0x000000326fa7a3a5 in _int_malloc () from /lib64/libc.so.6
+#1  0x000000326fa7abfc in malloc () from /lib64/libc.so.6
+#2  0x000000327aabd0bd in operator new(unsigned long) () from /usr/lib64/libstdc++.so.6
+#3  0x00007f63152d48f9 in TStorage::ObjectAlloc(unsigned long) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#4  0x00007f631464c19a in ROOT::new_TH1F(void*) () from /opt/soft/root-6.06.00/lib/root/libHist.so
+#5  0x00007f631532a36d in TClass::New(TClass::ENewType, bool) const () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#6  0x00007f6314d01b9d in TKey::ReadObj() () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314cc8151 in TDirectoryFile::Get(char const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x000000000043aeaa in HTTAnalyzer::getPreselectionEff(EventProxyHTT const&) ()
+#9  0x000000000042d21a in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#10 0x00007f63156fa37d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#12 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#13 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 30 (Thread 0x7f62f11fb700 (LWP 34669)):
+#0  0x0000003270e0cf58 in inflate_fast () from /lib64/libz.so.1
+#1  0x0000003270e0b3bd in inflate () from /lib64/libz.so.1
+#2  0x00007f6315373ff7 in R__unzip () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#3  0x00007f6313829e70 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#4  0x00007f631383224a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#5  0x00007f63138327c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#10 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#12 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#13 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 29 (Thread 0x7f62f07fa700 (LWP 34670)):
+#0  0x00007f63156eae8d in AnalysisHistograms::fill1DHistogram(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, float) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#1  0x00007f63156ed707 in AnalysisHistograms::fill2DUnrolledHistogram(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, float, float) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#2  0x00000000004349be in HTTAnalyzer::fillDecayPlaneAngle(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, sysEffects::sysEffectsEnum const&) ()
+#3  0x000000000042e835 in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#4  0x00007f63156fa37d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#5  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#6  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#7  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 28 (Thread 0x7f62efdf9700 (LWP 34671)):
+#0  0x000000326fa83ea2 in __memset_sse2 () from /lib64/libc.so.6
+#1  0x00007f63152d4909 in TStorage::ObjectAlloc(unsigned long) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#2  0x00007f63156eac85 in AnalysisHistograms::add1DHistogram(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, float, float, TDirectory*) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#3  0x00007f63156eb076 in AnalysisHistograms::fill1DHistogram(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, float) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#4  0x0000000000424f84 in HTTAnalyzer::fillControlHistos(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, sysEffects::sysEffectsEnum const&) ()
+#5  0x000000000042e712 in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#6  0x00007f63156fa37d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#7  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#8  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#9  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 27 (Thread 0x7f62ef3f8700 (LWP 34672)):
+#0  0x000000327aabd0b8 in operator new(unsigned long) () from /usr/lib64/libstdc++.so.6
+#1  0x000000327aa9c3c9 in std::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) () from /usr/lib64/libstdc++.so.6
+#2  0x000000327aa9d19b in std::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Rep::_M_clone(std::allocator<char> const&, unsigned long) () from /usr/lib64/libstdc++.so.6
+#3  0x000000327aa9d5ec in std::basic_string<char, std::char_traits<char>, std::allocator<char> >::reserve(unsigned long) () from /usr/lib64/libstdc++.so.6
+#4  0x000000000042e286 in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#5  0x00007f63156fa37d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#6  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#7  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#8  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 26 (Thread 0x7f62ee9f7700 (LWP 34673)):
+#0  0x000000327020e82d in read () from /lib64/libpthread.so.0
+#1  0x00007f6314cd9611 in TFile::ReadBuffer(char*, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#2  0x00007f6314cd54eb in TFile::ReadBuffers(char*, long long*, int*, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#3  0x00007f6314cd350c in TFileCacheRead::ReadBufferExtNormal(char*, long long, int, int&) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6314cd24b9 in TFileCacheRead::ReadBuffer(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#5  0x00007f631387d671 in TTreeCache::ReadBufferNormal(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f6313829ae6 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f631383224a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f63138327c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#13 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#15 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#16 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 25 (Thread 0x7f62edff6700 (LWP 34674)):
+#0  0x00007f6312da2e22 in TVector3::Perp() const () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#1  0x0000000000428686 in HTTAnalyzer::passCategory(HTTAnalyzer::muTauCategory const&, sysEffects::sysEffectsEnum const&) ()
+#2  0x000000000042d75e in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#3  0x00007f63156fa37d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#4  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#5  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#6  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 24 (Thread 0x7f62ed5f5700 (LWP 34675)):
+#0  0x000000327020e82d in read () from /lib64/libpthread.so.0
+#1  0x00007f6314cd9611 in TFile::ReadBuffer(char*, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#2  0x00007f6314cd54eb in TFile::ReadBuffers(char*, long long*, int*, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#3  0x00007f6314cd350c in TFileCacheRead::ReadBufferExtNormal(char*, long long, int, int&) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6314cd24b9 in TFileCacheRead::ReadBuffer(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#5  0x00007f631387d671 in TTreeCache::ReadBufferNormal(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f6313829ae6 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f631383224a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f63138327c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#13 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#15 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#16 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 23 (Thread 0x7f62ecbf4700 (LWP 34676)):
+#0  0x000000326fa79b97 in _int_malloc () from /lib64/libc.so.6
+#1  0x000000326fa7abfc in malloc () from /lib64/libc.so.6
+#2  0x000000327aabd0bd in operator new(unsigned long) () from /usr/lib64/libstdc++.so.6
+#3  0x000000327aabd1d9 in operator new[](unsigned long) () from /usr/lib64/libstdc++.so.6
+#4  0x00007f63152d6f04 in TString::Clobber(int) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#5  0x00007f6314cc1bf8 in TBufferFile::ReadTString(TString&) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f6314d96707 in TStreamerInfoActions::ReadTString(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314cbb5e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f6314cbbd05 in TBufferFile::ReadClassBuffer(TClass const*, void*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#9  0x00007f6314cbb5e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#10 0x00007f6314cbd57f in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007f631458a37b in TH1::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libHist.so
+#12 0x00007f631535f758 in TStreamerBase::ReadBuffer(TBuffer&, char*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#13 0x00007f6314e34962 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#14 0x00007f6314d0cdad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#15 0x00007f6314cbb5e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#16 0x00007f6314cbbd05 in TBufferFile::ReadClassBuffer(TClass const*, void*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#17 0x00007f6314d01e45 in TKey::ReadObj() () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#18 0x00007f6314cc8151 in TDirectoryFile::Get(char const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#19 0x000000000043aeaa in HTTAnalyzer::getPreselectionEff(EventProxyHTT const&) ()
+#20 0x000000000042d21a in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#21 0x00007f63156fa37d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#22 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#23 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#24 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 22 (Thread 0x7f62ec1f3700 (LWP 34677)):
+#0  0x0000003270e0d13e in inflate_fast () from /lib64/libz.so.1
+#1  0x0000003270e0b3bd in inflate () from /lib64/libz.so.1
+#2  0x00007f6315373ff7 in R__unzip () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#3  0x00007f6313829e70 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#4  0x00007f631383224a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#5  0x00007f63138327c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#10 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#12 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#13 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 21 (Thread 0x7f62eb7f2700 (LWP 34678)):
+#0  0x0000003270e0d1f6 in inflate_fast () from /lib64/libz.so.1
+#1  0x0000003270e0b3bd in inflate () from /lib64/libz.so.1
+#2  0x00007f6315373ff7 in R__unzip () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#3  0x00007f6313829e70 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#4  0x00007f631383224a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#5  0x00007f63138327c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#10 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#12 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#13 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 20 (Thread 0x7f62eadf1700 (LWP 34679)):
+#0  0x00007f63156eddc0 in std::_Hashtable<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, TProfile*>, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, TProfile*> >, std::__detail::_Select1st, std::equal_to<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, TProfile*>, true>*) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#1  0x00007f63156ea659 in AnalysisHistograms::addProfile(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, float, float, TDirectory*) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#2  0x00007f63156ea859 in AnalysisHistograms::fillProfile(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, float, float) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#3  0x0000000000434688 in HTTAnalyzer::fillDecayPlaneAngle(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, sysEffects::sysEffectsEnum const&) ()
+#4  0x000000000042e8a0 in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#5  0x00007f63156fa37d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#6  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#7  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#8  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 19 (Thread 0x7f62ea3f0700 (LWP 34680)):
+#0  0x000000327020e334 in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00000032702095f3 in _L_lock_892 () from /lib64/libpthread.so.0
+#2  0x00000032702094d7 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00007f6314cbd5d3 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6312d8bfd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#5  0x00007f6314e33a02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f6314d33532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314cbb21c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f631383cfe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f63138325e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#16 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#17 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 18 (Thread 0x7f62e99ef700 (LWP 34681)):
+#0  0x000000327020e4c5 in __lll_unlock_wake () from /lib64/libpthread.so.0
+#1  0x000000327020a947 in _L_unlock_657 () from /lib64/libpthread.so.0
+#2  0x000000327020a8af in pthread_mutex_unlock () from /lib64/libpthread.so.0
+#3  0x00007f6314cbd664 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6312d8bfd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#5  0x00007f6314e33a02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f6314d33532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314cbb21c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f631383cfe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f63138325e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#16 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#17 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 17 (Thread 0x7f62e8fee700 (LWP 34682)):
+#0  0x000000326fa7a3a5 in _int_malloc () from /lib64/libc.so.6
+#1  0x000000326fa7abfc in malloc () from /lib64/libc.so.6
+#2  0x000000327aabd0bd in operator new(unsigned long) () from /usr/lib64/libstdc++.so.6
+#3  0x00007f63152d48f9 in TStorage::ObjectAlloc(unsigned long) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#4  0x00007f63156eac85 in AnalysisHistograms::add1DHistogram(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, float, float, TDirectory*) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#5  0x00007f63156eb076 in AnalysisHistograms::fill1DHistogram(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, float) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#6  0x0000000000425083 in HTTAnalyzer::fillControlHistos(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, sysEffects::sysEffectsEnum const&) ()
+#7  0x000000000042e712 in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#8  0x00007f63156fa37d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#9  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#10 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#11 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 16 (Thread 0x7f62e85ed700 (LWP 34683)):
+#0  0x000000327020e334 in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00000032702095f3 in _L_lock_892 () from /lib64/libpthread.so.0
+#2  0x00000032702094d7 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00007f6314cbd5d3 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6312d8bfd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#5  0x00007f6314e33a02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f6314d33532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314cbb21c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f631383cfe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f63138325e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#16 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#17 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 15 (Thread 0x7f62e7bec700 (LWP 34684)):
+#0  0x000000327020e4c5 in __lll_unlock_wake () from /lib64/libpthread.so.0
+#1  0x000000327020a947 in _L_unlock_657 () from /lib64/libpthread.so.0
+#2  0x000000327020a8af in pthread_mutex_unlock () from /lib64/libpthread.so.0
+#3  0x00007f6314cbd664 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6312d8bfd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#5  0x00007f6314cf8c0d in TGenCollectionStreamer::ReadObjects(int, TBuffer&, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f6314cf8e47 in TGenCollectionStreamer::ReadBufferGeneric(TBuffer&, void*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314cbca49 in TBufferFile::ReadFastArray(void*, TClass const*, int, TMemberStreamer*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f6314e33598 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#9  0x00007f6314d33532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#10 0x00007f6314cbb21c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007f631383cfe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f63138325e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#15 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#16 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#17 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#18 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#19 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#20 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 14 (Thread 0x7f62e71eb700 (LWP 34685)):
+#0  0x000000327020e4c5 in __lll_unlock_wake () from /lib64/libpthread.so.0
+#1  0x000000327020a947 in _L_unlock_657 () from /lib64/libpthread.so.0
+#2  0x000000327020a8af in pthread_mutex_unlock () from /lib64/libpthread.so.0
+#3  0x00007f6314cbd664 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6312da4655 in TVector3::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#5  0x00007f6314e33a02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f6314d33532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314cbb21c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f631383cfe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f63138325e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#16 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#17 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 13 (Thread 0x7f62e67ea700 (LWP 34686)):
+#0  0x0000003270209470 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#1  0x00007f6314cbd5d3 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#2  0x00007f6312d8bfd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#3  0x00007f6314cf8c0d in TGenCollectionStreamer::ReadObjects(int, TBuffer&, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6314cf8e47 in TGenCollectionStreamer::ReadBufferGeneric(TBuffer&, void*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#5  0x00007f6314cbca49 in TBufferFile::ReadFastArray(void*, TClass const*, int, TMemberStreamer*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f6314e33598 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314d33532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f6314cbb21c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#9  0x00007f631383cfe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f63138325e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#16 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#17 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#18 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 12 (Thread 0x7f62e5de9700 (LWP 34687)):
+#0  0x0000003270e0ceff in inflate_fast () from /lib64/libz.so.1
+#1  0x0000003270e0b3bd in inflate () from /lib64/libz.so.1
+#2  0x00007f6315373ff7 in R__unzip () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#3  0x00007f6313829e70 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#4  0x00007f631383224a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#5  0x00007f63138327c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#10 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#12 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#13 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 11 (Thread 0x7f62e53e8700 (LWP 34688)):
+#0  0x000000327aa9c5c0 in std::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char const*, unsigned long, unsigned long) const () from /usr/lib64/libstdc++.so.6
+#1  0x00007f63156ea1a0 in AnalysisHistograms::get2DHistogram(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#2  0x00007f63156ed664 in AnalysisHistograms::fill2DUnrolledHistogram(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, float, float) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#3  0x00000000004349be in HTTAnalyzer::fillDecayPlaneAngle(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float, sysEffects::sysEffectsEnum const&) ()
+#4  0x000000000042e835 in HTTAnalyzer::analyze(EventProxyBase const&) ()
+#5  0x00007f63156fa37d in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#6  0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#7  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#8  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 10 (Thread 0x7f62e49e7700 (LWP 34689)):
+#0  0x000000327020e82d in read () from /lib64/libpthread.so.0
+#1  0x00007f6314cd9611 in TFile::ReadBuffer(char*, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#2  0x00007f6314cd54eb in TFile::ReadBuffers(char*, long long*, int*, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#3  0x00007f6314cd350c in TFileCacheRead::ReadBufferExtNormal(char*, long long, int, int&) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6314cd24b9 in TFileCacheRead::ReadBuffer(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#5  0x00007f631387d671 in TTreeCache::ReadBufferNormal(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f6313829ae6 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f631383224a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f63138327c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#13 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#15 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#16 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 9 (Thread 0x7f62e3fe6700 (LWP 34690)):
+#0  0x000000327020e82d in read () from /lib64/libpthread.so.0
+#1  0x00007f6314cd9611 in TFile::ReadBuffer(char*, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#2  0x00007f6314cd54eb in TFile::ReadBuffers(char*, long long*, int*, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#3  0x00007f6314cd350c in TFileCacheRead::ReadBufferExtNormal(char*, long long, int, int&) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6314cd24b9 in TFileCacheRead::ReadBuffer(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#5  0x00007f631387d671 in TTreeCache::ReadBufferNormal(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f6313829ae6 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f631383224a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f63138327c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#13 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#15 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#16 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 8 (Thread 0x7f62e35e5700 (LWP 34691)):
+#0  0x000000327020e82d in read () from /lib64/libpthread.so.0
+#1  0x00007f6314cd9339 in TFile::ReadBuffer(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#2  0x00007f6313829dea in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#3  0x00007f631383224a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#4  0x00007f63138327c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#5  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#9  0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#10 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#11 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#12 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 7 (Thread 0x7f62e2be4700 (LWP 34692)):
+#0  0x000000326faac7fd in waitpid () from /lib64/libc.so.6
+#1  0x000000326fa3e5c9 in do_system () from /lib64/libc.so.6
+#2  0x000000326fa3e900 in system () from /lib64/libc.so.6
+#3  0x00007f63153682ba in TUnixSystem::StackTrace() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#4  0x00007f631536a25c in TUnixSystem::DispatchSignals(ESignals) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#5  <signal handler called>
+#6  0x0000000000000000 in ?? ()
+#7  0x00007f6315318e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#8  0x00007f6315318e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#9  0x00007f6315316de3 in THashList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#10 0x00007f63152b74da in TObject::~TObject() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#11 0x00007f6314ce2099 in TFile::~TFile () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007f631385bf45 in TChain::LoadTree(long long) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f63138580e4 in TChain::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#16 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#17 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#18 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 6 (Thread 0x7f62e21e3700 (LWP 34693)):
+#0  0x000000326fa7ac52 in malloc () from /lib64/libc.so.6
+#1  0x000000327aabd0bd in operator new(unsigned long) () from /usr/lib64/libstdc++.so.6
+#2  0x000000327aabd1d9 in operator new[](unsigned long) () from /usr/lib64/libstdc++.so.6
+#3  0x00007f6314d334d7 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6314cbb21c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#5  0x00007f631383cfe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f63138325e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#11 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#12 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#13 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#14 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 5 (Thread 0x7f62e17e2700 (LWP 34694)):
+#0  0x000000327020e334 in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00000032702095f3 in _L_lock_892 () from /lib64/libpthread.so.0
+#2  0x00000032702094d7 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00007f6314cbd5d3 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6312da4655 in TVector3::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#5  0x00007f6314e33a02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f6314d0cdad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314cbb5e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f6314cbd57f in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#9  0x00007f6312d8bfd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#10 0x00007f6314e33a02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007f6314d33532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007f6314cbb21c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#13 0x00007f631383cfe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007f63138325e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#15 0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#16 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#17 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#18 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#19 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#20 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#21 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#22 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 4 (Thread 0x7f62e0de1700 (LWP 34695)):
+#0  0x000000327020e334 in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00000032702095f3 in _L_lock_892 () from /lib64/libpthread.so.0
+#2  0x00000032702094d7 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00007f6314cbd5d3 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6312d8bfd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#5  0x00007f6314cf8c0d in TGenCollectionStreamer::ReadObjects(int, TBuffer&, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f6314cf8e47 in TGenCollectionStreamer::ReadBufferGeneric(TBuffer&, void*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314cbca49 in TBufferFile::ReadFastArray(void*, TClass const*, int, TMemberStreamer*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f6314e33598 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#9  0x00007f6314d33532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#10 0x00007f6314cbb21c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007f631383cfe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f63138325e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#15 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#16 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#17 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#18 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#19 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#20 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f62e03e0700 (LWP 34696)):
+#0  0x000000327020e82d in read () from /lib64/libpthread.so.0
+#1  0x00007f6314cd9611 in TFile::ReadBuffer(char*, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#2  0x00007f6314cd54eb in TFile::ReadBuffers(char*, long long*, int*, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#3  0x00007f6314cd350c in TFileCacheRead::ReadBufferExtNormal(char*, long long, int, int&) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6314cd24b9 in TFileCacheRead::ReadBuffer(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#5  0x00007f631387d671 in TTreeCache::ReadBufferNormal(char*, long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#6  0x00007f6313829ae6 in TBasket::ReadBasketBuffers(long long, int, TFile*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#7  0x00007f631383224a in TBranch::GetBasket(int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#8  0x00007f63138327c4 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#9  0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#10 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#11 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#13 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#14 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#15 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#16 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x7f62df9df700 (LWP 34697)):
+#0  0x000000327020e334 in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00000032702095f3 in _L_lock_892 () from /lib64/libpthread.so.0
+#2  0x00000032702094d7 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00007f6314cbd5d3 in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#4  0x00007f6312da4655 in TVector3::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#5  0x00007f6314e33a02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f6314d0cdad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#7  0x00007f6314cbb5e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f6314cbd57f in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#9  0x00007f6312d8bfd4 in TLorentzVector::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libPhysics.so
+#10 0x00007f6314e33a02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007f6314d33532 in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007f6314cbb21c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#13 0x00007f631383cfe5 in TBranchElement::ReadLeavesCollectionMember(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007f63138325e2 in TBranch::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#15 0x00007f6313845551 in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#16 0x00007f63138454fd in TBranchElement::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#17 0x00007f631388f7d3 in TTree::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#18 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#19 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#20 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#21 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#22 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7f6314c13b80 (LWP 34636)):
+#0  0x000000327020e334 in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00000032702095f3 in _L_lock_892 () from /lib64/libpthread.so.0
+#2  0x00000032702094d7 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00007f630df29474 in TClingClassInfo::GetBaseOffset(TClingClassInfo*, void*, bool) () from /opt/soft/root-6.06.00/lib/root/libCling.so
+#4  0x00007f6315328320 in TClass::GetBaseClassOffset(TClass const*, void*, bool) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#5  0x00007f6314cc3499 in TBufferFile::ReadObjectAny(TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#6  0x00007f631531d590 in TObjArray::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#7  0x00007f6314e33a02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#8  0x00007f6314d0cdad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#9  0x00007f6314cbb5e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#10 0x00007f6314cbd57f in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#11 0x00007f6313836094 in TBranch::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#12 0x00007f63138abd50 in ROOT::streamer_TBranch(TBuffer&, void*) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f631535f758 in TStreamerBase::ReadBuffer(TBuffer&, char*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#14 0x00007f6314e34962 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#15 0x00007f6314d0cdad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#16 0x00007f6314cbb5e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#17 0x00007f6314cbbd05 in TBufferFile::ReadClassBuffer(TClass const*, void*, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#18 0x00007f6313848594 in TBranchElement::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#19 0x00007f6314cc356c in TBufferFile::ReadObjectAny(TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#20 0x00007f631531d590 in TObjArray::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#21 0x00007f6314e33a02 in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#22 0x00007f6314d0cdad in TStreamerInfoActions::GenericReadAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#23 0x00007f6314cbb5e5 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#24 0x00007f6314cbd57f in TBufferFile::ReadClassBuffer(TClass const*, void*, int, unsigned int, unsigned int, TClass const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#25 0x00007f63138963dd in TTree::Streamer(TBuffer&) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#26 0x00007f6314d01e45 in TKey::ReadObj() () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#27 0x00007f6314cc8151 in TDirectoryFile::Get(char const*) () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#28 0x00007f631385baff in TChain::LoadTree(long long) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#29 0x00007f63138580e4 in TChain::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#30 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#31 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#32 0x0000003271c09aed in GOMP_parallel () from /usr/lib64/libgomp.so.1
+#33 0x00007f63156faf13 in TreeAnalyzer::loop() () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#34 0x000000000041636a in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x0000000000000000 in ?? ()
+#7  0x00007f6315318e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#8  0x00007f6315318e70 in TList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#9  0x00007f6315316de3 in THashList::RecursiveRemove(TObject*) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#10 0x00007f63152b74da in TObject::~TObject() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#11 0x00007f6314ce2099 in TFile::~TFile () from /opt/soft/root-6.06.00/lib/root/libRIO.so
+#12 0x00007f631385bf45 in TChain::LoadTree(long long) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#13 0x00007f63138580e4 in TChain::GetEntry(long long, int) () from /opt/soft/root-6.06.00/lib/root/libTree.so
+#14 0x00007f63156e8fd3 in EventProxyBase::toN(int) () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x00007f63156fa2f6 in TreeAnalyzer::loop () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#16 0x0000003271c0e0c5 in ?? () from /usr/lib64/libgomp.so.1
+#17 0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#18 0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+===========================================================
+
+
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation
+
+ *** Break *** segmentation violation

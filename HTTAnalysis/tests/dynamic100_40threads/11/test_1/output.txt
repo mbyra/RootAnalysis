@@ -1,0 +1,653 @@
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/Data_Pileup_2016_BCDEFG_v26.root
+Error in <TChain::AddFile>: cannot find tree with name HTauTauTree in file  /home/mb347056/RootAnalysis/HTTAnalysis/MC_Spring16_PU25ns_V1.root
+Warning in <TClass::Init>: no dictionary for class CrystalBallEfficiency is available
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libTreePlayer.so for TTreeFormula
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libTreePlayer.so: undefined symbol: _ZN4ROOT14De[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+[#1] INFO:ObjectHandling -- RooWorkspace::CodeRepo::compileClasses() Embedded class CrystalBallEfficiency already in ROOT class table, skipping
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_id_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_id_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_id_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_iso_ratio) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_iso_data) obs = m_pt hobs is not found, returning null
+RooHistFunc::binBoundaries(m_iso_mc) obs = m_pt hobs is not found, returning null
+[#0] WARNING:InputArguments -- RooAbsReal::createHistogram(m_trgOR_data) WARNING extended mode requested for a non-pdf object, ignored
+RooHistFunc::binBoundaries(m_trgOR_data) obs = m_pt hobs is not found, returning null
+Events analyzed: 217385/2173854 (0.0999998) thread: 5
+Events analyzed: 434770/2173854 (0.2) thread: 5
+Events analyzed: 652155/2173854 (0.299999) thread: 4
+Events analyzed: 869540/2173854 (0.399999) thread: 7
+Events analyzed: 1086925/2173854 (0.499999) thread: 3
+Events analyzed: 1304310/2173854 (0.599999) thread: 8
+Events analyzed: 1521695/2173854 (0.699999) thread: 3
+Events analyzed: 1739080/2173854 (0.799999) thread: 10
+Events analyzed: 1956465/2173854 (0.899998) thread: 10
+Events analyzed: 2173850/2173854 (0.999998) thread: 4
+1D histogram size mismatch.  thread 0: 52552 thread 1 40911
+2D histogram size mismatch.  thread 0: 9277 thread 1 7102
+1D histogram size mismatch.  thread 0: 52552 thread 2 40561
+2D histogram size mismatch.  thread 0: 9277 thread 2 7014
+1D histogram size mismatch.  thread 0: 52552 thread 3 40873
+2D histogram size mismatch.  thread 0: 9277 thread 3 7115
+1D histogram size mismatch.  thread 0: 52552 thread 4 41726
+2D histogram size mismatch.  thread 0: 9277 thread 4 7222
+1D histogram size mismatch.  thread 0: 52552 thread 5 41163
+2D histogram size mismatch.  thread 0: 9277 thread 5 7156
+1D histogram size mismatch.  thread 0: 52552 thread 6 40058
+2D histogram size mismatch.  thread 0: 9277 thread 6 6918
+1D histogram size mismatch.  thread 0: 52552 thread 7 40853
+2D histogram size mismatch.  thread 0: 9277 thread 7 7067
+1D histogram size mismatch.  thread 0: 52552 thread 8 41744
+2D histogram size mismatch.  thread 0: 9277 thread 8 7248
+1D histogram size mismatch.  thread 0: 52552 thread 9 40690
+2D histogram size mismatch.  thread 0: 9277 thread 9 7041
+1D histogram size mismatch.  thread 0: 52552 thread 10 40182
+2D histogram size mismatch.  thread 0: 9277 thread 10 6919
+ERROR: Histogram: h1DMassTransDY3JetsMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY4JetsMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDYLowMMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDYLowMMatchT_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransTTbar_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransTTbarMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsTTbar not found in thread: 0
+ERROR: Histogram: h1DStatsTTbarMatchL not found in thread: 0
+Sample name: TTbar Xsection: 831.76 [pb]  Events analyzed: 295106 Reco preselection efficiency: 0.00323676 Final weight: 9.12286e-06
+Sample name: Wtop Xsection: 35.6 [pb]  Events analyzed: 3546 Reco preselection efficiency: 0.00363181 Final weight: 3.64615e-05
+Sample name: Wantitop Xsection: 35.6 [pb]  Events analyzed: 3721 Reco preselection efficiency: 0.00373909 Final weight: 3.5773e-05
+Sample name: t-channel_top Xsection: 136.02 [pb]  Events analyzed: 4206 Reco preselection efficiency: 0.00127318 Final weight: 4.11739e-05
+Sample name: t-channel_antitop Xsection: 80.95 [pb]  Events analyzed: 2342 Reco preselection efficiency: 0.00142178 Final weight: 4.9143e-05
+ERROR: Histogram: h1DMassTransZZTo2L2Q_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransZZTo2L2QMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo2L2Q not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo2L2QMatchL not found in thread: 0
+Sample name: ZZTo2L2Q Xsection: 3.22 [pb]  Events analyzed: 24602 Reco preselection efficiency: 0.00256831 Final weight: 3.3615e-07
+ERROR: Histogram: h1DMassTransZZTo4L_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransZZTo4LMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo4L not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo4LMatchL not found in thread: 0
+Sample name: ZZTo4L Xsection: 1.212 [pb]  Events analyzed: 24786 Reco preselection efficiency: 0.00353872 Final weight: 1.73038e-07
+ERROR: Histogram: h1DMassTransWZTo1L3Nu_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L3NuMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L3NuMatchT_OS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L3Nu not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
+Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451298 Final weight: 3.58452e-06
+ERROR: Histogram: h1DMassTransWZJToLLLNu_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZJToLLLNuMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZJToLLLNu not found in thread: 0
+ERROR: Histogram: h1DStatsWZJToLLLNuMatchL not found in thread: 0
+Sample name: WZJToLLLNu Xsection: 4.708 [pb]  Events analyzed: 9427 Reco preselection efficiency: 0.00779971 Final weight: 3.89531e-06
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2Q_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2QMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2QMatchT_OS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWWTo1L1Nu2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWWTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WWTo1L1Nu2Q Xsection: 1.212 [pb]  Events analyzed: 5674 Reco preselection efficiency: 0.00175179 Final weight: 3.74192e-07
+ERROR: Histogram: h1DMassTransWZTo1L1Nu2Q_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L1Nu2QMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L1Nu2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WZTo1L1Nu2Q Xsection: 10.71 [pb]  Events analyzed: 18760 Reco preselection efficiency: 0.00170036 Final weight: 9.7073e-07
+ERROR: Histogram: h1DMassTransVVTo2L2Nu_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransVVTo2L2NuMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsVVTo2L2Nu not found in thread: 0
+ERROR: Histogram: h1DStatsVVTo2L2NuMatchL not found in thread: 0
+Sample name: VVTo2L2Nu Xsection: 11.95 [pb]  Events analyzed: 26603 Reco preselection efficiency: 0.0151749 Final weight: 6.81651e-06
+ERROR: Histogram: h1DMassTransWZTo2L2Q_OS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo2L2QMatchL_OS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo2L2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo2L2QMatchL not found in thread: 0
+Sample name: WZTo2L2Q Xsection: 5.595 [pb]  Events analyzed: 37453 Reco preselection efficiency: 0.00245885 Final weight: 3.67321e-07
+ERROR: Histogram: h1DMassTransDYLowMMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDYLowMMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY0JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY2JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY3JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY4JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY3JetsMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY4JetsMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransTTbar_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransTTbarMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsTTbar not found in thread: 0
+ERROR: Histogram: h1DStatsTTbarMatchL not found in thread: 0
+Sample name: TTbar Xsection: 831.76 [pb]  Events analyzed: 295106 Reco preselection efficiency: 0.00323676 Final weight: 9.12286e-06
+Sample name: Wtop Xsection: 35.6 [pb]  Events analyzed: 3546 Reco preselection efficiency: 0.00363181 Final weight: 3.64615e-05
+Sample name: Wantitop Xsection: 35.6 [pb]  Events analyzed: 3721 Reco preselection efficiency: 0.00373909 Final weight: 3.5773e-05
+Sample name: t-channel_top Xsection: 136.02 [pb]  Events analyzed: 4206 Reco preselection efficiency: 0.00127318 Final weight: 4.11739e-05
+Sample name: t-channel_antitop Xsection: 80.95 [pb]  Events analyzed: 2342 Reco preselection efficiency: 0.00142178 Final weight: 4.9143e-05
+ERROR: Histogram: h1DMassTransZZTo2L2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransZZTo2L2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo2L2Q not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo2L2QMatchL not found in thread: 0
+Sample name: ZZTo2L2Q Xsection: 3.22 [pb]  Events analyzed: 24602 Reco preselection efficiency: 0.00256831 Final weight: 3.3615e-07
+ERROR: Histogram: h1DMassTransZZTo4L_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransZZTo4LMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo4L not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo4LMatchL not found in thread: 0
+Sample name: ZZTo4L Xsection: 1.212 [pb]  Events analyzed: 24786 Reco preselection efficiency: 0.00353872 Final weight: 1.73038e-07
+ERROR: Histogram: h1DMassTransWZTo1L3Nu_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L3NuMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L3NuMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L3Nu not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
+Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451298 Final weight: 3.58452e-06
+ERROR: Histogram: h1DMassTransWZJToLLLNu_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZJToLLLNuMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZJToLLLNu not found in thread: 0
+ERROR: Histogram: h1DStatsWZJToLLLNuMatchL not found in thread: 0
+Sample name: WZJToLLLNu Xsection: 4.708 [pb]  Events analyzed: 9427 Reco preselection efficiency: 0.00779971 Final weight: 3.89531e-06
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2QMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWWTo1L1Nu2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWWTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WWTo1L1Nu2Q Xsection: 1.212 [pb]  Events analyzed: 5674 Reco preselection efficiency: 0.00175179 Final weight: 3.74192e-07
+ERROR: Histogram: h1DMassTransWZTo1L1Nu2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L1Nu2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L1Nu2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WZTo1L1Nu2Q Xsection: 10.71 [pb]  Events analyzed: 18760 Reco preselection efficiency: 0.00170036 Final weight: 9.7073e-07
+ERROR: Histogram: h1DMassTransVVTo2L2Nu_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransVVTo2L2NuMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsVVTo2L2Nu not found in thread: 0
+ERROR: Histogram: h1DStatsVVTo2L2NuMatchL not found in thread: 0
+Sample name: VVTo2L2Nu Xsection: 11.95 [pb]  Events analyzed: 26603 Reco preselection efficiency: 0.0151749 Final weight: 6.81651e-06
+ERROR: Histogram: h1DMassTransWZTo2L2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo2L2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo2L2QMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo2L2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo2L2QMatchL not found in thread: 0
+Sample name: WZTo2L2Q Xsection: 5.595 [pb]  Events analyzed: 37453 Reco preselection efficiency: 0.00245885 Final weight: 3.67321e-07
+ERROR: Histogram: h1DStatsDYLowM not found in thread: 0
+Sample name: DYLowM Xsection: 71600 [pb]  Events analyzed: 667 Reco preselection efficiency: 1.9869e-05 Final weight: 0.00213286
+Sample name: DYJets Xsection: 5765.4 [pb]  Events analyzed: 1 Reco preselection efficiency: 1 Final weight: 5765.4
+Sample name: WJets Xsection: 61526.7 [pb]  Events analyzed: 1 Reco preselection efficiency: 1 Final weight: 61526.7
+Sample name: qqH125 Xsection: 0.100415 [pb]  Events analyzed: 31362 Reco preselection efficiency: 0.0213445 Final weight: 6.83408e-08
+Sample name: ggH125 Xsection: 3.04694 [pb]  Events analyzed: 25553 Reco preselection efficiency: 0.01745 Final weight: 2.08073e-06
+Sample name: WJets Xsection: 61526.7 [pb]  Events analyzed: 1 Reco preselection efficiency: 1 Final weight: 61526.7
+ERROR: Histogram: h1DStatsDYLowM not found in thread: 0
+Sample name: DYLowM Xsection: 71600 [pb]  Events analyzed: 667 Reco preselection efficiency: 1.9869e-05 Final weight: 0.00213286
+Sample name: DYJets Xsection: 5765.4 [pb]  Events analyzed: 1 Reco preselection efficiency: 1 Final weight: 5765.4
+Selecion name: _OS_11
+ DATA:              19298
+ DATA - MC(!WJets): 15752.2
+ MC WJets           17251.9
+ DYJets:            1345.62
+ DYLowM:            124.856
+ TTbar:             449.295
+ single T:          333.883
+ DiBoson:           732.125
+ QCD:               560.02
+WJets scale:0.913072 dweight 0.0110805
+WSFUncertainty: 0
+WJets scale with uncertainty: 0.913072 dweight 0.0110805
+ERROR: Histogram: h1DMassTransDY0JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY2JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY3JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY4JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY3JetsMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY4JetsMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDYLowMMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDYLowMMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransTTbar_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransTTbarMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsTTbar not found in thread: 0
+ERROR: Histogram: h1DStatsTTbarMatchL not found in thread: 0
+Sample name: TTbar Xsection: 831.76 [pb]  Events analyzed: 295106 Reco preselection efficiency: 0.00323676 Final weight: 9.12286e-06
+Sample name: Wtop Xsection: 35.6 [pb]  Events analyzed: 3546 Reco preselection efficiency: 0.00363181 Final weight: 3.64615e-05
+Sample name: Wantitop Xsection: 35.6 [pb]  Events analyzed: 3721 Reco preselection efficiency: 0.00373909 Final weight: 3.5773e-05
+Sample name: t-channel_top Xsection: 136.02 [pb]  Events analyzed: 4206 Reco preselection efficiency: 0.00127318 Final weight: 4.11739e-05
+Sample name: t-channel_antitop Xsection: 80.95 [pb]  Events analyzed: 2342 Reco preselection efficiency: 0.00142178 Final weight: 4.9143e-05
+ERROR: Histogram: h1DMassTransZZTo2L2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransZZTo2L2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo2L2Q not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo2L2QMatchL not found in thread: 0
+Sample name: ZZTo2L2Q Xsection: 3.22 [pb]  Events analyzed: 24602 Reco preselection efficiency: 0.00256831 Final weight: 3.3615e-07
+ERROR: Histogram: h1DMassTransZZTo4L_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransZZTo4LMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo4L not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo4LMatchL not found in thread: 0
+Sample name: ZZTo4L Xsection: 1.212 [pb]  Events analyzed: 24786 Reco preselection efficiency: 0.00353872 Final weight: 1.73038e-07
+ERROR: Histogram: h1DMassTransWZTo1L3Nu_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L3NuMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L3NuMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L3Nu not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
+Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451298 Final weight: 3.58452e-06
+ERROR: Histogram: h1DMassTransWZJToLLLNu_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZJToLLLNuMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZJToLLLNu not found in thread: 0
+ERROR: Histogram: h1DStatsWZJToLLLNuMatchL not found in thread: 0
+Sample name: WZJToLLLNu Xsection: 4.708 [pb]  Events analyzed: 9427 Reco preselection efficiency: 0.00779971 Final weight: 3.89531e-06
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2QMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWWTo1L1Nu2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWWTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WWTo1L1Nu2Q Xsection: 1.212 [pb]  Events analyzed: 5674 Reco preselection efficiency: 0.00175179 Final weight: 3.74192e-07
+ERROR: Histogram: h1DMassTransWZTo1L1Nu2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L1Nu2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L1Nu2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WZTo1L1Nu2Q Xsection: 10.71 [pb]  Events analyzed: 18760 Reco preselection efficiency: 0.00170036 Final weight: 9.7073e-07
+ERROR: Histogram: h1DMassTransVVTo2L2Nu_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransVVTo2L2NuMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsVVTo2L2Nu not found in thread: 0
+ERROR: Histogram: h1DStatsVVTo2L2NuMatchL not found in thread: 0
+Sample name: VVTo2L2Nu Xsection: 11.95 [pb]  Events analyzed: 26603 Reco preselection efficiency: 0.0151749 Final weight: 6.81651e-06
+ERROR: Histogram: h1DMassTransWZTo2L2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo2L2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo2L2QMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo2L2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo2L2QMatchL not found in thread: 0
+Sample name: WZTo2L2Q Xsection: 5.595 [pb]  Events analyzed: 37453 Reco preselection efficiency: 0.00245885 Final weight: 3.67321e-07
+ERROR: Histogram: h1DMassTransDYLowMMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDYLowMMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY0JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY2JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY3JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY4JetsMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY3JetsMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransDY4JetsMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransTTbar_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransTTbarMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsTTbar not found in thread: 0
+ERROR: Histogram: h1DStatsTTbarMatchL not found in thread: 0
+Sample name: TTbar Xsection: 831.76 [pb]  Events analyzed: 295106 Reco preselection efficiency: 0.00323676 Final weight: 9.12286e-06
+Sample name: Wtop Xsection: 35.6 [pb]  Events analyzed: 3546 Reco preselection efficiency: 0.00363181 Final weight: 3.64615e-05
+Sample name: Wantitop Xsection: 35.6 [pb]  Events analyzed: 3721 Reco preselection efficiency: 0.00373909 Final weight: 3.5773e-05
+Sample name: t-channel_top Xsection: 136.02 [pb]  Events analyzed: 4206 Reco preselection efficiency: 0.00127318 Final weight: 4.11739e-05
+Sample name: t-channel_antitop Xsection: 80.95 [pb]  Events analyzed: 2342 Reco preselection efficiency: 0.00142178 Final weight: 4.9143e-05
+ERROR: Histogram: h1DMassTransZZTo2L2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransZZTo2L2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo2L2Q not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo2L2QMatchL not found in thread: 0
+Sample name: ZZTo2L2Q Xsection: 3.22 [pb]  Events analyzed: 24602 Reco preselection efficiency: 0.00256831 Final weight: 3.3615e-07
+ERROR: Histogram: h1DMassTransZZTo4L_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransZZTo4LMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo4L not found in thread: 0
+ERROR: Histogram: h1DStatsZZTo4LMatchL not found in thread: 0
+Sample name: ZZTo4L Xsection: 1.212 [pb]  Events analyzed: 24786 Reco preselection efficiency: 0.00353872 Final weight: 1.73038e-07
+ERROR: Histogram: h1DMassTransWZTo1L3Nu_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L3NuMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L3NuMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L3Nu not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
+Sample name: WZTo1L3Nu Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451298 Final weight: 3.58452e-06
+ERROR: Histogram: h1DMassTransWZJToLLLNu_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZJToLLLNuMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZJToLLLNu not found in thread: 0
+ERROR: Histogram: h1DStatsWZJToLLLNuMatchL not found in thread: 0
+Sample name: WZJToLLLNu Xsection: 4.708 [pb]  Events analyzed: 9427 Reco preselection efficiency: 0.00779971 Final weight: 3.89531e-06
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWWTo1L1Nu2QMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWWTo1L1Nu2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWWTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WWTo1L1Nu2Q Xsection: 1.212 [pb]  Events analyzed: 5674 Reco preselection efficiency: 0.00175179 Final weight: 3.74192e-07
+ERROR: Histogram: h1DMassTransWZTo1L1Nu2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo1L1Nu2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L1Nu2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WZTo1L1Nu2Q Xsection: 10.71 [pb]  Events analyzed: 18760 Reco preselection efficiency: 0.00170036 Final weight: 9.7073e-07
+ERROR: Histogram: h1DMassTransVVTo2L2Nu_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransVVTo2L2NuMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsVVTo2L2Nu not found in thread: 0
+ERROR: Histogram: h1DStatsVVTo2L2NuMatchL not found in thread: 0
+Sample name: VVTo2L2Nu Xsection: 11.95 [pb]  Events analyzed: 26603 Reco preselection efficiency: 0.0151749 Final weight: 6.81651e-06
+ERROR: Histogram: h1DMassTransWZTo2L2Q_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo2L2QMatchL_SS_11 not found in thread: 0
+ERROR: Histogram: h1DMassTransWZTo2L2QMatchT_SS_11 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo2L2Q not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo2L2QMatchL not found in thread: 0
+Sample name: WZTo2L2Q Xsection: 5.595 [pb]  Events analyzed: 37453 Reco preselection efficiency: 0.00245885 Final weight: 3.67321e-07
+ERROR: Histogram: h1DStatsDYLowM not found in thread: 0
+Sample name: DYLowM Xsection: 71600 [pb]  Events analyzed: 667 Reco preselection efficiency: 1.9869e-05 Final weight: 0.00213286
+Sample name: DYJets Xsection: 5765.4 [pb]  Events analyzed: 1 Reco preselection efficiency: 1 Final weight: 5765.4
+Sample name: WJets Xsection: 61526.7 [pb]  Events analyzed: 1 Reco preselection efficiency: 1 Final weight: 61526.7
+Sample name: qqH125 Xsection: 0.100415 [pb]  Events analyzed: 31362 Reco preselection efficiency: 0.0213445 Final weight: 6.83408e-08
+Sample name: ggH125 Xsection: 3.04694 [pb]  Events analyzed: 25553 Reco preselection efficiency: 0.01745 Final weight: 2.08073e-06
+Sample name: WJets Xsection: 61526.7 [pb]  Events analyzed: 1 Reco preselection efficiency: 1 Final weight: 61526.7
+ERROR: Histogram: h1DStatsDYLowM not found in thread: 0
+Sample name: DYLowM Xsection: 71600 [pb]  Events analyzed: 667 Reco preselection efficiency: 1.9869e-05 Final weight: 0.00213286
+Sample name: DYJets Xsection: 5765.4 [pb]  Events analyzed: 1 Reco preselection efficiency: 1 Final weight: 5765.4
+Selecion name: _SS_11
+ DATA:              4568
+ DATA - MC(!WJets): 3327.93
+ MC WJets           3348.62
+ DYJets:            273.973
+ DYLowM:            260.814
+ TTbar:             30.8651
+ single T:          70.1133
+ DiBoson:           44.2844
+ QCD:               560.02
+WJets scale:0.993821 dweight 0.0271977
+WSFUncertainty: 0
+WJets scale with uncertainty: 0.993821 dweight 0.0271977
+--- Drawing THStack for variable: MassSV category: 6
+ERROR: Histogram: h1DStatsTTbarMatchL not found in thread: 0
+Sample name: TTbarMatchJ Xsection: 831.76 [pb]  Events analyzed: 295106 Reco preselection efficiency: 0.00323676 Final weight: 9.12286e-06
+ERROR: Histogram: h1DStatsTTbarMatchL not found in thread: 0
+Sample name: TTbarMatchT Xsection: 831.76 [pb]  Events analyzed: 295106 Reco preselection efficiency: 0.00323676 Final weight: 9.12286e-06
+Sample name: Wtop Xsection: 35.6 [pb]  Events analyzed: 3546 Reco preselection efficiency: 0.00363181 Final weight: 3.64615e-05
+Sample name: Wantitop Xsection: 35.6 [pb]  Events analyzed: 3721 Reco preselection efficiency: 0.00373909 Final weight: 3.5773e-05
+Sample name: t-channel_top Xsection: 136.02 [pb]  Events analyzed: 4206 Reco preselection efficiency: 0.00127318 Final weight: 4.11739e-05
+Sample name: t-channel_antitop Xsection: 80.95 [pb]  Events analyzed: 2342 Reco preselection efficiency: 0.00142178 Final weight: 4.9143e-05
+ERROR: Histogram: h1DStatsZZTo2L2QMatchL not found in thread: 0
+Sample name: ZZTo2L2QMatchJ Xsection: 3.22 [pb]  Events analyzed: 24602 Reco preselection efficiency: 0.00256831 Final weight: 3.3615e-07
+ERROR: Histogram: h1DStatsZZTo4LMatchL not found in thread: 0
+Sample name: ZZTo4LMatchJ Xsection: 1.212 [pb]  Events analyzed: 24786 Reco preselection efficiency: 0.00353872 Final weight: 1.73038e-07
+ERROR: Histogram: h1DStatsWZTo1L3NuMatchL not found in thread: 0
+Sample name: WZTo1L3NuMatchJ Xsection: 3.05 [pb]  Events analyzed: 384 Reco preselection efficiency: 0.000451297 Final weight: 3.58452e-06
+ERROR: Histogram: h1DStatsWZJToLLLNuMatchL not found in thread: 0
+Sample name: WZJToLLLNuMatchJ Xsection: 4.708 [pb]  Events analyzed: 9427 Reco preselection efficiency: 0.00779971 Final weight: 3.89531e-06
+ERROR: Histogram: h1DStatsWWTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WWTo1L1Nu2QMatchJ Xsection: 1.212 [pb]  Events analyzed: 5674 Reco preselection efficiency: 0.00175179 Final weight: 3.74192e-07
+ERROR: Histogram: h1DStatsWZTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WZTo1L1Nu2QMatchJ Xsection: 10.71 [pb]  Events analyzed: 18760 Reco preselection efficiency: 0.00170036 Final weight: 9.7073e-07
+ERROR: Histogram: h1DStatsVVTo2L2NuMatchL not found in thread: 0
+Sample name: VVTo2L2NuMatchJ Xsection: 11.95 [pb]  Events analyzed: 26603 Reco preselection efficiency: 0.0151749 Final weight: 6.81651e-06
+ERROR: Histogram: h1DStatsWZTo2L2QMatchL not found in thread: 0
+Sample name: WZTo2L2QMatchJ Xsection: 5.595 [pb]  Events analyzed: 37453 Reco preselection efficiency: 0.00245885 Final weight: 3.67321e-07
+ERROR: Histogram: h1DStatsZZTo2L2QMatchL not found in thread: 0
+Sample name: ZZTo2L2QMatchT Xsection: 3.22 [pb]  Events analyzed: 24602 Reco preselection efficiency: 0.00256831 Final weight: 3.3615e-07
+ERROR: Histogram: h1DStatsZZTo4LMatchL not found in thread: 0
+Sample name: ZZTo4LMatchT Xsection: 1.212 [pb]  Events analyzed: 24786 Reco preselection efficiency: 0.00353872 Final weight: 1.73038e-07
+ERROR: Histogram: h1DMassSVWZTo1L3NuMatchT_OS_6 not found in thread: 0
+ERROR: Histogram: h1DStatsWZJToLLLNuMatchL not found in thread: 0
+Sample name: WZJToLLLNuMatchT Xsection: 4.708 [pb]  Events analyzed: 9427 Reco preselection efficiency: 0.00779971 Final weight: 3.89531e-06
+ERROR: Histogram: h1DMassSVWWTo1L1Nu2QMatchT_OS_6 not found in thread: 0
+ERROR: Histogram: h1DStatsWZTo1L1Nu2QMatchL not found in thread: 0
+Sample name: WZTo1L1Nu2QMatchT Xsection: 10.71 [pb]  Events analyzed: 18760 Reco preselection efficiency: 0.00170036 Final weight: 9.7073e-07
+ERROR: Histogram: h1DStatsVVTo2L2NuMatchL not found in thread: 0
+Sample name: VVTo2L2NuMatchT Xsection: 11.95 [pb]  Events analyzed: 26603 Reco preselection efficiency: 0.0151749 Final weight: 6.81651e-06
+ERROR: Histogram: h1DStatsWZTo2L2QMatchL not found in thread: 0
+Sample name: WZTo2L2QMatchT Xsection: 5.595 [pb]  Events analyzed: 37453 Reco preselection efficiency: 0.00245885 Final weight: 3.67321e-07
+ERROR: Histogram: h1DMassSVDYLowMMatchL_OS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVDYLowMMatchT_OS_6 not found in thread: 0
+Sample name: EWKWMinus Xsection: 20.25 [pb]  Events analyzed: 889 Reco preselection efficiency: 0.00191115 Final weight: 4.35329e-05
+Sample name: EWKWPlus Xsection: 25.62 [pb]  Events analyzed: 848 Reco preselection efficiency: 0.00188222 Final weight: 5.68662e-05
+Sample name: EWKZ2JetsZToLL Xsection: 3.987 [pb]  Events analyzed: 685 Reco preselection efficiency: 0.00496804 Final weight: 2.89162e-05
+ERROR: Histogram: h1DMassSVEWKZ2JetsZToNuNu_OS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVEWKZ2JetsZToNuNuMatchL_OS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVEWKZ2JetsZToNuNuMatchJ_OS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVEWKZ2JetsZToNuNuMatchT_OS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVW0Jets_SS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVDYLowMMatchL_SS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVDYLowMMatchT_SS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVDY2JetsMatchL_SS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVDY3JetsMatchL_SS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVDY4JetsMatchL_SS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVDY4JetsMatchT_SS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVTTbar_SS_6 not found in thread: 0
+ERROR: Histogram: h1DMassSVTTbarMatchL_SS_6 not found in thread: 0
+ERROR: Histogram: h1DStatsTTbar not found in thread: 0
+ERROR: Hcling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libHistPainter.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libHistPainter.so for THistPainter
+cling::DynamicLibraryManager::loadLibrary(): /opt/soft/root-6.04.00/lib/root/libHistPainter.so: undefined symbol: _ZN4ROOT14DefineBehaviorEPvS0_
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 11 (Thread 0x7fc2127b7700 (LWP 24122)):
+#0  0x0000003271c0f076 in ?? () from /usr/lib64/libgomp.so.1
+#1  0x0000003271c0e0a0 in ?? () from /usr/lib64/libgomp.so.1
+#2  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#3  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 10 (Thread 0x7fc211db6700 (LWP 24123)):
+#0  0x0000003271c0f076 in ?? () from /usr/lib64/libgomp.so.1
+#1  0x0000003271c0e0a0 in ?? () from /usr/lib64/libgomp.so.1
+#2  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#3  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 9 (Thread 0x7fc2113b5700 (LWP 24124)):
+#0  0x0000003271c0f076 in ?? () from /usr/lib64/libgomp.so.1
+#1  0x0000003271c0e0a0 in ?? () from /usr/lib64/libgomp.so.1
+#2  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#3  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 8 (Thread 0x7fc2109b4700 (LWP 24125)):
+#0  0x0000003271c0f076 in ?? () from /usr/lib64/libgomp.so.1
+#1  0x0000003271c0e0a0 in ?? () from /usr/lib64/libgomp.so.1
+#2  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#3  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 7 (Thread 0x7fc20ffb3700 (LWP 24126)):
+#0  0x0000003271c0f076 in ?? () from /usr/lib64/libgomp.so.1
+#1  0x0000003271c0e0a0 in ?? () from /usr/lib64/libgomp.so.1
+#2  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#3  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 6 (Thread 0x7fc20f5b2700 (LWP 24127)):
+#0  0x0000003271c0f076 in ?? () from /usr/lib64/libgomp.so.1
+#1  0x0000003271c0e0a0 in ?? () from /usr/lib64/libgomp.so.1
+#2  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#3  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 5 (Thread 0x7fc20ebb1700 (LWP 24128)):
+#0  0x0000003271c0f076 in ?? () from /usr/lib64/libgomp.so.1
+#1  0x0000003271c0e0a0 in ?? () from /usr/lib64/libgomp.so.1
+#2  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#3  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 4 (Thread 0x7fc20e1b0700 (LWP 24129)):
+#0  0x0000003271c0f076 in ?? () from /usr/lib64/libgomp.so.1
+#1  0x0000003271c0e0a0 in ?? () from /usr/lib64/libgomp.so.1
+#2  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#3  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7fc20d7af700 (LWP 24130)):
+#0  0x0000003271c0f076 in ?? () from /usr/lib64/libgomp.so.1
+#1  0x0000003271c0e0a0 in ?? () from /usr/lib64/libgomp.so.1
+#2  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#3  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x7fc20cdae700 (LWP 24131)):
+#0  0x0000003271c0f076 in ?? () from /usr/lib64/libgomp.so.1
+#1  0x0000003271c0e0a0 in ?? () from /usr/lib64/libgomp.so.1
+#2  0x0000003270207aa1 in start_thread () from /lib64/libpthread.so.0
+#3  0x000000326fae8aad in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7fc2282a6b80 (LWP 24090)):
+#0  0x000000326faac7fd in waitpid () from /lib64/libc.so.6
+#1  0x000000326fa3e5c9 in do_system () from /lib64/libc.so.6
+#2  0x000000326fa3e900 in system () from /lib64/libc.so.6
+#3  0x00007fc228cd02ba in TUnixSystem::StackTrace() () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#4  0x00007fc228cd225c in TUnixSystem::DispatchSignals(ESignals) () from /opt/soft/root-6.06.00/lib/root/libCore.so
+#5  <signal handler called>
+#6  0x00007fc227f2b502 in THStack::Paint(char const*) () from /opt/soft/root-6.06.00/lib/root/libHist.so
+#7  0x00007fc2274ea379 in TPad::PaintModified() () from /opt/soft/root-6.06.00/lib/root/libGpad.so
+#8  0x00007fc2274ea2c4 in TPad::PaintModified() () from /opt/soft/root-6.06.00/lib/root/libGpad.so
+#9  0x00007fc2274b4066 in TCanvas::Update() () from /opt/soft/root-6.06.00/lib/root/libGpad.so
+#10 0x00007fc227f2a255 in THStack::GetHistogram() const () from /opt/soft/root-6.06.00/lib/root/libHist.so
+#11 0x00007fc227f2a2d7 in THStack::GetXaxis() const () from /opt/soft/root-6.06.00/lib/root/libHist.so
+#12 0x0000000000468efd in HTTHistograms::plotStack(unsigned int, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned int) ()
+#13 0x000000000046f40f in HTTHistograms::finalizeHistograms(int, float) ()
+#14 0x00007fc22906208a in TreeAnalyzer::finalize() () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x0000000000416376 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x00007fc227f2b502 in THStack::Paint(char const*) () from /opt/soft/root-6.06.00/lib/root/libHist.so
+#7  0x00007fc2274ea379 in TPad::PaintModified() () from /opt/soft/root-6.06.00/lib/root/libGpad.so
+#8  0x00007fc2274ea2c4 in TPad::PaintModified() () from /opt/soft/root-6.06.00/lib/root/libGpad.so
+#9  0x00007fc2274b4066 in TCanvas::Update() () from /opt/soft/root-6.06.00/lib/root/libGpad.so
+#10 0x00007fc227f2a255 in THStack::GetHistogram() const () from /opt/soft/root-6.06.00/lib/root/libHist.so
+#11 0x00007fc227f2a2d7 in THStack::GetXaxis() const () from /opt/soft/root-6.06.00/lib/root/libHist.so
+#12 0x0000000000468efd in HTTHistograms::plotStack(unsigned int, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned int) ()
+#13 0x000000000046f40f in HTTHistograms::finalizeHistograms(int, float) ()
+#14 0x00007fc22906208a in TreeAnalyzer::finalize() () from /home/mb347056/RootAnalysis/src/.libs/libRootAnalysis.so.0
+#15 0x0000000000416376 in main ()
+===========================================================
+
+
+ciency: 0.0171243 Final weight: 9.18165e-07
+Sample name: ZH125 Xsection: 0.0554268 [pb]  Events analyzed: 10971 Reco preselection efficiency: 0.0187925 Final weight: 9.49418e-08
+Sample name: ZH130 Xsection: 0.042739 [pb]  Events analyzed: 1217 Reco preselection efficiency: 0.0198403 Final weight: 6.9676e-07
+Sample name: WminusH120 Xsection: 0.0546185 [pb]  Events analyzed: 1779 Reco preselection efficiency: 0.0324807 Final weight: 9.97217e-07
+Sample name: WminusH125 Xsection: 0.0430436 [pb]  Events analyzed: 14094 Reco preselection efficiency: 0.0344483 Final weight: 1.05206e-07
+Sample name: WminusH130 Xsection: 0.0327035 [pb]  Events analyzed: 1982 Reco preselection efficiency: 0.0360367 Final weight: 5.94614e-07
+Sample name: WplusH120 Xsection: 0.0546185 [pb]  Events analyzed: 1712 Reco preselection efficiency: 0.030366 Final weight: 9.68776e-07
+Sample name: WplusH125 Xsection: 0.0430436 [pb]  Events analyzed: 13003 Reco preselection efficiency: 0.0321456 Final weight: 1.06411e-07
+Sample name: WplusH130 Xsection: 0.0327035 [pb]  Events analyzed: 1860 Reco preselection efficiency: 0.0335319 Final weight: 5.89575e-07
+Event count summary for selecion name: _OS_6_0jet
+Data: 98241
+MC (no Higgs): 95867.6
+MC W->l: 15154.2
+MC TTbarJ: 40.7193
+MC TTbarT: 149.02
+MC single T: 164.925
+MC DiBosonJ: 63.3409
+MC DiBosonT: 412.405
+MC ZTT: 64114.8
+MC ZL: 5773.37
+MC ZJ: 1608.4
+MC Z->ll(m<50): 1549.22
+MC H(125)->tau tau: 475.573
+qqH(125)->tau tau: 2.12685
+ggH(125)->tau tau: 467.932
+ZH(125)->tau tau: 1.20667
+WplusH(125)->tau tau: 2.87143
+WminusH(125)->tau tau: 1.43604
+QCD: 6774.01
+QCD_MC: 0
+EWK 2Jets: 63.1815
+Correction factors:
+QCD SS to OS: 1 +- 0.15
+W MC to DATA: 0.913072 +- 0.0110805
+----------------------------------------
