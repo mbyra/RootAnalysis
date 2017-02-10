@@ -38,7 +38,7 @@ parse_arguments() {
 run_tests() {
 	mkdir -p tests #create tests directory if not exist
 
-	for (( i=1; $i <= $T_THREADS; i++ )); do
+	for (( i=32; $i <= $T_THREADS; i++ )); do
 		path="tests/$SCHEDULE/$i" #path to main directory of given schedule and currently iterated amount of threads
 		
 		mkdir -p $path #create tests/thread_no directory if not exist
